@@ -1,0 +1,2 @@
+The OPL (FM Operator Type-L) series is a family of sound chips developed by Yamaha. It consists of low-cost sound chips providing FM synthesis for use in computing, music and video game applications.
+The OPL series of chips enabled the creation of affordable sound cards for IBM PC compatibles in the late 1980s such as the AdLib and Sound Blaster, effectively becoming a de-facto standard until they were supplanted by "wavetable synthesis" cards in the early-to-mid 1990s.

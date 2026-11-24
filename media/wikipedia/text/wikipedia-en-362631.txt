@@ -1,0 +1,3 @@
+The bar (symbol bar) is a metric unit of pressure defined as 100000 Pa (100 kPa or 1000 hPa), though not part of the International System of Units (SI). A pressure of 1 bar is slightly less than the average atmospheric pressure on Earth at sea level (approximately 1.013 bar). By the barometric formula, 1 bar is roughly the atmospheric pressure on Earth at an altitude of 111 metres at 15 °C.
+The bar and the millibar (symbol mbar) were introduced by the Norwegian meteorologist Vilhelm Bjerknes, a founder of the modern practice of weather forecasting, with the bar defined as one megadyne per square centimetre.
+The SI brochure lists the symbol and value for the bar but it is not an SI unit.

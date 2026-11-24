@@ -1,0 +1,1 @@
+The MPU-401, where MPU stands for MIDI Processing Unit, is an important but now obsolete interface for connecting MIDI-equipped electronic music hardware to personal computers. It was designed by Roland Corporation, which also co-authored the MIDI standard.

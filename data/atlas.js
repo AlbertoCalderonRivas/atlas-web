@@ -1,0 +1,12258 @@
+window.ATLAS = {
+ "site": {
+  "title": "Cute & Fake",
+  "subtitle": "An atlas of reverse genealogies — LAB 5 · The mechanics of truth",
+  "info": [
+   "This atlas starts from eight categories of AI-generated animal videos and digs backwards in time, looking for their antecedents.",
+   "Proximity between images does not imply a direct relationship: as in Warburg's Mnemosyne Atlas, two works appear together because they are contemporary, not because one derives from the other.",
+   "Data comes from Wikipedia and Wikidata (community projects). Dates are ranges: a representation that lasted for centuries stays visible throughout its whole period.",
+   "[Project conclusions will go here]"
+  ],
+  "timeline": {
+   "_help": "depth_per_log_decade: 3D distance for each x10 step in age (2016→1926→1126…). Higher = longer journey.",
+   "present_year": 2026,
+   "depth_per_log_decade": 2600,
+   "scroll_speed": 2.2,
+   "spread_x": 1000,
+   "spread_y": 480,
+   "visible_distance": 4200,
+   "range_ahead": 380,
+   "milestones": [
+    2025,
+    2020,
+    2010,
+    2000,
+    1975,
+    1950,
+    1900,
+    1850,
+    1800,
+    1700,
+    1500,
+    1200,
+    1000,
+    500,
+    0,
+    -500,
+    -1000,
+    -2000,
+    -3000,
+    -5000,
+    -10000,
+    -20000,
+    -40000
+   ]
+  }
+ },
+ "elements": [
+  {
+   "id": "character",
+   "label": "Character"
+  },
+  {
+   "id": "location",
+   "label": "Location"
+  },
+  {
+   "id": "script",
+   "label": "Script"
+  },
+  {
+   "id": "action",
+   "label": "Action"
+  },
+  {
+   "id": "music",
+   "label": "Music"
+  }
+ ],
+ "categories": [
+  {
+   "id": "cat",
+   "element": "character",
+   "label": "Cat",
+   "description": "Cats with names, partners, jobs and families.",
+   "example": "La Gatorrisa",
+   "cover": "",
+   "count": 40
+  },
+  {
+   "id": "dog",
+   "element": "character",
+   "label": "Dog",
+   "description": "Dogs as family members, hosts and moral judges.",
+   "example": "El Pugcast",
+   "cover": "",
+   "count": 22
+  },
+  {
+   "id": "monkey",
+   "element": "character",
+   "label": "Monkey",
+   "description": "Monkeys as workers, mechanics and service staff.",
+   "example": "just.monki",
+   "cover": "",
+   "count": 29
+  },
+  {
+   "id": "hybrid",
+   "element": "character",
+   "label": "Hybrid",
+   "description": "Cat–owl and other synthetic species that only exist on platforms.",
+   "example": "Meowlsol",
+   "cover": "",
+   "count": 2
+  },
+  {
+   "id": "bathroom",
+   "element": "location",
+   "label": "Bathroom",
+   "description": "Bathing, grooming, intimacy at home.",
+   "example": "",
+   "cover": "",
+   "count": 45
+  },
+  {
+   "id": "workplace",
+   "element": "location",
+   "label": "Work",
+   "description": "Offices, garages, kitchens, shops: the animal at work.",
+   "example": "just.monki",
+   "cover": "",
+   "count": 18
+  },
+  {
+   "id": "bar",
+   "element": "location",
+   "label": "Bar",
+   "description": "Taverns, bars and nights out.",
+   "example": "",
+   "cover": "",
+   "count": 23
+  },
+  {
+   "id": "unwanted_baby",
+   "element": "script",
+   "label": "Unwanted baby",
+   "description": "Unexpected pregnancies, abandoned or rejected offspring.",
+   "example": "",
+   "cover": "",
+   "count": 19
+  },
+  {
+   "id": "losing_the_job",
+   "element": "script",
+   "label": "Losing the job",
+   "description": "Dismissal, unemployment, exploitation by the boss.",
+   "example": "",
+   "cover": "",
+   "count": 31
+  },
+  {
+   "id": "dancing",
+   "element": "action",
+   "label": "Dancing",
+   "description": "Human rhythms and choreographies in animal bodies.",
+   "example": "G3Mimoo",
+   "cover": "",
+   "count": 29
+  },
+  {
+   "id": "fighting",
+   "element": "action",
+   "label": "Fighting",
+   "description": "Kung fu, duels and combat.",
+   "example": "G3Mimoo",
+   "cover": "",
+   "count": 7
+  },
+  {
+   "id": "crying",
+   "element": "action",
+   "label": "Crying",
+   "description": "Tears, injury and loneliness: tenderness through vulnerability.",
+   "example": "Hcj",
+   "cover": "",
+   "count": 30
+  },
+  {
+   "id": "animal_musicians",
+   "element": "music",
+   "label": "Animal musicians",
+   "description": "Animals that sing, play or are turned into instruments.",
+   "example": "",
+   "cover": "",
+   "count": 38
+  },
+  {
+   "id": "sad_piano",
+   "element": "music",
+   "label": "Sad piano",
+   "description": "Melancholic soundtracks that tell you what to feel.",
+   "example": "",
+   "cover": "",
+   "count": 18
+  },
+  {
+   "id": "cheaptune",
+   "element": "music",
+   "label": "Beatbox",
+   "description": "Vocal percussion and rhythm performed by animal bodies.",
+   "example": "G3Mimoo",
+   "cover": "",
+   "count": 39
+  }
+ ],
+ "items": [
+  {
+   "id": "wikipedia-en-11039790",
+   "source": "wikipedia",
+   "name": "Animal",
+   "url": "https://en.wikipedia.org/wiki/Animal",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "working animal"
+   ],
+   "date_start": -665500000,
+   "date_end": -664500000,
+   "date_display": "c. 665,000,000 BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-11039790.png",
+     "credit": "Wikimedia Commons: File:Animal_diversity_b.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-11039790.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animals are multicellular, eukaryotic organisms belonging to the biological kingdom Animalia (). Animals consume organic material, breathe oxygen, have muscle cells, can reproduce sexually, and grow from a hollow sphere of cells, the blastula, during embryonic development. With few exceptions, animals are able to move. Animals form a clade, meaning that they arose from a single common ancestor."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q729"
+   }
+  },
+  {
+   "id": "wikipedia-en-4400",
+   "source": "wikipedia",
+   "name": "Bear",
+   "url": "https://en.wikipedia.org/wiki/Bear",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": -38500000,
+   "date_end": -37500000,
+   "date_display": "c. 38,000,000 BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-4400.jpg",
+     "credit": "Wikimedia Commons: File:Ours_brun_parcanimalierpyrenees_1.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-4400.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bears are carnivoran mammals of the family Ursidae (). They are classified as caniforms within the suborder Caniformia. Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats throughout most of the Northern Hemisphere and partially in the Southern Hemisphere. Bears are found on the continents of North America, South America, and Eurasia."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q11788"
+   }
+  },
+  {
+   "id": "wikipedia-en-13926",
+   "source": "wikipedia",
+   "name": "Hyena",
+   "url": "https://en.wikipedia.org/wiki/Hyena",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dog in mythology"
+   ],
+   "date_start": -26500000,
+   "date_end": -25500000,
+   "date_display": "c. 26,000,000 BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-13926.jpg",
+     "credit": "Wikimedia Commons: File:Hyaenidae_Diversity.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-13926.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Hyenas or hyaenas ( hi-EE-nəz; from Ancient Greek ὕαινα, hýaina) are feliform carnivoran mammals belonging to the family Hyaenidae ( Latin pronunciation: [i.ɛː.ni.dɛː]). With just four extant species (each in its own genus), it is the fifth-smallest family in the order Carnivora and one of the smallest in the class Mammalia. Despite their low diversity, hyenas are unique and vital components of most African ecosystems.\nAlthough phylogenetically closer to felines and viverrids, hyenas are behaviourally and morphologically similar to canids in several elements due to convergent evolution: both h"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q42046"
+   }
+  },
+  {
+   "id": "wikipedia-en-11302",
+   "source": "wikipedia",
+   "name": "Felidae",
+   "url": "https://en.wikipedia.org/wiki/Felidae",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": -25500000,
+   "date_end": -24500000,
+   "date_display": "c. 25,000,000 BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-11302.jpg",
+     "credit": "Wikimedia Commons: File:Panthera_tigris_tigris_edit2.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-11302.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Felidae ( FEE-lə-dee) is the family of mammals in the order Carnivora commonly referred to as cats. A member of this family is also called a felid ( FEE-lid, -⁠ləd).\nThe 41 officially recognized extant Felidae species exhibit the greatest diversity in fur patterns of all terrestrial carnivores. Cats have retractile claws, slender muscular bodies and strong flexible forelimbs."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q25265"
+   }
+  },
+  {
+   "id": "wikipedia-en-334819",
+   "source": "wikipedia",
+   "name": "Prehistoric art",
+   "url": "https://en.wikipedia.org/wiki/Prehistoric_art",
+   "categories": [
+    "fighting"
+   ],
+   "tags": [
+    "animal combat in art"
+   ],
+   "date_start": -35000,
+   "date_end": -34001,
+   "date_display": "35,000 BC–34,001 BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-334819.jpg",
+     "credit": "Wikimedia Commons: File:VenusHohlefels2.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-334819.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "In the history of art, prehistoric art is all art produced in preliterate, prehistorical cultures beginning somewhere in very late geological history, and generally continuing until that culture either develops writing or other methods of record-keeping, or makes significant contact with another culture that has, and that makes some record of major historical events. At this point ancient art begins, for the older literate cultures. The end-date for what is covered by the term thus varies greatly between different parts of the world.\nThe earliest human artifacts showing evidence of workmanship"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1842924"
+   }
+  },
+  {
+   "id": "wikipedia-en-4269567",
+   "source": "wikipedia",
+   "name": "Dog",
+   "url": "https://en.wikipedia.org/wiki/Dog",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art",
+    "dog in mythology"
+   ],
+   "date_start": -34000,
+   "date_end": -33001,
+   "date_display": "34,000 BC–33,001 BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-4269567.jpg",
+     "credit": "Wikimedia Commons: File:Huskiesatrest.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-4269567.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of wolves. Also called the domestic dog, it was selectively bred during the Late Pleistocene by hunter-gatherers. Dogs and the modern gray wolf share a common ancestor. Dogs were the first species to be domesticated over 14,000 years ago, before the development of agriculture, though genetic studies suggest the domestication process may have begun over 25,000 years ago."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q144"
+   }
+  },
+  {
+   "id": "wikipedia-en-6678",
+   "source": "wikipedia",
+   "name": "Cat",
+   "url": "https://en.wikipedia.org/wiki/Cat",
+   "categories": [
+    "cat",
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat in folklore",
+    "cat organ"
+   ],
+   "date_start": -8000,
+   "date_end": -7001,
+   "date_display": "8,000 BC–7,001 BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-6678.jpg",
+     "credit": "Wikimedia Commons: File:Siam_lilacpoint.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-6678.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The cat (Felis catus), also called domestic cat and house cat, is a small domesticated carnivorous mammal. It is a member of Felidae, the family of mammals in the order Carnivora also colloquially referred to as cats. An obligate carnivore requiring a predominantly meat-based diet, it has retractable claws adapted to killing small prey species such as mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q146"
+   }
+  },
+  {
+   "id": "wikipedia-en-30555",
+   "source": "wikipedia",
+   "name": "Tattoo",
+   "url": "https://en.wikipedia.org/wiki/Tattoo",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": -3400,
+   "date_end": -3301,
+   "date_display": "34th c. BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-30555.jpg",
+     "credit": "Wikimedia Commons: File:Anchor_tattoo_and_sketch.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-30555.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "A tattoo is a form of body modification made by inserting tattoo ink, dyes, or pigments, either indelible or temporary, into the dermis layer of the skin to form a design. Tattoo artists create these designs using several tattooing processes and techniques, including hand-tapped traditional tattoos and modern tattoo machines. The history of tattooing goes back to Neolithic times, practiced across the globe by many cultures, and the symbolism and impact of tattoos varies in different places and cultures.\nTattoos may be decorative (with no specific meaning), symbolic (with a specific meaning to "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q43006"
+   }
+  },
+  {
+   "id": "wikipedia-en-1608551",
+   "source": "wikipedia",
+   "name": "Lament for Ur",
+   "url": "https://en.wikipedia.org/wiki/Lament_for_Ur",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": -2000,
+   "date_end": -1901,
+   "date_display": "20th c. BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1608551.jpg",
+     "credit": "Wikimedia Commons: File:Lament_for_ur_(cropped).JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1608551.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Lament for Ur, or Lamentation over the city of Ur is a Sumerian lament composed around the time of the fall of Ur to the Elamites and the end of the city's third dynasty (c. 2000 BC)."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q209919"
+   }
+  },
+  {
+   "id": "wikipedia-en-12257160",
+   "source": "wikipedia",
+   "name": "Moon rabbit",
+   "url": "https://en.wikipedia.org/wiki/Moon_rabbit",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": -1000,
+   "date_end": -1,
+   "date_display": "1,000 BC–1 BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-12257160.png",
+     "credit": "Wikimedia Commons: File:Rabbit_in_the_moon_standing_by_pot.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-12257160.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Moon rabbit, Moon hare or Jade rabbit is a mythical figure in both East Asian and indigenous American folklore, based on interpretations that identify the dark markings on the near side of the Moon as a rabbit or hare. In East Asian mythology, the rabbit is seen as pounding with a mortar and pestle, but the contents of the mortar differ among Chinese, Japanese, Korean, and Vietnamese folklore. In Chinese folklore, the rabbit, Yutu, is often portrayed as a companion of the Moon goddess Chang'e, constantly pounding the elixir of life for her and some show the making of cakes or rice cakes; b"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q622761"
+   }
+  },
+  {
+   "id": "wikipedia-en-83076",
+   "source": "wikipedia",
+   "name": "Sphinx",
+   "url": "https://en.wikipedia.org/wiki/Sphinx",
+   "categories": [
+    "hybrid"
+   ],
+   "tags": [
+    "hybrid creature mythology",
+    "chimera mythology"
+   ],
+   "date_start": -800,
+   "date_end": -701,
+   "date_display": "8th c. BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-83076.jpg",
+     "credit": "Wikimedia Commons: File:Sphinx_CdM_Paris_DeRidder865_n2.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-83076.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "A sphinx ( SFINKS; Ancient Greek: σφίγξ, pronounced [spʰíŋks]; pl. sphinxes or sphinges ) is a mythical creature with the head of a human, the body of a lion, and the wings of an eagle.\nIn Greek tradition, the sphinx is a treacherous and merciless being with the head of a woman, the haunches of a lion, and the wings of a bird.\nAccording to Greek myth, she challenges those who encounter her to answer a riddle, and kills and eats them when they fail to solve the riddle. This deadly version of a sphinx appears in the myth and drama of Oedipus."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q151480"
+   }
+  },
+  {
+   "id": "wikipedia-en-14653",
+   "source": "wikipedia",
+   "name": "Iran",
+   "url": "https://en.wikipedia.org/wiki/Iran",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": -550,
+   "date_end": 1979,
+   "date_display": "550 BC–1979",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-14653.png",
+     "credit": "Wikimedia Commons: File:Flag_of_Iran_(official).svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-14653.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Iran, officially the Islamic Republic of Iran, and historically known as Persia, is a country in West Asia. It borders Iraq to the west; Turkey, Azerbaijan, and Armenia to the northwest; the Caspian Sea to the north, Turkmenistan to the northeast; Afghanistan to the east; Pakistan to the southeast; and the Gulf of Oman and the Persian Gulf to the south. With a population of over 92 million, Iran ranks 17th globally in both geographic size and population. It is divided into five regions with 31 provinces."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q794"
+   }
+  },
+  {
+   "id": "wikipedia-en-1050706",
+   "source": "wikipedia",
+   "name": "Gundestrup cauldron",
+   "url": "https://en.wikipedia.org/wiki/Gundestrup_cauldron",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": -150,
+   "date_end": null,
+   "date_display": "150 BC",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1050706.jpg",
+     "credit": "Wikimedia Commons: File:Silver_cauldron.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1050706.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Gundestrup cauldron is a richly decorated silver vessel, thought to date from between 200 BC and 300 AD, or more narrowly between 150 BC and 1 BC. This places it within the late La Tène period or early Roman Iron Age. The cauldron is the largest known example of European Iron Age silver work (diameter: 69 cm (27 in); height: 42 cm (17 in)). It was found dismantled, with the other pieces stacked inside the base, in 1891, in a peat bog near the hamlet of Gundestrup in the Aars parish of Himmerland, Denmark. It is now usually on display in the National Museum of Denmark in Copenhagen, with re"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q721657"
+   }
+  },
+  {
+   "id": "wikipedia-en-871012",
+   "source": "wikipedia",
+   "name": "Bar Kokhba Revolt",
+   "url": "https://en.wikipedia.org/wiki/Bar_Kokhba_Revolt",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 132,
+   "date_end": 136,
+   "date_display": "132–136",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-871012.jpg",
+     "credit": "Wikimedia Commons: File:Bar_kochba22.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-871012.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Bar Kokhba Revolt (132–136 CE), also known as the Bar Kokhba War, the War of Betar, and the Third (or Second) Jewish–Roman War, was the last and most devastating of three major Jewish rebellions against the Roman Empire. Led by Simon bar Kokhba, the rebels established an independent Jewish state that lasted over three years before being crushed by the Romans, leading to the near-total depopulation of Judea proper, along with mass killings, enslavement, and displacement.\nResentment toward Roman rule and national aspirations remained high in the Roman province of Judaea following the First J"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q334502"
+   }
+  },
+  {
+   "id": "wikipedia-en-2453404",
+   "source": "wikipedia",
+   "name": "A True Story",
+   "url": "https://en.wikipedia.org/wiki/A_True_Story",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 166,
+   "date_end": null,
+   "date_display": "166",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2453404.png",
+     "credit": "Wikimedia Commons: File:William_Strang_spider_battle_in_1894_True_History.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2453404.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "A True Story (Ancient Greek: Ἀληθῆ διηγήματα, Alēthē diēgēmata; Latin: Vera Historia or Latin: Verae Historiae), also translated as True History, is a long novella or short novel written in the second century AD by the Syrian author Lucian of Samosata. The novel is a satire of outlandish tales that had been reported in ancient sources, particularly those that presented fantastic or mythical events as if they were true. It is Lucian's best-known work.\nIt is the earliest known work of fiction to include travel to outer space, alien lifeforms, and interplanetary warfare."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q783244"
+   }
+  },
+  {
+   "id": "wikipedia-en-19956",
+   "source": "wikipedia",
+   "name": "Medieval music",
+   "url": "https://en.wikipedia.org/wiki/Medieval_music",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 500,
+   "date_end": 1400,
+   "date_display": "500–1400",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-19956.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Medieval music encompasses the sacred and secular music of Western Europe during the Middle Ages, from approximately the 6th to 15th centuries. It is the first and longest major era of Western classical music and is followed by the Renaissance music; the two eras comprise what musicologists generally term as early music, preceding the common practice period. Following the traditional division of the Middle Ages, medieval music can be divided into Early (500–1150), High (1150–1300), and Late (1300–1400) medieval music.\nMedieval music includes liturgical music used for the church, other sacred m"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q163775"
+   }
+  },
+  {
+   "id": "wikipedia-en-44766",
+   "source": "wikipedia",
+   "name": "Coventry",
+   "url": "https://en.wikipedia.org/wiki/Coventry",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 1043,
+   "date_end": null,
+   "date_display": "1043",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-44766.jpg",
+     "credit": "Wikimedia Commons: File:Coventry_Cathedral_2018.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-44766.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Coventry (  KOV-ən-tree or rarely  KUV-) is a cathedral city and metropolitan borough in the West Midlands county, in England, on the River Sherbourne. Coventry had been a large settlement for centuries. Founded in the early Middle Ages, its city status was formally recognised in a charter of 1345. The city is governed by Coventry City Council, and the West Midlands Combined Authority."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6225"
+   }
+  },
+  {
+   "id": "wikipedia-en-11258836",
+   "source": "wikipedia",
+   "name": "Chōjū-jinbutsu-giga",
+   "url": "https://en.wikipedia.org/wiki/Ch%C5%8Dj%C5%AB-jinbutsu-giga",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 1150,
+   "date_end": 1159,
+   "date_display": "1150–1159",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-11258836.jpg",
+     "credit": "Wikimedia Commons: File:Chouju_sumo2.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-11258836.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Chōjū-jinbutsu-giga (鳥獣人物戯画; literally \"Animal-person Caricatures\"), commonly shortened to Chōjū-giga (鳥獣戯画; literally \"Animal Caricatures\"), is a famous set of four picture scrolls, or emakimono, belonging to Kōzan-ji temple in Kyoto, Japan. The Chōjū-giga scrolls are also referred to as Scrolls of Frolicking Animals and Scrolls of Frolicking Animals and Humans in English. Some think that Toba Sōjō created the scrolls; however, it seems clear from the style that more than one artist is involved.  The right-to-left reading direction of Chōjū-jinbutsu-giga  is  traditional in East Asia, and is "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q736832"
+   }
+  },
+  {
+   "id": "wikipedia-en-17675",
+   "source": "wikipedia",
+   "name": "Lithuania",
+   "url": "https://en.wikipedia.org/wiki/Lithuania",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 1236,
+   "date_end": 1991,
+   "date_display": "1236–1991",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-17675.png",
+     "credit": "Wikimedia Commons: File:Flag_of_Lithuania.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-17675.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Lithuania, officially the Republic of Lithuania, is a country in the Baltic region of Europe. It is one of three Baltic states and lies on the eastern shore of the Baltic Sea, bordered by Latvia to the north, Belarus to the east and south, Poland to the south, and the Russian semi-exclave of Kaliningrad Oblast to the southwest, with a maritime border with Sweden to the west. Lithuania covers an area of 65,300 km2 (25,200 sq mi), and has a population of 2.9 million. Its capital and largest city is Vilnius; other major cities include Kaunas, Klaipėda, Šiauliai and Panevėžys."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q37"
+   }
+  },
+  {
+   "id": "wikipedia-en-47737575",
+   "source": "wikipedia",
+   "name": "Early Anatolian animal carpets",
+   "url": "https://en.wikipedia.org/wiki/Early_Anatolian_animal_carpets",
+   "categories": [
+    "fighting"
+   ],
+   "tags": [
+    "animal combat in art"
+   ],
+   "date_start": 1301,
+   "date_end": 1400,
+   "date_display": "14th c.",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-47737575.jpg",
+     "credit": "Wikimedia Commons: File:MIK_-_Drache-Phönix-Teppich.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-47737575.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Anatolian animal carpets represent a special type of pile-woven carpet, woven in the geographical region of Anatolia during the Seljuq and early Ottoman period, corresponding to the 14th–16th century. Very few animal-style carpets still exist today, and most of them are in a fragmentary state. Animal carpets were frequently depicted by Western European painters of the 14th–16th century. By comparison of the few surviving carpets with their painted counterparts, these paintings helped to establish a timeline of their production, and support our knowledge about the early Turkish carpet."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q21004561"
+   }
+  },
+  {
+   "id": "wikipedia-en-60311522",
+   "source": "wikipedia",
+   "name": "Study for the Madonna of the Cat",
+   "url": "https://en.wikipedia.org/wiki/Study_for_the_Madonna_of_the_Cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1401,
+   "date_end": 1500,
+   "date_display": "15th c.",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-60311522.jpg",
+     "credit": "Wikimedia Commons: File:Leonardo_da_Vinci,_Study_for_the_Madonna_of_the_Cat_(recto).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-60311522.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Study for the Madonna of the Cat is a set of two drawings by Leonardo da Vinci on both sides (front and back) of a sheet of paper 13 centimeters high and 9.4 centimeters wide. The two drawings were made in pen and brown ink, on a preparatory drawing in stylus, with a brown wash on the back. This is one of the six works of Leonardo da Vinci showing the Virgin and Child playing with a cat or carrying it. A mirror symmetry between the drawings of the two faces is visible by transparency."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q11765908"
+   }
+  },
+  {
+   "id": "wikipedia-en-19171912",
+   "source": "wikipedia",
+   "name": "Devonshire Hunting Tapestries",
+   "url": "https://en.wikipedia.org/wiki/Devonshire_Hunting_Tapestries",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1401,
+   "date_end": 1500,
+   "date_display": "15th c.",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-19171912.jpg",
+     "credit": "Wikimedia Commons: File:Boar_and_Bear_Hunt.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-19171912.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Devonshire Hunting Tapestries are a group of four medieval tapestries, probably woven in Arras, Artois, France, between about 1430 and 1450. The tapestries are known as Boar and Bear Hunt, Falconry, Swan and Otter Hunt, and Deer Hunt. These enormous works, each over 13 feet tall and altogether about 133 feet wide, depict men and women in fashionable dress of the early fifteenth century hunting in forests. The tapestries formerly belonged to the Dukes of Devonshire, and were hung on the walls at Hardwick Hall in Derbyshire."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q12056272"
+   }
+  },
+  {
+   "id": "wikipedia-en-353317",
+   "source": "wikipedia",
+   "name": "The Lady and the Unicorn",
+   "url": "https://en.wikipedia.org/wiki/The_Lady_and_the_Unicorn",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 1401,
+   "date_end": 1500,
+   "date_display": "15th c.",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-353317.jpg",
+     "credit": "Wikimedia Commons: File:(Toulouse)_Mon_seul_désir_(La_Dame_à_la_licorne)_-_Musée_de_Cluny_Paris.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-353317.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Lady and the Unicorn (French: La Dame à la licorne) is the modern title given to a series of six tapestries created in the style of mille-fleurs (\"thousand flowers\") and woven in Flanders from wool and silk, from designs (\"cartoons\") drawn in Paris around 1500. The set is on display in the Musée de Cluny in Paris.\nFive of the tapestries are commonly interpreted as depicting the five senses – taste, hearing, sight, smell, and touch. The sixth displays the words \"À mon seul désir\"."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2289754"
+   }
+  },
+  {
+   "id": "wikipedia-en-1694161",
+   "source": "wikipedia",
+   "name": "The Unicorn Tapestries",
+   "url": "https://en.wikipedia.org/wiki/The_Unicorn_Tapestries",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1499,
+   "date_end": 1500,
+   "date_display": "1499–1500",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1694161.jpg",
+     "credit": "Wikimedia Commons: File:The_Unicorn_in_Captivity_(from_the_Unicorn_Tapestries)_MET_DP118991.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1694161.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Unicorn Tapestries or the Hunt of the Unicorn (French: La Chasse à la licorne) is a series of seven tapestries made in the Southern Netherlands  around 1495–1505, and now in The Cloisters in New York City.  They were  possibly designed in Paris and woven in Brussels. They depict a group of noblemen and hunters in pursuit of a unicorn through an idealised French landscape. The tapestries were woven in wool, metallic threads, and silk."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2626769"
+   }
+  },
+  {
+   "id": "wikipedia-en-38670638",
+   "source": "wikipedia",
+   "name": "Woman Bathing (van Eyck)",
+   "url": "https://en.wikipedia.org/wiki/Woman_Bathing_(van_Eyck)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1500,
+   "date_end": 1600,
+   "date_display": "1500–1600",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-38670638.jpg",
+     "credit": "Wikimedia Commons: File:After_van_Eyck_Woman_at_Her_Toilet_(MA).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-38670638.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Woman Bathing (or Woman at Her Toilet, sometimes Bathsheba at Her Toilet) is a lost early 15th century panel painting by the Early Netherlandish artist Jan van Eyck. It is known through two copies which diverge in important aspects; one in Antwerp and a more successful but smaller c. 1500 panel in Harvard University's Fogg Museum, which is in poor condition. It is unique in van Eyck's known oeuvre for portraying a nude in secular setting, although there is mention in two 17th-century literary sources of other now lost but equally erotic van Eyck panels."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q8030682"
+   }
+  },
+  {
+   "id": "wikipedia-en-45312133",
+   "source": "wikipedia",
+   "name": "Madonna of the Animals",
+   "url": "https://en.wikipedia.org/wiki/Madonna_of_the_Animals",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1503,
+   "date_end": null,
+   "date_display": "1503",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-45312133.jpg",
+     "credit": "Wikimedia Commons: File:Durer,_madonna_degli_animali.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-45312133.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Madonna of the Animals is a drawing on card by the artist Albrecht Dürer, from c. 1503. It measures 32 by 24 cm. Some areas of the drawing also feature watercolour."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3842599"
+   }
+  },
+  {
+   "id": "wikipedia-en-26765120",
+   "source": "wikipedia",
+   "name": "Knight, Death and the Devil",
+   "url": "https://en.wikipedia.org/wiki/Knight,_Death_and_the_Devil",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1513,
+   "date_end": null,
+   "date_display": "1513",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-26765120.jpg",
+     "credit": "Wikimedia Commons: File:Albrecht_Dürer,_Knight,_Death_and_Devil,_1513,_NGA_6637.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-26765120.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Knight, Death and the Devil (German: Ritter, Tod und Teufel) is a large 1513 engraving by the German artist Albrecht Dürer, one of the three Meisterstiche (master prints) completed during a period when he almost ceased to work in paint or woodcuts to focus on engravings. The image is infused with complex iconography and symbolism, the precise meaning of which has been argued over for centuries.\nA stolid armoured knight on a proud horse, accompanied by his faithful dog, rides through a wild narrow gorge flanked by a goat-headed devil and the figure of death riding a pale horse. Death's rotting "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1755464"
+   }
+  },
+  {
+   "id": "wikipedia-en-17240449",
+   "source": "wikipedia",
+   "name": "Saint Jerome in His Study (Dürer)",
+   "url": "https://en.wikipedia.org/wiki/Saint_Jerome_in_His_Study_(D%C3%BCrer)",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1514,
+   "date_end": null,
+   "date_display": "1514",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-17240449.jpg",
+     "credit": "Wikimedia Commons: File:Dürer-Hieronymus-im-Gehäus.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-17240449.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Saint Jerome in His Study (German: Der heilige Hieronymus im Gehäus) is a copper engraving of 1514 by the German artist Albrecht Dürer. Saint Jerome is shown sitting behind his desk, engrossed in work. The table, on the corner of which is a cross, is typical of the Renaissance. An imaginary line from Jerome's head passing through the cross would arrive at the skull on the window ledge, as if contrasting death and the Resurrection."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1198912"
+   }
+  },
+  {
+   "id": "wikipedia-en-34606985",
+   "source": "wikipedia",
+   "name": "Beware the Cat",
+   "url": "https://en.wikipedia.org/wiki/Beware_the_Cat",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 1553,
+   "date_end": null,
+   "date_display": "1553",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-34606985.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Beware the Cat (1561) is an English satire written by the printer's assistant and poet William Baldwin (sometimes called Gulielmus Baldwin), in early 1553. It has been claimed by some academics to be the first novel ever published in English of any kind."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4899731"
+   }
+  },
+  {
+   "id": "wikipedia-en-62216682",
+   "source": "wikipedia",
+   "name": "Two Monkeys (Bruegel)",
+   "url": "https://en.wikipedia.org/wiki/Two_Monkeys_(Bruegel)",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 1562,
+   "date_end": null,
+   "date_display": "1562",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-62216682.jpg",
+     "credit": "Wikimedia Commons: File:Pieter_Bruegel_d._Ä._095.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-62216682.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Two Monkeys or Two Chained Monkeys is a 1562 painting by Dutch and Flemish Renaissance artist Pieter Bruegel the Elder. The work is now in the Gemäldegalerie (Painting Gallery) of the Berlin State Museums."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q231953"
+   }
+  },
+  {
+   "id": "wikipedia-en-232367",
+   "source": "wikipedia",
+   "name": "Journey to the West",
+   "url": "https://en.wikipedia.org/wiki/Journey_to_the_West",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 1592,
+   "date_end": null,
+   "date_display": "1592",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-232367.jpg",
+     "credit": "Wikimedia Commons: File:Evl53201b_pic.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-232367.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Journey to the West (traditional Chinese: 西遊記; simplified Chinese: 西游记; pinyin: Xīyóujì) is a Chinese novel published in the 16th century during the Ming dynasty and attributed to Wu Cheng'en. It is regarded as one of the great Chinese novels, and has been described as arguably the most popular literary work in East Asia. It was widely known in English-speaking countries through the British scholar Arthur Waley's 1942 abridged translation Monkey. \nThe novel is a fictionalized and fantastic account of the pilgrimage of the Chinese Buddhist monk Xuanzang, who went on a 19-year journey to India i"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q70784"
+   }
+  },
+  {
+   "id": "wikipedia-en-3907977",
+   "source": "wikipedia",
+   "name": "Dutch Golden Age painting",
+   "url": "https://en.wikipedia.org/wiki/Dutch_Golden_Age_painting",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1600,
+   "date_end": 1699,
+   "date_display": "1600–1699",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3907977.jpg",
+     "credit": "Wikimedia Commons: File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3907977.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Dutch Golden Age painting is the painting of the Dutch Golden Age, a period in Dutch history roughly spanning the 17th century, during and after the later part of the Eighty Years' War (1568–1648) for Dutch independence.\nThe new Dutch Republic was the most prosperous nation in Europe and led European trade and science. The northern Netherlandish provinces that made up the new state had traditionally been less important artistic centres than cities in Flanders in the south. The upheavals and large-scale transfers of population of the war, and the sharp break with the old monarchist and Catholic"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2352880"
+   }
+  },
+  {
+   "id": "wikipedia-en-23487767",
+   "source": "wikipedia",
+   "name": "The Tempest",
+   "url": "https://en.wikipedia.org/wiki/The_Tempest",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1611,
+   "date_end": null,
+   "date_display": "1611",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-23487767.jpg",
+     "credit": "Wikimedia Commons: File:First-page-first-folio-tempest.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-23487767.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Tempest is a play by William Shakespeare, probably written in 1610–1611, and thought to be one of the last plays he wrote alone. After the first scene, which takes place on a ship at sea during a storm, the rest of the play is set on a remote island, where Prospero, a magician, lives with his daughter Miranda and his two servants: Caliban, a savage monster figure, and Ariel, an airy spirit. The play contains music and songs that evoke the spirit of enchantment on the island. It explores many themes, including magic, betrayal, revenge, forgiveness, and family."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q86440"
+   }
+  },
+  {
+   "id": "wikipedia-en-58062174",
+   "source": "wikipedia",
+   "name": "Diana and Actaeon basin",
+   "url": "https://en.wikipedia.org/wiki/Diana_and_Actaeon_basin",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1613,
+   "date_end": null,
+   "date_display": "1613",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-58062174.jpg",
+     "credit": "Wikimedia Commons: File:Schaal_met_voorstellingen_uit_de_geschiedenis_van_Diana_en_Actaeon_door_Paulus_Willemsz_van_Vianen_in_1613.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-58062174.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Diana and Actaeon basin or Basin with Scenes from the Myth of Diana and Actaeon is a 1613 silver bowl produced by the Dutch silversmith Paul van Vianen. It shows scenes from the myth of Diana and Actaeon, with a border in the Auricular style. It is in the collection of the Rijksmuseum in Amsterdam, which acquired it in 1947."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q25447969"
+   }
+  },
+  {
+   "id": "wikipedia-en-51130966",
+   "source": "wikipedia",
+   "name": "Fishing for Souls",
+   "url": "https://en.wikipedia.org/wiki/Fishing_for_Souls",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1614,
+   "date_end": null,
+   "date_display": "1614",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-51130966.jpg",
+     "credit": "Wikimedia Commons: File:De_zielenvisserij_-_Fishing_for_souls_(Adriaen_Pietersz._van_de_Venne).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-51130966.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Fishing for Souls is a 1614 oil on panel painting by the Dutch Golden Age artist Adriaen van de Venne in the collection of the Rijksmuseum."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q17320929"
+   }
+  },
+  {
+   "id": "wikipedia-en-69473959",
+   "source": "wikipedia",
+   "name": "Bathing (painting)",
+   "url": "https://en.wikipedia.org/wiki/Bathing_(painting)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1650,
+   "date_end": 1659,
+   "date_display": "1650–1659",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-69473959.jpg",
+     "credit": "Wikimedia Commons: File:Nicolaes_Maes_-_Children_bathing.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-69473959.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bathing or Children Bathing is an oil-on-canvas painting in the collection of the Louvre Museum, which depicts landscape with children played naked on and around a boat on a body of water with a windmill in the distance. It is presumed to have been painted between 1655 and 1660.  While the work was traditionally attributed to the Dutch painter Nicolaes Maes, this attribution has been regularly disputed."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q24283841"
+   }
+  },
+  {
+   "id": "wikipedia-en-6653",
+   "source": "wikipedia",
+   "name": "Cape Town",
+   "url": "https://en.wikipedia.org/wiki/Cape_Town",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1652,
+   "date_end": null,
+   "date_display": "1652",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-6653.jpg",
+     "credit": "Wikimedia Commons: File:Camps_bay_(53460319478)_(cropped).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-6653.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Cape Town is the legislative capital of South Africa. It is the country's oldest city and the seat of the Parliament of South Africa. Cape Town is the capital and largest city of the Western Cape, and the country's second-most populous city, after Johannesburg. The city is part of the City of Cape Town metropolitan municipality."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5465"
+   }
+  },
+  {
+   "id": "wikipedia-en-58082792",
+   "source": "wikipedia",
+   "name": "A Woman Bathing in a Stream",
+   "url": "https://en.wikipedia.org/wiki/A_Woman_Bathing_in_a_Stream",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1654,
+   "date_end": null,
+   "date_display": "1654",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-58082792.jpg",
+     "credit": "Wikimedia Commons: File:Rembrandt_Hendrickje_Bathing_in_a_River.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-58082792.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Woman Bathing or A Woman Bathing in a Stream is a c. 1654 painting by Rembrandt, now in the National Gallery, London, which acquired it in 1831. It was probably modelled on Rembrandt's partner Hendrickje Stoffels, and represents a woman in a vulnerable state, stepping into her bath. Some scholars believe the painting is meant to represent the nymph Callisto, bathing apart from Diana's entourage.\nThe painting is broadly executed."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3766162"
+   }
+  },
+  {
+   "id": "wikipedia-en-16825749",
+   "source": "wikipedia",
+   "name": "Bathsheba at Her Bath (Rembrandt)",
+   "url": "https://en.wikipedia.org/wiki/Bathsheba_at_Her_Bath_(Rembrandt)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1654,
+   "date_end": null,
+   "date_display": "1654",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-16825749.jpg",
+     "credit": "Wikimedia Commons: File:Rembrandt_Harmensz._van_Rijn_016.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-16825749.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bathsheba at Her Bath (or Bathsheba with King David's Letter) is an oil painting by the Dutch artist Rembrandt (1606–1669), finished in 1654.\nA depiction that is both sensual and empathetic, it shows a moment from the Old Testament story related in 2 Samuel 11 in which King David sees Bathsheba bathing and, entranced, impregnates her. In order to marry Bathsheba and conceal his sin, David sends her husband into battle and orders his generals to abandon him, leaving him to certain death.\nWhile the scene of David spying on Bathsheba had been painted by earlier artists, Rembrandt's depiction diff"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q32496"
+   }
+  },
+  {
+   "id": "wikipedia-en-75729817",
+   "source": "wikipedia",
+   "name": "The Animals Sick of the Plague",
+   "url": "https://en.wikipedia.org/wiki/The_Animals_Sick_of_the_Plague",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 1678,
+   "date_end": null,
+   "date_display": "1678",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-75729817.jpg",
+     "credit": "Wikimedia Commons: File:Moitte-Oudry-La_Fontaine-Les_animaux_malades_de_la_peste.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-75729817.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Animals Sick of the Plague (in French Les animaux malades de la peste) is a dark fable by Jean de la Fontaine about the inequality of justice. It was published in 1678 at the head of his second volume of Fables (VII.1) and is generally considered one of his best."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3230577"
+   }
+  },
+  {
+   "id": "wikipedia-en-26094",
+   "source": "wikipedia",
+   "name": "Romanticism",
+   "url": "https://en.wikipedia.org/wiki/Romanticism",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1701,
+   "date_end": 1900,
+   "date_display": "1701–1900",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-26094.jpg",
+     "credit": "Wikimedia Commons: File:Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-26094.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Romanticism (also known as the Romantic movement or Romantic era) was an artistic and intellectual movement that originated in Europe towards the end of the 18th century. The purpose of the  movement was to advocate for the importance of subjectivity, imagination, and appreciation of nature in society and culture in response to the Age of Enlightenment and the Industrial Revolution.\nRomanticists rejected the social conventions of the time in favour of a moral outlook known as individualism. They argued that passion and intuition were crucial to understanding the world, and that beauty is more "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q37068"
+   }
+  },
+  {
+   "id": "wikipedia-en-75690118",
+   "source": "wikipedia",
+   "name": "Lord Lovat's Lament",
+   "url": "https://en.wikipedia.org/wiki/Lord_Lovat%27s_Lament",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1701,
+   "date_end": 1800,
+   "date_display": "18th c.",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-75690118.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Lord Lovat's Lament\" is an 18th-century tune for bagpipes associated with an executed Scottish revolutionary nobleman of Clan Fraser. The Lord Lovat of the title is Simon Fraser, 11th Lord Lovat."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q126112524"
+   }
+  },
+  {
+   "id": "wikipedia-en-64398539",
+   "source": "wikipedia",
+   "name": "Bathsheba at Her Bath (Ricci)",
+   "url": "https://en.wikipedia.org/wiki/Bathsheba_at_Her_Bath_(Ricci)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1724,
+   "date_end": null,
+   "date_display": "1724",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-64398539.jpg",
+     "credit": "Wikimedia Commons: File:Sebastiano_Ricci_-_Bathsheba_at_the_Bath_-_WGA19430.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-64398539.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bathsheba at Her Bath is an oil painting on canvas of c. 1724 by the Venetian artist Sebastiano Ricci which is in the collection of the Museum of Fine Arts, Budapest. A common subject amongst artists, this was the first of two of Ricci's depictions of the theme.\nThe painting depicts the Biblical story (as narrated in 2 Samuel 11) of the seduction of Bathsheba, the wife of Uriah the Hittite, by the Israelite king, David. In the painting Bathsheba, attended by four maidservants, is taking a ritual bath in the open air whilst being observed by King David from his nearby palace roof."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q50890343"
+   }
+  },
+  {
+   "id": "wikipedia-en-43023",
+   "source": "wikipedia",
+   "name": "Gulliver's Travels",
+   "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 1726,
+   "date_end": null,
+   "date_display": "1726",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-43023.jpg",
+     "credit": "Wikimedia Commons: File:Gullivers_travels.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-43023.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Gulliver's Travels, originally titled Travels into Several Remote Nations of the World. In Four Parts. By Lemuel Gulliver, First a Surgeon, and then a Captain of Several Ships, is a 1726 satirical prose novel by the Anglo-Irish writer and clergyman Jonathan Swift. It is one of the most famous classics of both English and world literature, and popularised the fictional island of Lilliput."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q181488"
+   }
+  },
+  {
+   "id": "wikipedia-en-665",
+   "source": "wikipedia",
+   "name": "A Modest Proposal",
+   "url": "https://en.wikipedia.org/wiki/A_Modest_Proposal",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 1729,
+   "date_end": null,
+   "date_display": "1729",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-665.jpg",
+     "credit": "Wikimedia Commons: File:A_Modest_Proposal_1729_Cover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-665.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "A Modest Proposal for Preventing the Children of Poor People from Being a Burthen to Their Parents or Country, and for Making Them Beneficial to the Publick, commonly referred to simply as A Modest Proposal, is a 1729 satirical essay by the Anglo-Irish writer and clergyman Jonathan Swift. The essay, written from the perspective of a fictional narrator, suggests that the Irish poor could ease their economic troubles by selling their children as food to wealthy gentlemen and ladies. In English writing, the phrase \"a modest proposal\" is now conventionally an allusion to this style of deadpan sati"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q264143"
+   }
+  },
+  {
+   "id": "wikipedia-en-64646",
+   "source": "wikipedia",
+   "name": "Toronto",
+   "url": "https://en.wikipedia.org/wiki/Toronto",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 1750,
+   "date_end": null,
+   "date_display": "1750",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-64646.jpg",
+     "credit": "Wikimedia Commons: File:Toronto_Skyline_from_Snake_Island,_September_11_2026_(01).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-64646.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Toronto is the most populous city in Canada and the capital city of the Canadian province of Ontario. It is located on a harbour at the northwestern shore of Lake Ontario. The city is the fourth-most populous city in North America, behind Mexico City, New York City, and Los Angeles, with a census population of 2,794,356 as of 2021. The Greater Toronto Area (GTA) is constituted of Toronto proper and four surrounding regions, Peel, York, Durham, and Halton, and has a population of 6,712,341, while the Toronto census metropolitan area (CMA), with a somewhat different definition, has a population "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q172"
+   }
+  },
+  {
+   "id": "wikipedia-en-15570028",
+   "source": "wikipedia",
+   "name": "Beer Street and Gin Lane",
+   "url": "https://en.wikipedia.org/wiki/Beer_Street_and_Gin_Lane",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1751,
+   "date_end": null,
+   "date_display": "1751",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-15570028.jpg",
+     "credit": "Wikimedia Commons: File:Beer-street-and-Gin-lane.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-15570028.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Beer Street and Gin Lane are two prints issued in 1751 by English artist William Hogarth in support of what would become the Gin Act. Designed to be viewed alongside each other, they depict the evils of the consumption of gin (then a generic term for grain-based distilled spirits) as a contrast to the merits of drinking beer. At almost the same time and on the same subject, Hogarth's friend Henry Fielding published An Inquiry into the Late Increase in Robbers. Issued together with The Four Stages of Cruelty, the prints continued a movement started in Industry and Idleness, away from depicting "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4879965"
+   }
+  },
+  {
+   "id": "wikipedia-en-16397153",
+   "source": "wikipedia",
+   "name": "Columbus Breaking the Egg",
+   "url": "https://en.wikipedia.org/wiki/Columbus_Breaking_the_Egg",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1752,
+   "date_end": null,
+   "date_display": "1752",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-16397153.jpg",
+     "credit": "Wikimedia Commons: File:Columbus_Breaking_the_Egg'_(Christopher_Columbus)_by_William_Hogarth.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-16397153.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Columbus Breaking the Egg is a 1752 engraving by English artist William Hogarth. Issued as the subscription ticket for his treatise on art, The Analysis of Beauty, it depicts an apocryphal tale (the \"Egg of Columbus\") concerning Christopher Columbus's response to detractors of his discovery of the New World. Hogarth uses the story as a parallel to what he considered his own discoveries in art."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5150006"
+   }
+  },
+  {
+   "id": "wikipedia-en-57826717",
+   "source": "wikipedia",
+   "name": "The Birth of Venus (Boucher)",
+   "url": "https://en.wikipedia.org/wiki/The_Birth_of_Venus_(Boucher)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1754,
+   "date_end": null,
+   "date_display": "1754",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-57826717.jpg",
+     "credit": "Wikimedia Commons: File:François_Boucher_011.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-57826717.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Birth of Venus is an oil-on-canvas painting by the French Rococo artist François Boucher, created c. 1750–1770. It is held in the Wallace Collection, in London, England. The painting was adapted from a 1743 oval composition by Boucher, now part of a private collection in New York."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3211033"
+   }
+  },
+  {
+   "id": "wikipedia-en-46254028",
+   "source": "wikipedia",
+   "name": "Two Women Bathing",
+   "url": "https://en.wikipedia.org/wiki/Two_Women_Bathing",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1763,
+   "date_end": null,
+   "date_display": "1763",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-46254028.jpg",
+     "credit": "Wikimedia Commons: File:Deux_femmes_au_bain_Joseph-Marie_Vien_musée_de_Cahors_Henri-Martin_Ca.1.32.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-46254028.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Two Women Bathing is an oil painting by French artist Joseph-Marie Vien, from c. 1763. A copy of it is held in the Musée de Cahors Henri-Martin, in Cahors. The original was commissioned by Louis Philippe I, Duke of Orléans and first exhibited at the Salon of 1763."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q15648184"
+   }
+  },
+  {
+   "id": "wikipedia-en-3434750",
+   "source": "wikipedia",
+   "name": "United States",
+   "url": "https://en.wikipedia.org/wiki/United_States",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 1776,
+   "date_end": 1784,
+   "date_display": "1776–1784",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3434750.png",
+     "credit": "Wikimedia Commons: File:Flag_of_the_United_States_(DDD-F-416E_specifications).svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3434750.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C. The 48 contiguous states border Canada to the north and Mexico to the south, with the semi-exclave of Alaska in the northwest and the archipelago of Hawaii in the Pacific Ocean. The United States also asserts sovereignty over five major island territories and various uninhabited islands in Oceania and the Caribbean. It has the world's fourth-largest total area and"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q30"
+   }
+  },
+  {
+   "id": "wikipedia-en-62167369",
+   "source": "wikipedia",
+   "name": "The Bathing Pool",
+   "url": "https://en.wikipedia.org/wiki/The_Bathing_Pool",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1780,
+   "date_end": null,
+   "date_display": "1780",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-62167369.jpg",
+     "credit": "Wikimedia Commons: File:Hubert_Robert_-_The_Bathing_Pool.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-62167369.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Bathing Pool (French: Le Bassin de baignade) is an oil on canvas painting executed between 1777 and 1780 by the French painter Hubert Robert. Originally commissioned for the bathing room at the Château de Bagatelle, it is now in the collection of the Metropolitan Museum of Art, in New York."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q20167269"
+   }
+  },
+  {
+   "id": "wikipedia-en-14789776",
+   "source": "wikipedia",
+   "name": "Warren Tavern",
+   "url": "https://en.wikipedia.org/wiki/Warren_Tavern",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1780,
+   "date_end": null,
+   "date_display": "1780",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-14789776.png",
+     "credit": "Wikimedia Commons: File:The_Warren_Tavern_Charlestown.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-14789776.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Warren Tavern is reportedly one of the oldest taverns in the state of Massachusetts and one of the most historic watering holes in America.  The Warren Tavern was founded in 1780 in Charlestown, Massachusetts and still stands in that block of land today.  In the early years of the Warren Tavern it was frequented by many American Revolutionary War heroes such as Paul Revere, Benjamin Franklin, and George Washington."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7970518"
+   }
+  },
+  {
+   "id": "wikipedia-en-393311",
+   "source": "wikipedia",
+   "name": "Bar chart",
+   "url": "https://en.wikipedia.org/wiki/Bar_chart",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 1786,
+   "date_end": null,
+   "date_display": "1786",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-393311.png",
+     "credit": "Wikimedia Commons: File:Human_losses_of_world_war_two_by_country.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-393311.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "A bar chart or bar graph is a chart or graph that presents categorical data with rectangular bars with heights or lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally.  A vertical bar chart is sometimes called a column chart and has been identified as the prototype of charts.\nA bar graph shows comparisons among discrete categories."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1124595"
+   }
+  },
+  {
+   "id": "wikipedia-en-1555706",
+   "source": "wikipedia",
+   "name": "Tipu's Tiger",
+   "url": "https://en.wikipedia.org/wiki/Tipu%27s_Tiger",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 1790,
+   "date_end": null,
+   "date_display": "1790",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1555706.jpg",
+     "credit": "Wikimedia Commons: File:Tipu's_Tiger_front_view_2006AH4173.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1555706.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Tipu's Tiger, Tippu's Tiger or Tipoo’s Tiger is an 18th-century automaton created for Tipu Sultan, the ruler of the Kingdom of Mysore (present day Karnataka) in India. The carved and painted wood casing represents a tiger mauling a near life-size British man. Mechanisms inside the tiger and the man's body make one hand of the man move, emit a wailing sound from his mouth and grunts from the tiger. In addition a flap on the side of the tiger folds down to reveal the keyboard of a small pipe organ with 18 notes."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1320874"
+   }
+  },
+  {
+   "id": "wikipedia-en-49089716",
+   "source": "wikipedia",
+   "name": "Les Grandes Baigneuses (Renoir)",
+   "url": "https://en.wikipedia.org/wiki/Les_Grandes_Baigneuses_(Renoir)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1801,
+   "date_end": 1900,
+   "date_display": "19th c.",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-49089716.jpg",
+     "credit": "Wikimedia Commons: File:Pierre-Auguste_Renoir,_French_-_The_Large_Bathers_-_Google_Art_Project.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-49089716.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Les Grandes Baigneuses, or The Large Bathers, is a painting by Pierre-Auguste Renoir made between 1884 and 1887. The painting is in the Philadelphia Museum of Art, in Philadelphia.\nThe painting depicts a scene of nude women bathing. In the foreground, two women are seated beside the water, and a third is standing in the water near them."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2501284"
+   }
+  },
+  {
+   "id": "wikipedia-en-80240288",
+   "source": "wikipedia",
+   "name": "Arethusa (painting)",
+   "url": "https://en.wikipedia.org/wiki/Arethusa_(painting)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1802,
+   "date_end": null,
+   "date_display": "1802",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-80240288.jpg",
+     "credit": "Wikimedia Commons: File:'Arethusa'_by_Benjamin_West,_1802,_High_Museum_of_Art.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-80240288.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Arethusa is an 1802 history painting by the American-born British artist Benjamin West. It features a nude scene of Arethusa, a figure from Greek mythology. A nymph, she was the chaste attendant of the Goddess of Love Artemis. Inspired by Ovid's Metamorphoses it shows her disturbed while bathing in a stream by the river god Alpheus."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q135192972"
+   }
+  },
+  {
+   "id": "wikipedia-en-80058737",
+   "source": "wikipedia",
+   "name": "Linlithgow Palace (painting)",
+   "url": "https://en.wikipedia.org/wiki/Linlithgow_Palace_(painting)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1806,
+   "date_end": null,
+   "date_display": "1806",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-80058737.jpg",
+     "credit": "Wikimedia Commons: File:Joseph_Mallord_William_Turner_-_Linlithgow_Palace_-_Google_Art_Project.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-80058737.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Linlithgow Palace is an 1807 landscape painting by the British artist J.M.W. Turner. It depicts Linlithgow Palace west of  Edinburgh. Turner transforms the view of the Scottish landscape it into a classical scene rather than a topographical depiction, by including woman bathing nude in the river and exaggerating the perspective.\nTurner had visited and sketched the area in 1801."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q28796822"
+   }
+  },
+  {
+   "id": "wikipedia-en-18427242",
+   "source": "wikipedia",
+   "name": "Circus Knie",
+   "url": "https://en.wikipedia.org/wiki/Circus_Knie",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1806,
+   "date_end": null,
+   "date_display": "1806",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-18427242.jpg",
+     "credit": "Wikimedia Commons: File:Circus_Knie_-_Sechseläutenplatz_-_Opernhaus_Zürich_2014-05-14_18-46-10_(P7800).JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-18427242.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Circus Knie (German: Schweizer National-Circus Knie, French: Cirque National Suisse Knie) is the largest circus of Switzerland, based in Rapperswil."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q666924"
+   }
+  },
+  {
+   "id": "wikipedia-en-264917",
+   "source": "wikipedia",
+   "name": "Hansel and Gretel",
+   "url": "https://en.wikipedia.org/wiki/Hansel_and_Gretel",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "child abandonment folklore"
+   ],
+   "date_start": 1812,
+   "date_end": null,
+   "date_display": "1812",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-264917.jpg",
+     "credit": "Wikimedia Commons: File:Hansel-and-gretel-rackham.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-264917.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Hansel and Gretel\" (; German: Hänsel und Gretel [ˈhɛnzl̩ ʔʊnt ˈɡʁeːtl̩]) is a German fairy tale collected by the Brothers Grimm and published in 1812 as part of Grimms' Fairy Tales (KHM 15).\nHansel and Gretel are siblings who are abandoned in a forest and fall into the hands of a witch who lives in a house made of bread, cake, and sugar. The witch intends to fatten Hansel before eventually eating him. However, Gretel saves her brother by pushing the witch into her own oven, killing the witch."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q11829"
+   }
+  },
+  {
+   "id": "wikipedia-en-7533788",
+   "source": "wikipedia",
+   "name": "The Nutcracker and the Mouse King",
+   "url": "https://en.wikipedia.org/wiki/The_Nutcracker_and_the_Mouse_King",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1816,
+   "date_end": null,
+   "date_display": "1816",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-7533788.jpg",
+     "credit": "Wikimedia Commons: File:Щелкунчик_и_Мышиный_король.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-7533788.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"The Nutcracker and the Mouse King\" (German: Nussknacker und Mausekönig), also simply known as \"The Nutcracker\", is a literary fairy tale from 1816 by the German author E. T. A. Hoffmann, in which a young girl's favorite Christmas toy, the Nutcracker, comes alive and, after defeating the evil Mouse King in battle, whisks her away to a magical kingdom populated by dolls. The story was originally published in Berlin as part of the collection Kinder-Mährchen (\"children's stories\"), while being written in a novel-styled format.\nIn 1892, the Russian composer Pyotr Ilyich Tchaikovsky and choreograph"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q744557"
+   }
+  },
+  {
+   "id": "wikipedia-en-79314522",
+   "source": "wikipedia",
+   "name": "Bathsheba (Hayez)",
+   "url": "https://en.wikipedia.org/wiki/Bathsheba_(Hayez)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1827,
+   "date_end": null,
+   "date_display": "1827",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-79314522.jpg",
+     "credit": "Wikimedia Commons: File:Bathsheba_(c.1827),_by_Francesco_Hayez.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-79314522.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bathsheba (Italian: Betsabea) is an 1827 history painting by the Italian artist Francesco Hayez. It features the biblical figure of Bathsheba in a nude scene, who is watched bathing by the Israelite king David. She is shown facing away from the viewer and wearing a single bangle on her arm while David can be seen at a high vantage point at the top of the painting. Numerous paintings had been produced from the Renaissance era onwards featuring the scene."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q131413521"
+   }
+  },
+  {
+   "id": "wikipedia-en-44280198",
+   "source": "wikipedia",
+   "name": "Neir's Tavern",
+   "url": "https://en.wikipedia.org/wiki/Neir%27s_Tavern",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1829,
+   "date_end": null,
+   "date_display": "1829",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-44280198.jpg",
+     "credit": "Wikimedia Commons: File:Neir's_Tavern_logo.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-44280198.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Neir's Tavern is a bar located at 87-48 78th Street in the Woodhaven neighborhood of Queens, New York City. It is one of the oldest bars in the United States, having been in nearly continuous operation since 1829."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q18749113"
+   }
+  },
+  {
+   "id": "wikipedia-en-17306237",
+   "source": "wikipedia",
+   "name": "Melbourne",
+   "url": "https://en.wikipedia.org/wiki/Melbourne",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1835,
+   "date_end": null,
+   "date_display": "1835",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-17306237.jpg",
+     "credit": "Wikimedia Commons: File:Melbourne_skyline_sor.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-17306237.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Melbourne ( MEL-bərn, locally [ˈmæɫbən] ; Boonwurrung/Woiwurrung: Narrm or Naarm)  is the capital and most populous city of the Australian state of Victoria and the second-most populous city in Australia. The city's name generally refers to a 9,993-square-kilometre (3,858 sq mi) area, comprising an urban agglomeration of 30 local government areas. The name is also used specifically to refer to the local government area, also named the City of Melbourne, whose administrative area is centred on the Melbourne central business district and some immediate surrounds.\nAs of June 2025, the population "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3141"
+   }
+  },
+  {
+   "id": "wikipedia-en-45535458",
+   "source": "wikipedia",
+   "name": "Victorian painting",
+   "url": "https://en.wikipedia.org/wiki/Victorian_painting",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1837,
+   "date_end": 1901,
+   "date_display": "1837–1901",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-45535458.jpg",
+     "credit": "Wikimedia Commons: File:Frith_A_Private_View.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-45535458.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Victorian painting refers to the distinctive styles of painting in the United Kingdom during the reign of Queen Victoria (1837–1901). Victoria's early reign was characterised by rapid industrial development and social and political change, which made the United Kingdom one of the most powerful and advanced nations in the world. Painting in the early years of her reign was dominated by the Royal Academy of Arts and by the theories of its first president, Joshua Reynolds. Reynolds and the academy were strongly influenced by the Italian Renaissance painter Raphael, and believed that it was the ro"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q19953535"
+   }
+  },
+  {
+   "id": "wikipedia-en-81672096",
+   "source": "wikipedia",
+   "name": "Phryne Going to the Public Baths as Venus",
+   "url": "https://en.wikipedia.org/wiki/Phryne_Going_to_the_Public_Baths_as_Venus",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1838,
+   "date_end": null,
+   "date_display": "1838",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-81672096.jpg",
+     "credit": "Wikimedia Commons: File:Joseph_Mallord_William_Turner_(1775-1851)_-_Phryne_Going_to_the_Public_Baths_as_Venus,_Demosthenes_Taunted_by_Aeschines_-_N00522_-_National_Gallery.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-81672096.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Phryne Going to the Public Baths as Venus,  Demosthenes Taunted by Aeschines is an 1838 history painting by the British artist J. M. W. Turner. It depicts a scene in Ancient Athens in the 4th century BC, combining two different legendary stories. The celebrated courtesan Phryne is going to the public baths in a public parade dressed as Venus. Meanwhile, the celebrated statesman and orators Demosthenes and Aeschines are engaged in a public dispute."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q111509906"
+   }
+  },
+  {
+   "id": "wikipedia-en-79308527",
+   "source": "wikipedia",
+   "name": "Bathsheba at Her Bath (Hayez)",
+   "url": "https://en.wikipedia.org/wiki/Bathsheba_at_Her_Bath_(Hayez)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1840,
+   "date_end": 1849,
+   "date_display": "1840–1849",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-79308527.jpg",
+     "credit": "Wikimedia Commons: File:Betsabea_al_bagno.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-79308527.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bathsheba at Her Bath (Italian: Betsabea al bagno) is an 1834 history painting by the Italian artist Francesco Hayez. It depicts the biblical story of Bathsheba who is spied bathing by the Israelite king David her future husband. It was a popular theme for artists from the Renaissance era onwards. Hayez painted the scene in the style of the ascendant romanticism of the 1830s."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q19863020"
+   }
+  },
+  {
+   "id": "wikipedia-en-79790595",
+   "source": "wikipedia",
+   "name": "The Origin of the Harp",
+   "url": "https://en.wikipedia.org/wiki/The_Origin_of_the_Harp",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1842,
+   "date_end": null,
+   "date_display": "1842",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-79790595.png",
+     "credit": "Wikimedia Commons: File:The_Origin_of_the_Harp.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-79790595.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Origin of the Harp is an oil nude history painting by the Irish artist Daniel Maclise, from 1842. Inspired by a work by the poet Thomas Moore, it shows a sea nymph metamorphosing into a harp. Strategically-placed seaweed prevents her from being completely nude.\nIt was displayed at the Royal Academy's Summer Exhibition of 1842 at the National Gallery, in London."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q119064128"
+   }
+  },
+  {
+   "id": "wikipedia-en-77031738",
+   "source": "wikipedia",
+   "name": "Chiarini's Royal Italian Circus",
+   "url": "https://en.wikipedia.org/wiki/Chiarini%27s_Royal_Italian_Circus",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1847,
+   "date_end": null,
+   "date_display": "1847",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-77031738.jpg",
+     "credit": "Wikimedia Commons: File:Chiarini's_Royal_Italian_Circus_and_Performing_Animals_Poster,_Wellington,_1879.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-77031738.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Chiarini's Royal Italian Circus and Performing Animals, also known as Chiarini's Circus and Menagerie or simply the Royal Italian Circus (Italian: Circo Italiano) was a renowned traveling circus company."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q126525332"
+   }
+  },
+  {
+   "id": "wikipedia-en-103326",
+   "source": "wikipedia",
+   "name": "Pre-Raphaelite Brotherhood",
+   "url": "https://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1848,
+   "date_end": null,
+   "date_display": "1848",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-103326.jpg",
+     "credit": "Wikimedia Commons: File:William_Holman_Hunt_-_The_Hireling_Shepherd.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-103326.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Pre-Raphaelite Brotherhood  (PRB), later known as the Pre-Raphaelites, was a group of English painters, poets, and art critics, founded in 1848 by William Holman Hunt, John Everett Millais, Dante Gabriel Rossetti, William Michael Rossetti, James Collinson, Frederic George Stephens and Thomas Woolner who formed a seven-member \"Brotherhood\" partly modelled on the Nazarene movement. The Brotherhood was only ever a loose association and their principles were shared by other artists and poets of the time, including Algernon Charles Swinburne, William Morris, Ford Madox Brown, Arthur Hughes and "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q184814"
+   }
+  },
+  {
+   "id": "wikipedia-en-63110",
+   "source": "wikipedia",
+   "name": "David Copperfield",
+   "url": "https://en.wikipedia.org/wiki/David_Copperfield",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1849,
+   "date_end": null,
+   "date_display": "1849",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-63110.jpg",
+     "credit": "Wikimedia Commons: File:Copperfield_cover_serial.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-63110.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "David Copperfield is a novel by the English author Charles Dickens, narrated by the eponymous David Copperfield, detailing his adventures in his journey from infancy to maturity. As such, it is typically categorized in the bildungsroman genre. It was published as a serial in 1849 and 1850 and then as a book later in 1850.\nDavid Copperfield is also a partially autobiographical novel: \"a very complicated weaving of truth and invention\", with events following Dickens's own life."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q189811"
+   }
+  },
+  {
+   "id": "wikipedia-en-79903521",
+   "source": "wikipedia",
+   "name": "Susanna at her Bath",
+   "url": "https://en.wikipedia.org/wiki/Susanna_at_her_Bath",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1850,
+   "date_end": null,
+   "date_display": "1850",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-79903521.jpg",
+     "credit": "Wikimedia Commons: File:Francesco_Hayez_-_Susanna_at_her_Bath_(National_Gallery,_London).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-79903521.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Susanna at her Bath is an 1850 religious history painting by the Italian artist Francesco Hayez. It depicts the biblical figure of Susanna in a nude scene. Drawn from the story of Susanna and the Elders, it was a popular subject for artists from the Renaissance era onwards. Although Hayez does not depict the old men watching Susanna as she is bathing, their presence is suggested by her startled expression as she looks over her shoulder."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q26713812"
+   }
+  },
+  {
+   "id": "wikipedia-en-291978",
+   "source": "wikipedia",
+   "name": "Walden",
+   "url": "https://en.wikipedia.org/wiki/Walden",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 1854,
+   "date_end": null,
+   "date_display": "1854",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-291978.jpg",
+     "credit": "Wikimedia Commons: File:Walden_Thoreau.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-291978.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Walden (; first published as Walden; or, Life in the Woods) is an 1854 book by American transcendentalist writer Henry David Thoreau. The text is a reflection upon the author's simple living in natural surroundings. The work is part personal declaration of independence, social experiment, voyage of spiritual discovery, satire, and—to some degree—a manual for self-reliance.\nWalden details Thoreau's experiences over the course of two years, two months, and two days in a cabin he built near Walden Pond amidst woodland owned by his friend and mentor Ralph Waldo Emerson, near Concord, Massachusetts"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q863534"
+   }
+  },
+  {
+   "id": "wikipedia-en-22219",
+   "source": "wikipedia",
+   "name": "Ottawa",
+   "url": "https://en.wikipedia.org/wiki/Ottawa",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 1855,
+   "date_end": null,
+   "date_display": "1855",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-22219.jpg",
+     "credit": "Wikimedia Commons: File:Parliament-Ottawa.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-22219.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Ottawa ( , ; Canadian French: [ɔtawɑ] ) is the capital city of Canada. It is located in the southeastern portion of the province of Ontario, at the confluence of the Ottawa River and the Rideau River. Ottawa borders Gatineau, Quebec, and forms the core of the Ottawa–Gatineau census metropolitan area (CMA) and the National Capital Region (NCR). As of 2021, Ottawa had a city population of 1,017,449 and a metropolitan population of 1,488,307, making it the second-largest city and second most-populous metropolitan area in Ontario, and the fourth-largest city and fourth-largest metropolitan area in"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1930"
+   }
+  },
+  {
+   "id": "wikipedia-en-80937889",
+   "source": "wikipedia",
+   "name": "Royal Academy Exhibition of 1856",
+   "url": "https://en.wikipedia.org/wiki/Royal_Academy_Exhibition_of_1856",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1856,
+   "date_end": null,
+   "date_display": "1856",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-80937889.jpg",
+     "credit": "Wikimedia Commons: File:Henry_Wallis_-_Chatterton_-_Google_Art_Project.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-80937889.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Royal Academy Exhibition of 1856 was the annual Summer Exhibition of the British Royal Academy of Arts, the eighty eighth to be held. It was staged at the National Gallery in London between 5 May and 26 July 1856 during the Victorian era. Taking place the year the Crimean War ended with the Treaty of Paris, a number of paintings made reference to the recent conflict. Peace Concluded by John Everett Millais features a wounded army officer reading news of the peace."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q136297379"
+   }
+  },
+  {
+   "id": "wikipedia-en-982228",
+   "source": "wikipedia",
+   "name": "Le Déjeuner sur l'herbe",
+   "url": "https://en.wikipedia.org/wiki/Le_D%C3%A9jeuner_sur_l%27herbe",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1863,
+   "date_end": null,
+   "date_display": "1863",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-982228.jpg",
+     "credit": "Wikimedia Commons: File:Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-982228.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Le Déjeuner sur l'herbe (French: [lə deʒœne syʁ lɛʁb, -ʒøn-]; The Luncheon on the Grass) – originally titled Le Bain (The Bath) – is a large  oil on canvas  painting by  Édouard Manet  created in 1862 and 1863.\nIt depicts a nude woman and a scantily dressed bathing woman on a picnic with two fully dressed men in a rural setting. Rejected by the Salon jury of 1863, Manet seized the opportunity to exhibit this and two other paintings in the 1863 Salon des Refusés, where the painting sparked public notoriety and controversy. The work increased Manet's fame; in spite of this it failed to sell at i"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q152509"
+   }
+  },
+  {
+   "id": "wikipedia-en-21721271",
+   "source": "wikipedia",
+   "name": "The Crocodile (short story)",
+   "url": "https://en.wikipedia.org/wiki/The_Crocodile_(short_story)",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 1864,
+   "date_end": null,
+   "date_display": "1864",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-21721271.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"The Crocodile\" (Russian: Крокодил, Krokodil) is a short story by Fyodor Dostoyevsky that was first published in 1865 in his magazine Epoch. It is a work of satire, parodying political, social and economic themes prevailing in Russia at the time."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2032679"
+   }
+  },
+  {
+   "id": "wikipedia-en-21182",
+   "source": "wikipedia",
+   "name": "New Brunswick",
+   "url": "https://en.wikipedia.org/wiki/New_Brunswick",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 1867,
+   "date_end": null,
+   "date_display": "1867",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-21182.png",
+     "credit": "Wikimedia Commons: File:Flag_of_New_Brunswick.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-21182.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "New Brunswick is a province of Canada. It borders Quebec to the northwest, the Gulf of Saint Lawrence to the northeast, Nova Scotia to the east, the Bay of Fundy to the southeast, and the U.S. state of Maine to the southwest. It is part of Eastern Canada and is one of the three Maritime provinces and one of the four Atlantic provinces. The province is about 83% forested and its northern half is occupied by the Appalachians."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1965"
+   }
+  },
+  {
+   "id": "wikipedia-en-7954867",
+   "source": "wikipedia",
+   "name": "Quebec",
+   "url": "https://en.wikipedia.org/wiki/Quebec",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 1867,
+   "date_end": null,
+   "date_display": "1867",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-7954867.png",
+     "credit": "Wikimedia Commons: File:Flag_of_Quebec.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-7954867.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Quebec (French: Québec) is Canada's largest province by area. Located in Central Canada, it is the country's only Francophone-majority province. It is home to speakers of Québécois French. It shares borders with Ontario to the west, Newfoundland and Labrador to the northeast, New Brunswick to the southeast and a coastal border with the territory of Nunavut."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q176"
+   }
+  },
+  {
+   "id": "wikipedia-en-30057",
+   "source": "wikipedia",
+   "name": "Tokyo",
+   "url": "https://en.wikipedia.org/wiki/Tokyo",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1868,
+   "date_end": null,
+   "date_display": "1868",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-30057.jpg",
+     "credit": "Wikimedia Commons: File:Skyscrapers_of_Shinjuku_2009_January.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-30057.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. The population of the city proper was over 14 million as of 2023. The Greater Tokyo Area, which includes Tokyo and parts of six neighboring prefectures, is the third-most populous metropolitan area in the world, with 33 million residents as of 2025.\nLying at the head of Tokyo Bay, Tokyo is part of the Kantō region, on the central coast of Honshu, Japan's largest island."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1490"
+   }
+  },
+  {
+   "id": "wikipedia-en-81527947",
+   "source": "wikipedia",
+   "name": "Moorish Bath (painting)",
+   "url": "https://en.wikipedia.org/wiki/Moorish_Bath_(painting)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1870,
+   "date_end": null,
+   "date_display": "1870",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-81527947.jpg",
+     "credit": "Wikimedia Commons: File:Jean-Léon_Gérôme_-_Moorish_bath.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-81527947.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Moorish Bath is an 1870 Orientalist genre painting by the French artist Jean-Léon Gérôme. It depicts a scene in a Hammam somewhere in the Middle East, featuring a woman likely to be a Circassian and an African attendant.\n\nThe painting was exhibited at the 1873 World Fair held in Vienna. Currently it is in the collection of the Museum of Fine Arts in Boston, having been acquired in 1924."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q19861888"
+   }
+  },
+  {
+   "id": "wikipedia-en-177483",
+   "source": "wikipedia",
+   "name": "Aestheticism",
+   "url": "https://en.wikipedia.org/wiki/Aestheticism",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1870,
+   "date_end": 1879,
+   "date_display": "1870–1879",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-177483.jpg",
+     "credit": "Wikimedia Commons: File:The_Peacock_Room.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-177483.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Aestheticism (also known as the aesthetic movement) was an art movement in the late 19th century that valued the appearance of literature, music, fonts, and the arts over their functions. According to Aestheticism, art should be produced to be beautiful, rather than to teach a lesson, create a parallel, or perform another didactic purpose, a sentiment expressed in the slogan \"art for art's sake\". Aestheticism flourished, in the 1870s and 1880s, gaining prominence and the support of notable writers, such as Walter Pater and Oscar Wilde. Those seen as guided by the movement were known as  Aesthe"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q256922"
+   }
+  },
+  {
+   "id": "wikipedia-en-1894969",
+   "source": "wikipedia",
+   "name": "The Owl and the Pussy-Cat",
+   "url": "https://en.wikipedia.org/wiki/The_Owl_and_the_Pussy-Cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1871,
+   "date_end": null,
+   "date_display": "1871",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1894969.jpg",
+     "credit": "Wikimedia Commons: File:Owlpussycat.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1894969.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"The Owl and the Pussy-Cat\" is a nonsense poem by Edward Lear, first published in 1870 in the American magazine Our Young Folks and again the following year in Lear's own book Nonsense Songs, Stories, Botany, and Alphabets. Lear wrote the poem for a three-year-old girl, Janet Symonds, the daughter of Lear's friend and fellow poet John Addington Symonds and his wife Catherine Symonds. The term \"runcible\", used for the phrase \"runcible spoon\", was invented for the poem. It is believed that the cat in the poem was based on Lear's own pet cat, Foss."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3522145"
+   }
+  },
+  {
+   "id": "wikipedia-en-531057",
+   "source": "wikipedia",
+   "name": "Ringling Bros. and Barnum & Bailey Circus",
+   "url": "https://en.wikipedia.org/wiki/Ringling_Bros._and_Barnum_%26_Bailey_Circus",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1871,
+   "date_end": null,
+   "date_display": "1871",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-531057.png",
+     "credit": "Wikimedia Commons: File:Ringling_Bros._and_Barnum_&_Bailey_2023_logo.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-531057.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Ringling Bros. and Barnum & Bailey Circus, or simply Ringling, is an American traveling circus company billed as The Greatest Show on Earth. It and its predecessors have run shows from 1871, with a hiatus from 2017 to 2023. The circus started in 1919 when the Barnum & Bailey's Greatest Show on Earth, a circus created by P. T. Barnum and James Anthony Bailey, was merged with the Ringling Bros."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2642430"
+   }
+  },
+  {
+   "id": "wikipedia-en-413475",
+   "source": "wikipedia",
+   "name": "Royal Kennel Club",
+   "url": "https://en.wikipedia.org/wiki/Royal_Kennel_Club",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1873,
+   "date_end": null,
+   "date_display": "1873",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-413475.png",
+     "credit": "Wikimedia Commons: File:The_Kennel_Club_logo.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-413475.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Royal Kennel Club (formerly The Kennel Club) is the official kennel club of the United Kingdom. Its role is to oversee various canine activities including dog shows and agility and working trials. It also operates the national register of pedigree dogs in the United Kingdom and acts as a lobby group on issues involving dogs in the UK.\nThe club has four principal physical locations. Its headquarters are on Clarges Street in Mayfair, London, incorporating a private members' club (with bar, lounge, and dining facilities), meeting and conference rooms, art gallery, library, picture library, an"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q39431"
+   }
+  },
+  {
+   "id": "wikipedia-en-14737186",
+   "source": "wikipedia",
+   "name": "Aoyama Cemetery",
+   "url": "https://en.wikipedia.org/wiki/Aoyama_Cemetery",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1874,
+   "date_end": null,
+   "date_display": "1874",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-14737186.jpg",
+     "credit": "Wikimedia Commons: File:View_of_Aoyama_Cemetery_from_Roppongi_Hills_Mori_Tower_-_Dec_2019_-_1.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-14737186.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Aoyama Cemetery (Japanese: 青山霊園, Hepburn: Aoyama reien) is a cemetery in Aoyama, Tokyo, Japan, managed by the Tokyo Metropolitan Government.  The cemetery is known for its cherry blossoms and is popular during the season of hanami."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1036028"
+   }
+  },
+  {
+   "id": "wikipedia-en-74531340",
+   "source": "wikipedia",
+   "name": "Woman with a Cat (Renoir)",
+   "url": "https://en.wikipedia.org/wiki/Woman_with_a_Cat_(Renoir)",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1875,
+   "date_end": null,
+   "date_display": "1875",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-74531340.jpg",
+     "credit": "Wikimedia Commons: File:Pierre-Auguste_Renoir_-_Femme_au_chat.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-74531340.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Woman with a Cat is an 1875 painting by the French artist Pierre-Auguste Renoir.  It depicts a young woman sitting in a chair holding a cat. The work was gifted by Mr. and Mrs."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q20188807"
+   }
+  },
+  {
+   "id": "wikipedia-en-80233619",
+   "source": "wikipedia",
+   "name": "Pool in a Harem",
+   "url": "https://en.wikipedia.org/wiki/Pool_in_a_Harem",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1875,
+   "date_end": 1876,
+   "date_display": "1875–1876",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-80233619.jpg",
+     "credit": "Wikimedia Commons: File:Jean-Léon_Gérôme_-_Pool_in_a_Harem.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-80233619.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Pool in a Harem (French: Piscine dans un harem) is an 1876 genre painting by the French artist Jean-Léon Gérôme. It features a scene in a bathhouse in the Middle Eastern harem. Produced in the academic style popular during the era, it combines elements of nude art and orientalism. It features amongst others Emma Dupont, a regular model of Gérôme."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q28666504"
+   }
+  },
+  {
+   "id": "wikipedia-en-608423",
+   "source": "wikipedia",
+   "name": "Choro",
+   "url": "https://en.wikipedia.org/wiki/Choro",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1875,
+   "date_end": null,
+   "date_display": "1875",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-608423.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Choro (Portuguese pronunciation: [ˈʃoɾu], \"cry\" or \"lament\"), also popularly called chorinho (\"little cry\" or \"little lament\"), is an instrumental Brazilian popular music genre which originated in 19th century Rio de Janeiro. Despite its name, the music often has a fast and happy rhythm. It is characterized by virtuosity, improvisation and subtle modulations, and is full of syncopation and counterpoint. Choro is considered the first characteristically Brazilian genre of urban popular music."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1076539"
+   }
+  },
+  {
+   "id": "wikipedia-en-2646870",
+   "source": "wikipedia",
+   "name": "National Museum of Nature and Science",
+   "url": "https://en.wikipedia.org/wiki/National_Museum_of_Nature_and_Science",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1877,
+   "date_end": null,
+   "date_display": "1877",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2646870.jpg",
+     "credit": "Wikimedia Commons: File:NMNC01s3200.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2646870.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The National Museum of Nature and Science (国立科学博物館, Kokuritsu Kagaku Hakubutsukan) is in the northeast corner of Ueno Park in Tokyo. The museum has exhibitions on pre-Meiji science in Japan. It is the venue of the taxidermied bodies of the legendary dogs Hachikō and Taro and Jiro. A life-size blue whale model and a steam locomotive are also on display outside."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q74940"
+   }
+  },
+  {
+   "id": "wikipedia-en-79139626",
+   "source": "wikipedia",
+   "name": "Diana Surprised",
+   "url": "https://en.wikipedia.org/wiki/Diana_Surprised",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1879,
+   "date_end": null,
+   "date_display": "1879",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-79139626.jpg",
+     "credit": "Wikimedia Commons: File:1879_Jules_Joseph_Lefebvre_-_Diana_surprised.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-79139626.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Diana Surprised (French: Diane surprise) is an 1879 oil painting by Jules Joseph Lefebvre. It depicts Diana and her attendants trying to cover themselves after being surprised while bathing naked. Lefebvre did not feel it was complete in time for the Exposition Universelle of 1878, but it was featured at the Salon of 1879 at the Louvre in Paris. Today it is in the collection of the Museo Nacional de Bellas Artes in Argentina."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q27951257"
+   }
+  },
+  {
+   "id": "wikipedia-en-16175151",
+   "source": "wikipedia",
+   "name": "Bathers at Asnières",
+   "url": "https://en.wikipedia.org/wiki/Bathers_at_Asni%C3%A8res",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1884,
+   "date_end": null,
+   "date_display": "1884",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-16175151.jpg",
+     "credit": "Wikimedia Commons: File:Baigneurs_a_Asnieres.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-16175151.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bathers at Asnières (French: Une Baignade, Asnières) is an 1884 oil on canvas painting by the French artist Georges Seurat, the first of his two masterpieces on the monumental scale. The canvas is of a suburban, placid Parisian riverside scene. Isolated figures, with their clothes piled sculpturally on the riverbank, together with trees, austere boundary walls and buildings, and the River Seine are presented in a formal layout. A combination of complex brushstroke techniques and a meticulous application of contemporary color theory bring to the composition a sense of gentle vibrancy and timele"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1090837"
+   }
+  },
+  {
+   "id": "wikipedia-en-41717476",
+   "source": "wikipedia",
+   "name": "Cole Bros. Circus",
+   "url": "https://en.wikipedia.org/wiki/Cole_Bros._Circus",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1884,
+   "date_end": null,
+   "date_display": "1884",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-41717476.png",
+     "credit": "Wikimedia Commons: File:Advertisement_for_W.W._Cole's_circus,_1884.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-41717476.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Cole Bros. Circus was a medium-sized American circus. It was founded in 1884 as \"W.W. Cole's New Colossal Shows\", by William Washington Cole. Ownership of this circus was passed around and in 1900 the Circus was bought by two Canadian showmen, Martin and James Down which was when the name was changed to Cole Bros."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q16827348"
+   }
+  },
+  {
+   "id": "wikipedia-en-880167",
+   "source": "wikipedia",
+   "name": "Ringling Brothers Circus",
+   "url": "https://en.wikipedia.org/wiki/Ringling_Brothers_Circus",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1884,
+   "date_end": null,
+   "date_display": "1884",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-880167.jpg",
+     "credit": "Wikimedia Commons: File:Flickr_-_…trialsanderrors_-_Madam_Ada_Castello_and_Jupiter,_poster_for_Ringling_Brothers,_ca._1899.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-880167.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Ringling Bros. World's Greatest Shows is a circus founded in Baraboo, Wisconsin, United States in 1884 by five of the seven Ringling brothers: Albert, August, Otto, Alfred T., Charles, John, and Henry. The Ringling brothers were sons of a German immigrant, August Frederick Rüngeling, who changed his name to Ringling once he settled in America. Four brothers were born in McGregor, Iowa: Alf T., Charles, John and Henry."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1144946"
+   }
+  },
+  {
+   "id": "wikipedia-en-80230595",
+   "source": "wikipedia",
+   "name": "The Great Bath at Bursa",
+   "url": "https://en.wikipedia.org/wiki/The_Great_Bath_at_Bursa",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1885,
+   "date_end": null,
+   "date_display": "1885",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-80230595.jpg",
+     "credit": "Wikimedia Commons: File:La_grande_piscine_de_brousse.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-80230595.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Great Bath at Bursa (French: La grande piscine de Brousse) is an 1885 oil painting by the French artist Jean-Léon Gérôme. It features a view  inside the bathhouse in the western Turkish city of Bursa then in the Ottoman Empire. It combines Orientalist elements and the academic nude style then at the height of its popularity. It was displayed at the Salon of 1885 in Paris."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q19861886"
+   }
+  },
+  {
+   "id": "wikipedia-en-390160",
+   "source": "wikipedia",
+   "name": "Shibuya Station",
+   "url": "https://en.wikipedia.org/wiki/Shibuya_Station",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1885,
+   "date_end": null,
+   "date_display": "1885",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-390160.jpg",
+     "credit": "Wikimedia Commons: File:渋谷駅全景2025.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-390160.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Shibuya Station (渋谷駅, Shibuya-eki) is a major railway station in Shibuya, Tokyo, Japan, operated by East Japan Railway Company (JR East), Keio Corporation, Tokyu Corporation, and Tokyo Metro. It serves as a terminal for six railway lines, five of which are operated by Tokyo Metro and Tokyu Corporation.\nAs of 2025, the station is visited by approximately 3 million people per day, making it the second-busiest railway station in the world. The station handles a large population of commuter traffic between the city center and suburbs to the south and west."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q428811"
+   }
+  },
+  {
+   "id": "wikipedia-en-64461968",
+   "source": "wikipedia",
+   "name": "Woman in a Tub (Degas)",
+   "url": "https://en.wikipedia.org/wiki/Woman_in_a_Tub_(Degas)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1886,
+   "date_end": null,
+   "date_display": "1886",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-64461968.jpg",
+     "credit": "Wikimedia Commons: File:Edgar_Degas_-_The_Tub_(Woman_in_a_Tub)_(1886)_Google_Art_Project.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-64461968.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Woman in a Tub (or The Tub) is one of a suite of pastels on paper created by the French painter Edgar Degas in the 1880s and is in the collection of the Hill-Stead Museum in Connecticut. The suite of pastels all featured nude women \"bathing, washing, drying, wiping themselves, combing their hair or having it combed\" and were created in readiness for the eighth and final Impressionist Exhibition of 1886.\nThe work demonstrates Degas' mastery of pastel drawing and, like the other works in the suite, portrays a woman engaged in a mundane private activity, in this case spongeing down her bathtub. T"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q96953521"
+   }
+  },
+  {
+   "id": "wikipedia-en-244716",
+   "source": "wikipedia",
+   "name": "The Carnival of the Animals",
+   "url": "https://en.wikipedia.org/wiki/The_Carnival_of_the_Animals",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1886,
+   "date_end": null,
+   "date_display": "1886",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-244716.jpg",
+     "credit": "Wikimedia Commons: File:Saint-Saëns-circa-1880.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-244716.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Carnival of the Animals (French: Le Carnaval des animaux) is a humorous musical suite of 14 movements, including \"The Swan\", by the French composer Camille Saint-Saëns. About 25 minutes long, it was written for private performance by two pianos and chamber ensemble; Saint-Saëns prohibited public performance of the work during his lifetime, feeling that its frivolity would damage his standing as a serious composer. The suite was published in 1922, the year after his death. A public performance that year was greeted with enthusiasm, and it has remained among his most popular works."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q941724"
+   }
+  },
+  {
+   "id": "wikipedia-en-8045672",
+   "source": "wikipedia",
+   "name": "Crossing the Bar",
+   "url": "https://en.wikipedia.org/wiki/Crossing_the_Bar",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 1889,
+   "date_end": null,
+   "date_display": "1889",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-8045672.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Crossing the Bar\" is an 1889 elegiac poem by Alfred, Lord Tennyson. The narrator uses an extended metaphor to compare death with crossing the \"sandbar\" between the river of life, with its outgoing \"flood\", and the ocean that lies beyond death, the \"boundless deep\", to which we return."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5188671"
+   }
+  },
+  {
+   "id": "wikipedia-en-16113353",
+   "source": "wikipedia",
+   "name": "Chūō Line (Rapid)",
+   "url": "https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D_Line_(Rapid)",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1889,
+   "date_end": null,
+   "date_display": "1889",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-16113353.jpg",
+     "credit": "Wikimedia Commons: File:JRE_Series-E233-T4_12cars.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-16113353.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Chūō Line (Rapid) (Japanese: 中央線快速, Hepburn: Chūō-sen kaisoku) is the name given to a rapid train service in Greater Tokyo, operating between Tōkyō in Chiyoda, and Takao in Hachioji by the East Japan Railway Company (JR East). Some trains extend west beyond Takao to Ōtsuki in neighboring Yamanashi Prefecture. Other trains travel onward towards Ōme via the Ōme Line. It has been operating continuously in some form since April 1889 from its origins as part of the Kōbu Railway."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1191297"
+   }
+  },
+  {
+   "id": "wikipedia-en-43379022",
+   "source": "wikipedia",
+   "name": "After the Bath, Woman Drying Herself",
+   "url": "https://en.wikipedia.org/wiki/After_the_Bath,_Woman_Drying_Herself",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1890,
+   "date_end": 1899,
+   "date_display": "1890–1899",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-43379022.jpg",
+     "credit": "Wikimedia Commons: File:After_the_Bath,_Woman_drying_herself_-_Edgar_Degas_-_National_Gallery.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-43379022.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "After the Bath, Woman Drying Herself is a pastel drawing by Edgar Degas, made between 1890 and 1895.  Since 1959, it has been in the collection of the National Gallery, London. This work is one in a series of pastels and oils that Degas created depicting female nudes. Originally, Degas exhibited his works at Impressionist exhibitions in Paris, where he gained a loyal following."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q17510059"
+   }
+  },
+  {
+   "id": "wikipedia-en-3792611",
+   "source": "wikipedia",
+   "name": "The Cat Came Back",
+   "url": "https://en.wikipedia.org/wiki/The_Cat_Came_Back",
+   "categories": [
+    "cat",
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat in folklore",
+    "cat organ"
+   ],
+   "date_start": 1893,
+   "date_end": null,
+   "date_display": "1893",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3792611.jpg",
+     "credit": "Wikimedia Commons: File:Cat-Came-Back-1893.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3792611.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"The Cat Came Back\" is a blues-folk gallows comedy song about an indestructible cat written by Harry S. Miller in 1893. It has since entered the world of folklore and became a famous children's song."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3228478"
+   }
+  },
+  {
+   "id": "wikipedia-en-12389117",
+   "source": "wikipedia",
+   "name": "The Child's Bath",
+   "url": "https://en.wikipedia.org/wiki/The_Child%27s_Bath",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1893,
+   "date_end": null,
+   "date_display": "1893",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-12389117.jpg",
+     "credit": "Wikimedia Commons: File:Mary_Cassatt_-_The_Child's_Bath_-_Google_Art_Project.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-12389117.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Child's Bath (or The Bath) is an 1893 oil painting by American artist Mary Cassatt. The painting continues her interest in depicting bathing and motherhood, but it is distinct in its angle of vision. Both the subject matter and the overhead perspective were inspired by Japanese Woodcut prints and Edgar Degas.\nIt was bought by the Art Institute of Chicago in 1910, and has since become one of the most popular pieces in the museum."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3172226"
+   }
+  },
+  {
+   "id": "wikipedia-en-953263",
+   "source": "wikipedia",
+   "name": "Dogs Playing Poker",
+   "url": "https://en.wikipedia.org/wiki/Dogs_Playing_Poker",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1894,
+   "date_end": 1910,
+   "date_display": "1894–1910",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-953263.png",
+     "credit": "Wikimedia Commons: File:Cassius_Marcellus_Coolidge_-_Poker_Game_(1894).png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-953263.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Dogs Playing Poker is the informal name for a series of oil paintings by American artist Cassius Marcellus Coolidge created between 1894 and 1910. Most of the paintings depict dogs playing the card game poker, and a smaller number show dogs performing other human actions. The best known works are the 1903 series of sixteen oil paintings commissioned by Brown & Bigelow to advertise cigars. All eighteen paintings in the overall series feature anthropomorphized dogs, but the eleven in which dogs are seated around a card table have become well known in the United States as examples of kitsch art i"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2963501"
+   }
+  },
+  {
+   "id": "wikipedia-en-2208584",
+   "source": "wikipedia",
+   "name": "Hershey bar",
+   "url": "https://en.wikipedia.org/wiki/Hershey_bar",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 1894,
+   "date_end": null,
+   "date_display": "1894",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2208584.jpg",
+     "credit": "Wikimedia Commons: File:Hershey-bar-open.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2208584.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Hershey's Milk Chocolate Bar (commonly called the Hershey's Bar, or more simply the Hershey Bar) is a flagship chocolate bar manufactured by The Hershey Company. Hershey refers to it as \"The Great American Chocolate Bar\". The Hershey Milk Chocolate Bar was first sold in 1900."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4793617"
+   }
+  },
+  {
+   "id": "wikipedia-en-66215485",
+   "source": "wikipedia",
+   "name": "Monkey Before Skeleton",
+   "url": "https://en.wikipedia.org/wiki/Monkey_Before_Skeleton",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 1900,
+   "date_end": null,
+   "date_display": "1900",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-66215485.jpg",
+     "credit": "Wikimedia Commons: File:Affe_vor_Skelett.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-66215485.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Monkey Before Skeleton (German:Affe vor Skelett) is the title of a painting by the Bohemian painter Gabriel von Max from around 1900. The 61 cm × 44.5 cm large work of art, painted with oil paints on canvas, shows a monkey facing a skeleton against the backdrop of a darkened interior. As part of Max's late work, the motif of the monkey can be found in a number of other depictions, which were created from 1871 until the artist's death in 1915. The painting is now in private ownership in Hamburg."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q15260686"
+   }
+  },
+  {
+   "id": "wikipedia-en-81430167",
+   "source": "wikipedia",
+   "name": "Water Babies (painting)",
+   "url": "https://en.wikipedia.org/wiki/Water_Babies_(painting)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1900,
+   "date_end": null,
+   "date_display": "1900",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-81430167.jpg",
+     "credit": "Wikimedia Commons: File:Edward_Poynter_-_Water_Babies.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-81430167.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Water Babies is a 1900 oil painting by the British artist Edward Poynter. A blend of history painting and nude art, it shows two woman bathing in Ancient Rome. Poynter had been elected as President of the Royal Academy in 1896 in succession to John Everett Millais and held the position until his death in 1919.The painting was displayed at the Royal Academy's Summer Exhibition of 1900 at Burlington House. It has more recently been auctioned at Sotheby's."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q136746654"
+   }
+  },
+  {
+   "id": "wikipedia-en-2856775",
+   "source": "wikipedia",
+   "name": "Hagenbeck–Wallace Circus",
+   "url": "https://en.wikipedia.org/wiki/Hagenbeck%E2%80%93Wallace_Circus",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1907,
+   "date_end": null,
+   "date_display": "1907",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2856775.jpg",
+     "credit": "Wikimedia Commons: File:Hagenbeck-Wallace_circus.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2856775.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Hagenbeck–Wallace Circus was a circus that traveled across America in the early part of the 20th century.  At its peak, it was the second-largest circus in America next to Ringling Brothers and Barnum and Bailey Circus.  It was based in Peru, Indiana."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1092964"
+   }
+  },
+  {
+   "id": "wikipedia-en-81243453",
+   "source": "wikipedia",
+   "name": "A Favourite Custom",
+   "url": "https://en.wikipedia.org/wiki/A_Favourite_Custom",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1909,
+   "date_end": null,
+   "date_display": "1909",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-81243453.jpg",
+     "credit": "Wikimedia Commons: File:Alma-Tadema_A_Favourite_Custom_1909_Tate_Britain.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-81243453.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "A Favourite Custom is an oil on canvas history painting by the Dutch British artist Lawrence Alma-Tadema, from 1909."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q28533132"
+   }
+  },
+  {
+   "id": "wikipedia-en-79420155",
+   "source": "wikipedia",
+   "name": "Hylas and the Water Nymphs",
+   "url": "https://en.wikipedia.org/wiki/Hylas_and_the_Water_Nymphs",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1909,
+   "date_end": null,
+   "date_display": "1909",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-79420155.png",
+     "credit": "Wikimedia Commons: File:Rae_-_Water_Nymphs_(color).png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-79420155.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Hylas and the Water Nymphs is a 1909 history painting by the British artist Henrietta Rae. It depicts Hylas, a figure from Greek and Roman Mythology, being rescued by water nymphs. Stylistically it echoes Hylas and the Nymphs by John William Waterhouse of 1896.\nIt was displayed at the Royal Academy's Summer Exhibition of 1910 in London."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q110701527"
+   }
+  },
+  {
+   "id": "wikipedia-en-22607580",
+   "source": "wikipedia",
+   "name": "Boone Tavern",
+   "url": "https://en.wikipedia.org/wiki/Boone_Tavern",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1909,
+   "date_end": null,
+   "date_display": "1909",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-22607580.jpg",
+     "credit": "Wikimedia Commons: File:BooneTavernBerea.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-22607580.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Boone Tavern  is a restaurant, hotel, and guesthouse affiliated with Berea College in Berea, Madison County, Kentucky.\nBoone Tavern Hotel of Berea College is a member of Historic Hotels of America, the official program of the National Trust for Historic Preservation."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4943651"
+   }
+  },
+  {
+   "id": "wikipedia-en-58579624",
+   "source": "wikipedia",
+   "name": "Anzacs Bathing",
+   "url": "https://en.wikipedia.org/wiki/Anzacs_Bathing",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1916,
+   "date_end": null,
+   "date_display": "1916",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-58579624.jpg",
+     "credit": "Wikimedia Commons: File:Anzacs_Bathing_in_the_Sea_(George_Lambert).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-58579624.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Anzacs Bathing is a 1916 painting by Australian artist George Washington Lambert."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q56750856"
+   }
+  },
+  {
+   "id": "wikipedia-en-61319524",
+   "source": "wikipedia",
+   "name": "Tommies Bathing (John Singer Sargent)",
+   "url": "https://en.wikipedia.org/wiki/Tommies_Bathing_(John_Singer_Sargent)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1918,
+   "date_end": null,
+   "date_display": "1918",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-61319524.jpg",
+     "credit": "Wikimedia Commons: File:Tommies_Bathing_MET_APS153_50.130.58.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-61319524.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Tommies Bathing is a 1918 watercolor painting by John Singer Sargent. It is in the collection of the Metropolitan Museum of Art, in New York."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q19923845"
+   }
+  },
+  {
+   "id": "wikipedia-en-197889",
+   "source": "wikipedia",
+   "name": "Felix the Cat",
+   "url": "https://en.wikipedia.org/wiki/Felix_the_Cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1919,
+   "date_end": null,
+   "date_display": "1919",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-197889.png",
+     "credit": "Wikimedia Commons: File:Felix_for_Judy_-_Svg.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-197889.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Felix the Cat is a cartoon character created in 1919 by Otto Messmer and Pat Sullivan during the silent film era. An anthropomorphic juvenile black cat with white eyes, a black body, and a giant grin, he is often considered one of the most recognized cartoon characters in history. Felix was the first fully realized recurring animal character in the history of American film animation.\nFelix originated from the studio of Australian cartoonist-film entrepreneur Pat Sullivan."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q692603"
+   }
+  },
+  {
+   "id": "wikipedia-en-12663",
+   "source": "wikipedia",
+   "name": "Green Bay Packers",
+   "url": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1919,
+   "date_end": null,
+   "date_display": "1919",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-12663.png",
+     "credit": "Wikimedia Commons: File:Green_Bay_Packers_logo.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-12663.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Green Bay Packers are a professional American football team based in Green Bay, Wisconsin. The Packers compete in the National Football League (NFL) as a member of the National Football Conference (NFC) North division.  They are the third-oldest franchise in the NFL, established in 1919, and are the only non-profit, community-owned major league professional sports team based in the United States. Since 1957, home games have been played at Lambeau Field."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q213837"
+   }
+  },
+  {
+   "id": "wikipedia-en-5247",
+   "source": "wikipedia",
+   "name": "Country music",
+   "url": "https://en.wikipedia.org/wiki/Country_music",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1920,
+   "date_end": null,
+   "date_display": "1920",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-5247.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Country music, also known as country and western or simply country, is a music genre originating from the United States. It is known for its ballads and dance tunes, identifiable by both traditional lyrics and harmonies accompanied by banjos, mandolins, fiddles, harmonicas, and many types of guitar; either acoustic, electric, steel, or resonator guitars. Once called hillbilly music, the term country music was popularized in the 1940s.\nCountry music was first developed in the South, and then spread throughout the Piedmont, from Louisiana along the Appalachian Mountains to New York."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q83440"
+   }
+  },
+  {
+   "id": "wikipedia-en-320594",
+   "source": "wikipedia",
+   "name": "Gummy bear",
+   "url": "https://en.wikipedia.org/wiki/Gummy_bear",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1922,
+   "date_end": null,
+   "date_display": "1922",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-320594.jpg",
+     "credit": "Wikimedia Commons: File:Oursons_gélatine_marché_Rouffignac.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-320594.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Gummy bears (German: Gummibärchen) are small, fruit gum candies, similar to a jelly baby in some English-speaking countries. The candy is roughly 2 cm (0.8 in) long and shaped in the form of a bear. The gummy bear is one of many gummies, popular gelatin-based candies sold in a variety of shapes and colors by various brands such as Haribo."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q753053"
+   }
+  },
+  {
+   "id": "wikipedia-en-72793",
+   "source": "wikipedia",
+   "name": "Pete (Disney)",
+   "url": "https://en.wikipedia.org/wiki/Pete_(Disney)",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1925,
+   "date_end": null,
+   "date_display": "1925",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-72793.png",
+     "credit": "Wikimedia Commons: File:Pete_in_The_Chain_Gang_(1930).png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-72793.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Pete (also named Peg Leg Pete, Bad Pete, and Black Pete, among other names) is a cartoon character created by Walt Disney and Ub Iwerks of The Walt Disney Company. Pete is traditionally depicted as the villainous arch-nemesis of Mickey Mouse, and was made notorious for his repeated attempts to kidnap Minnie Mouse. Pete is the oldest continuing Disney character, having debuted in the cartoon Alice Solves the Puzzle in 1925. He originally bore the appearance of an anthropomorphic bear, but with the advent of Mickey in 1928, he was defined as a cat."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q11947"
+   }
+  },
+  {
+   "id": "wikipedia-en-14719038",
+   "source": "wikipedia",
+   "name": "Millions of Cats",
+   "url": "https://en.wikipedia.org/wiki/Millions_of_Cats",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1928,
+   "date_end": null,
+   "date_display": "1928",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-14719038.jpg",
+     "credit": "Wikimedia Commons: File:Wanda_Gag-Millions_of_Cats.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-14719038.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Millions of Cats is a children's picture book written and illustrated by Wanda Gág in 1928. The book won a Newbery Honor award in 1929, one of the few picture books to do so. Millions of Cats is the oldest American picture book still in print. It entered the public domain in the United States on January 1st, 2024."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6859849"
+   }
+  },
+  {
+   "id": "wikipedia-en-72715395",
+   "source": "wikipedia",
+   "name": "Cat and Bird",
+   "url": "https://en.wikipedia.org/wiki/Cat_and_Bird",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1928,
+   "date_end": null,
+   "date_display": "1928",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-72715395.jpg",
+     "credit": "Wikimedia Commons: File:NY_Moma_klee_cat_and_bird.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-72715395.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Cat and Bird is a painting by Swiss German painter Paul Klee, created in 1928. It was made when Klee was a teacher at the Bauhaus Dessau. The painting depicts the wide face of a stylized cat with a small bird perched on its forehead. It is held in the Museum of Modern Art, in New York."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q19883984"
+   }
+  },
+  {
+   "id": "wikipedia-en-1465071",
+   "source": "wikipedia",
+   "name": "Hachikō Line",
+   "url": "https://en.wikipedia.org/wiki/Hachik%C5%8D_Line",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1931,
+   "date_end": null,
+   "date_display": "1931",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1465071.jpg",
+     "credit": "Wikimedia Commons: File:Hachiko_Line_KiHa_110-219_south_of_Takezawa_Station_20170211.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1465071.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Hachikō Line (八高線, Hachikō-sen) is a 92.0 km (57.2 mi) regional railway line owned and operated by East Japan Railway Company (JR East). It is located within Tokyo, Saitama, and Gunma Prefectures in Japan. It connects Hachiōji Station in Hachiōji, Tokyo with Kuragano Station in Takasaki, Gunma Prefecture."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1372071"
+   }
+  },
+  {
+   "id": "wikipedia-en-247079",
+   "source": "wikipedia",
+   "name": "Mars bar",
+   "url": "https://en.wikipedia.org/wiki/Mars_bar",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 1932,
+   "date_end": null,
+   "date_display": "1932",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-247079.jpg",
+     "credit": "Wikimedia Commons: File:MBar_700.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-247079.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Mars, commonly known as a Mars bar, is a chocolate bar produced by Mars Inc., consisting of caramel and nougat coated with milk chocolate. It was first manufactured in 1932 in England by Forrest Mars Sr., modelled after his father's original Milky Way bar.\nA chocolate bar called Mars Bar was produced in the United States with nougat and toasted almonds covered in milk chocolate, and later also with caramel, sold in cream-coloured packaging. This was discontinued in 2002, then revived in a slightly different form the following year under the name \"Snickers Almond\"."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q31305"
+   }
+  },
+  {
+   "id": "wikipedia-en-147739",
+   "source": "wikipedia",
+   "name": "Shibuya",
+   "url": "https://en.wikipedia.org/wiki/Shibuya",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1932,
+   "date_end": 1947,
+   "date_display": "1932–1947",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-147739.jpg",
+     "credit": "Wikimedia Commons: File:Shibuya_skyline_from_Tokyu_Plaza_in_Omotesando,_Harajuku,_Tokyo,_2024_May.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-147739.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Shibuya (渋谷区, Shibuya-ku; IPA: [ɕì.bɯ̈́.jä́(.kɯ̈̀)] ) is a special ward in Tokyo, Japan. A major commercial center, Shibuya houses two of the busiest railway stations in the world, Shibuya Station and Shinjuku Station (southern half).\nAs of January 1, 2024, Shibuya has an estimated population of 230,609 in 142,443 households and a population density of 15,262.01 people per square kilometer (39,528.4 people/mi2). The total area is 15.11 km2 (5.83 sq mi)."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q193638"
+   }
+  },
+  {
+   "id": "wikipedia-en-3634372",
+   "source": "wikipedia",
+   "name": "Tobu Ogose Line",
+   "url": "https://en.wikipedia.org/wiki/Tobu_Ogose_Line",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1932,
+   "date_end": null,
+   "date_display": "1932",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3634372.jpg",
+     "credit": "Wikimedia Commons: File:Tobu-Series8000_8184.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3634372.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Ogose Line (越生線, Ogose-sen) is a 10.9-kilometre (6.8 mi), mostly single-track branch line in Saitama Prefecture, Japan, operated by the private railway operator Tobu Railway. It runs from Sakado Station on the Tojo Line to Ogose Station, connecting with the JR East Hachikō Line."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2782450"
+   }
+  },
+  {
+   "id": "wikipedia-en-1669141",
+   "source": "wikipedia",
+   "name": "Komagawa Station",
+   "url": "https://en.wikipedia.org/wiki/Komagawa_Station",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1933,
+   "date_end": null,
+   "date_display": "1933",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1669141.jpg",
+     "credit": "Wikimedia Commons: File:Komagawa_Station_-_Saitama_-_Sep_6_2020_various_14_50_32_972000.jpeg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1669141.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Komagawa Station (高麗川駅, Komagawa-eki) is a junction passenger railway station located in the city of Hidaka, Saitama, Japan, operated by the East Japan Railway Company (JR East)."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q910599"
+   }
+  },
+  {
+   "id": "wikipedia-en-5550580",
+   "source": "wikipedia",
+   "name": "Tavern on the Green",
+   "url": "https://en.wikipedia.org/wiki/Tavern_on_the_Green",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1934,
+   "date_end": null,
+   "date_display": "1934",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-5550580.png",
+     "credit": "Wikimedia Commons: File:Tavern_on_the_Green_logo.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-5550580.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Tavern on the Green is an American cuisine restaurant in Central Park in Manhattan, New York City, near the intersection of Central Park West and West 66th Street on the Upper West Side. The restaurant, housed in a former sheepfold, has been operated by Jim Caiola and David Salama since 2014.\nFrom its opening in 1934 to its closure in 2009, the restaurant changed ownership several times. From 2010 until 2012, the building was used as a public visitor center and gift shop run by the New York City Department of Parks and Recreation."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4022491"
+   }
+  },
+  {
+   "id": "wikipedia-en-1748151",
+   "source": "wikipedia",
+   "name": "Billy Goat Tavern",
+   "url": "https://en.wikipedia.org/wiki/Billy_Goat_Tavern",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1934,
+   "date_end": null,
+   "date_display": "1934",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1748151.jpg",
+     "credit": "Wikimedia Commons: File:Billy_Goat_Tavern_in_Chicago,_Illinois.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1748151.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Billy Goat Tavern is a chain of taverns located in Chicago, Illinois.  Its restaurants are based on the original Billy Goat Tavern founded in 1934 by Billy Sianis, a Greek immigrant. It achieved fame primarily through newspaper columns by Mike Royko, a supposed curse on the Chicago Cubs, and the Olympia Cafe sketch on Saturday Night Live.\nThe tavern has eight locations with seven in Chicago, including the oldest extant location on Lower Michigan Avenue, Navy Pier, the Merchandise Mart, O'Hare Airport, Midway Airport, on Lake Street (1⁄2 block west of Michigan Avenue), and in the West Loop "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2903638"
+   }
+  },
+  {
+   "id": "wikipedia-en-62814677",
+   "source": "wikipedia",
+   "name": "Statue of Hachikō",
+   "url": "https://en.wikipedia.org/wiki/Statue_of_Hachik%C5%8D",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1934,
+   "date_end": null,
+   "date_display": "1934",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-62814677.jpg",
+     "credit": "Wikimedia Commons: File:Shibuya-Tokyo---2024-10-11_001.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-62814677.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "A statue of the Akita dog Hachikō, remembered for his unwavering loyalty to his deceased owner, is installed outside Tokyo's Shibuya Station, in Japan."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q62124995"
+   }
+  },
+  {
+   "id": "wikipedia-en-27856",
+   "source": "wikipedia",
+   "name": "Schrödinger's cat",
+   "url": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1935,
+   "date_end": null,
+   "date_display": "1935",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-27856.png",
+     "credit": "Wikimedia Commons: File:Schrodingers_cat.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-27856.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "In quantum mechanics, Schrödinger's cat is a thought experiment concerning quantum superposition. In the thought experiment, a hypothetical cat inside a closed box may be considered to be simultaneously both alive and dead while it is unobserved, as a result of its fate being linked to a random subatomic event that may or may not occur. This experiment, viewed this way, is described as a paradox. This thought experiment was devised by physicist Erwin Schrödinger in 1935, in a discussion with Albert Einstein, to illustrate what Schrödinger saw as the problems of Niels Bohr and Werner Heisenberg"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q8588"
+   }
+  },
+  {
+   "id": "wikipedia-en-42272153",
+   "source": "wikipedia",
+   "name": "Pine Tavern",
+   "url": "https://en.wikipedia.org/wiki/Pine_Tavern",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1936,
+   "date_end": null,
+   "date_display": "1936",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-42272153.jpg",
+     "credit": "Wikimedia Commons: File:Pine_Tavern_(Deschutes_County,_Oregon_scenic_images)_(desDA0076).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-42272153.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Pine Tavern is a restaurant in Bend, Oregon, United States. Opened in 1936, the restaurant is located in downtown Bend and is one of the city's best known landmarks.  The main dining room was built around two large ponderosa pine trees for which the restaurant is named. Both the main dining room and the restaurant's outdoor garden dining area overlook the Deschutes River."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q16898461"
+   }
+  },
+  {
+   "id": "wikipedia-en-1668655",
+   "source": "wikipedia",
+   "name": "Kawagoe Line",
+   "url": "https://en.wikipedia.org/wiki/Kawagoe_Line",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1940,
+   "date_end": null,
+   "date_display": "1940",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1668655.jpg",
+     "credit": "Wikimedia Commons: File:Kawagoe-Line_Series-E233-7000_111F.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1668655.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Kawagoe Line (Japanese: 川越線, Hepburn: Kawagoe-sen) is a railway line in Japan operated by the East Japan Railway Company (JR East), which connects the cities of Saitama, Kawagoe, and Hidaka in Saitama Prefecture. The main transfer stations on the line are Ōmiya, Kawagoe, and Komagawa."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1195907"
+   }
+  },
+  {
+   "id": "wikipedia-en-620",
+   "source": "wikipedia",
+   "name": "Animal Farm",
+   "url": "https://en.wikipedia.org/wiki/Animal_Farm",
+   "categories": [
+    "workplace",
+    "animal_musicians"
+   ],
+   "tags": [
+    "working animal",
+    "animals at work satire",
+    "animal music"
+   ],
+   "date_start": 1945,
+   "date_end": null,
+   "date_display": "1945",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-620.jpg",
+     "credit": "Wikimedia Commons: File:Animal_Farm_-_1st_edition.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-620.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Farm (originally Animal Farm: A Fairy Story) is a satirical, allegorical, dystopian novella and beast fable by George Orwell, first published in England on 17 August 1945. It follows the mistreated, anthropomorphized farm animals of Manor Farm as they rebel against their human master and endeavor to create a utopian society. However, the rebellion is hijacked and betrayed, and under the dictatorship of the pigs, the farm ends up in a dystopian state nearly identical to what it had been before.\nAccording to Orwell, Animal Farm was inspired by events leading up to the Russian Revolution o"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1396889"
+   }
+  },
+  {
+   "id": "wikipedia-en-25640330",
+   "source": "wikipedia",
+   "name": "Bhimsa, the Dancing Bear",
+   "url": "https://en.wikipedia.org/wiki/Bhimsa,_the_Dancing_Bear",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1945,
+   "date_end": null,
+   "date_display": "1945",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-25640330.jpg",
+     "credit": "Wikimedia Commons: File:BhimsaTheDancingBear.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-25640330.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bhimsa, the Dancing Bear is a 1945  children's novel written by Christine Weston and illustrated by Roger Duvoisin. Set in contemporary India, it follows the adventures of two boys, David and Gopali, as they roam the country with a dancing bear."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4901793"
+   }
+  },
+  {
+   "id": "wikipedia-en-15496915",
+   "source": "wikipedia",
+   "name": "Malaysian Bar",
+   "url": "https://en.wikipedia.org/wiki/Malaysian_Bar",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 1947,
+   "date_end": null,
+   "date_display": "1947",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-15496915.png",
+     "credit": "Wikimedia Commons: File:Malaysian_Bar_Council_Logo.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-15496915.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Malaysian Bar (Malay: Badan Peguam Malaysia) is a professional body which regulates the profession of lawyers in peninsular Malaysia. In Malaysia, there is no distinction between a barrister and a solicitor, in that, it is a fused profession. Membership into the Bar is automatic and mandatory. The bar was created under the Legal Profession Act 1976."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6741941"
+   }
+  },
+  {
+   "id": "wikipedia-en-1232556",
+   "source": "wikipedia",
+   "name": "Horseshoe Tavern",
+   "url": "https://en.wikipedia.org/wiki/Horseshoe_Tavern",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1947,
+   "date_end": null,
+   "date_display": "1947",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1232556.jpg",
+     "credit": "Wikimedia Commons: File:Horseshoe_Tavern.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1232556.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Horseshoe Tavern (known as The Horseshoe, The 'Shoe', The 'Toronto Tavern'  and The 'Triple T'  to Toronto locals) is a concert venue at 370 Queen Street West (northeast corner of Queen at Spadina) in downtown Toronto, Ontario, Canada, and has been in operation since 1947. Owned by \"JC\", Ken Sprackman, Craig Laskey, Naomi Montpetit, and the late Michael \"X-Ray\" MacRae, the venue is a significant part of Canadian musical lore. It is captured in the memories of thousands of concertgoers, and in books such as Have Not Been the Same."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5906075"
+   }
+  },
+  {
+   "id": "wikipedia-en-28923882",
+   "source": "wikipedia",
+   "name": "Hachikō Line derailment",
+   "url": "https://en.wikipedia.org/wiki/Hachik%C5%8D_Line_derailment",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1947,
+   "date_end": null,
+   "date_display": "1947",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-28923882.jpg",
+     "credit": "Wikimedia Commons: File:Hachiko_Line_Rail_Accident_in_1947.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-28923882.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Hachikō Line derailment (八高線列車脱線転覆事故, Hachikō-sen ressha dassen tenpuku jiko) was a major fatal railway accident which occurred on 25 February 1947 between Komagawa and Higashi-Hannō stations on the Hachikō Line in Japan. It is the worst railway accident to have occurred in Japan.\nA Japanese Government Railways (JGR) passenger train hauled by a Class C57 steam locomotive travelling in the \"down\" direction derailed on a sharp curve, and four cars rolled over into a field. 184 passengers were killed and 495 were injured."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q178681"
+   }
+  },
+  {
+   "id": "wikipedia-en-75010868",
+   "source": "wikipedia",
+   "name": "Dalí Atomicus",
+   "url": "https://en.wikipedia.org/wiki/Dal%C3%AD_Atomicus",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1948,
+   "date_end": null,
+   "date_display": "1948",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-75010868.jpg",
+     "credit": "Wikimedia Commons: File:Dalí_Atomicus_(final_version).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-75010868.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Dalí Atomicus is a surreal photograph of the artist Salvador Dalí jumping, taken by the photographer Philippe Halsman in 1948.  The photograph also features three cats flying through the air.\nAt least 26 takes of the photograph were made before Halsman was satisfied with the result.  The process took between five and six hours."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6809943"
+   }
+  },
+  {
+   "id": "wikipedia-en-6494145",
+   "source": "wikipedia",
+   "name": "Animal Farm (1954 film)",
+   "url": "https://en.wikipedia.org/wiki/Animal_Farm_(1954_film)",
+   "categories": [
+    "workplace",
+    "fighting"
+   ],
+   "tags": [
+    "animals at work satire",
+    "animal combat in art"
+   ],
+   "date_start": 1954,
+   "date_end": null,
+   "date_display": "1954",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-6494145.jpg",
+     "credit": "Wikimedia Commons: File:Animal_Farm_(1954).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-6494145.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Farm is a 1954 animated film directed and produced by John Halas and Joy Batchelor, funded in part by the Central Intelligence Agency (CIA), who also revised the original script. Based on the 1945 novella Animal Farm by George Orwell, the film is narrated by Gordon Heath, with the voices of animals provided by Maurice Denham.\nThe rights for a film adaptation were purchased from Orwell's widow, Sonia, after she was approached by agents working for the Office of Policy Coordination, a branch of the CIA that used culture to combat communism.\nDespite being a box office failure, taking fifte"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2299779"
+   }
+  },
+  {
+   "id": "wikipedia-en-54588",
+   "source": "wikipedia",
+   "name": "Captain Kangaroo",
+   "url": "https://en.wikipedia.org/wiki/Captain_Kangaroo",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1955,
+   "date_end": 1984,
+   "date_display": "1955–1984",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-54588.jpg",
+     "credit": "Wikimedia Commons: File:Captain_kangaroo_1976.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-54588.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Captain Kangaroo is an American children's television series that aired weekday mornings on the American television network CBS for 29 years, from 1955 to 1984, making it the longest-running children's program on a commercial network. In 1986, the American Program Service (now American Public Television) integrated some newly produced segments into reruns of past episodes, distributing the newer version of the series to PBS and independent public stations until 1993."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q447527"
+   }
+  },
+  {
+   "id": "wikipedia-en-148731",
+   "source": "wikipedia",
+   "name": "The Cat in the Hat",
+   "url": "https://en.wikipedia.org/wiki/The_Cat_in_the_Hat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1957,
+   "date_end": null,
+   "date_display": "1957",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-148731.png",
+     "credit": "Wikimedia Commons: File:The_Cat_in_the_Hat.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-148731.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Cat in the Hat is a 1957 children's book written and illustrated by American author Theodor \"Dr. Seuss\" Geisel. The story centers on a tall anthropomorphic cat who wears a red and white-striped top hat and a red bow tie. The Cat shows up at the house of Sally and her brother one rainy day when their mother is away."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q973053"
+   }
+  },
+  {
+   "id": "wikipedia-en-16220258",
+   "source": "wikipedia",
+   "name": "Freedom for Animals",
+   "url": "https://en.wikipedia.org/wiki/Freedom_for_Animals",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1957,
+   "date_end": null,
+   "date_display": "1957",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-16220258.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Freedom for Animals (FFA) is the working name of the Captive Animals' Protection Society, a charity registered in England campaigning to end the display of animals in zoos, and the use of animals in entertainment, such as circuses, the exotic pet trade and the audio-visual industry."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5036927"
+   }
+  },
+  {
+   "id": "wikipedia-en-29807536",
+   "source": "wikipedia",
+   "name": "Terminal Bar (bar)",
+   "url": "https://en.wikipedia.org/wiki/Terminal_Bar_(bar)",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 1958,
+   "date_end": null,
+   "date_display": "1958",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-29807536.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Terminal Bar was a bar on Times Square in New York City at 41st Street and 8th Avenue. It had a reputation as one of the roughest bars in the city and was located across from the Port Authority Bus Terminal. Terminal Bar originally had a mainly Irish American clientele, but over time evolved into a predominantly African American and gay bar.\nThe Terminal Bar was featured in the Martin Scorsese film Taxi Driver and was the subject of an award-winning American documentary short film, Terminal Bar, directed by Stefan Nadelman that used a combination of animation, live action and black-and-white p"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7702636"
+   }
+  },
+  {
+   "id": "wikipedia-en-29812",
+   "source": "wikipedia",
+   "name": "The Beatles",
+   "url": "https://en.wikipedia.org/wiki/The_Beatles",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "sentimental animal painting Victorian"
+   ],
+   "date_start": 1960,
+   "date_end": null,
+   "date_display": "1960",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-29812.jpg",
+     "credit": "Wikimedia Commons: File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-29812.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Beatles were an English rock band formed in Liverpool in 1960. The band comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are regarded as the most influential band in popular music and were integral to the development of 1960s counterculture and the recognition of popular music as an art form. Rooted in skiffle, beat and 1950s rock 'n' roll, their sound incorporated elements of classical music and traditional pop in innovative ways."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1299"
+   }
+  },
+  {
+   "id": "wikipedia-en-142179",
+   "source": "wikipedia",
+   "name": "Top Cat",
+   "url": "https://en.wikipedia.org/wiki/Top_Cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1961,
+   "date_end": 1962,
+   "date_display": "1961–1962",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-142179.png",
+     "credit": "Wikimedia Commons: File:Top_Cat_(Hanna-Barbera_Production)_logo.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-142179.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Top Cat is an American animated sitcom produced by Hanna-Barbera Productions and originally broadcast in prime time on the ABC network. It aired in a weekly evening time slot from September 27, 1961, to April 18, 1962, for a single season of 30 episodes. The show was a ratings failure in prime time, but became successful when repeated on Saturday morning television. The show also became popular in Latin American countries, the United Kingdom and the South of Europe."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q655271"
+   }
+  },
+  {
+   "id": "wikipedia-en-8616946",
+   "source": "wikipedia",
+   "name": "Havoc in Heaven",
+   "url": "https://en.wikipedia.org/wiki/Havoc_in_Heaven",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 1961,
+   "date_end": 1985,
+   "date_display": "1961–1985",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-8616946.jpg",
+     "credit": "Wikimedia Commons: File:Havoc_in_Heaven_poster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-8616946.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Havoc in Heaven (大鬧天宮), also translated as Uproar in Heaven, is a 1961 Chinese donghua feature film directed by Wan Laiming and produced by all four of the Wan brothers. The film was created at the height of the Chinese animation industry in the 1960s, and received numerous awards, earning the brothers domestic and international recognition. The story is an adaptation of the earlier episodes of the 16th-century Chinese novel Journey to the West.\nThe stylized animation and drums and percussion accompaniment used in this film are heavily influenced by Peking opera traditions."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1195096"
+   }
+  },
+  {
+   "id": "wikipedia-en-3875915",
+   "source": "wikipedia",
+   "name": "500 Miles",
+   "url": "https://en.wikipedia.org/wiki/500_Miles",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1961,
+   "date_end": null,
+   "date_display": "1961",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3875915.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"500 Miles\" (also known as \"500 Miles Away from Home\" or \"Railroaders' Lament\") is a song made popular in the United States and Western Europe during the 1960s folk revival. The simple repetitive lyrics offer a lament by a traveler who is far from home, out of money, and too ashamed to return."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3365146"
+   }
+  },
+  {
+   "id": "wikipedia-en-18787607",
+   "source": "wikipedia",
+   "name": "Tavern Guild",
+   "url": "https://en.wikipedia.org/wiki/Tavern_Guild",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1962,
+   "date_end": null,
+   "date_display": "1962",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-18787607.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Tavern Guild was an association of gay bar owners and liquor wholesalers that formed in 1962 in San Francisco, California, and lasted until 1995. \nThe Guild was the first gay business association in the United States, formed in response to rising tensions between the police and gay people. This coalition helped unify and protect gay bars and bartenders by fixing drink prices, developing a phone network to track police raids, and setting up funds for members who were unemployed. They also organized many fundraisers and charity events, including the annual Beaux Arts Ball."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7689063"
+   }
+  },
+  {
+   "id": "wikipedia-en-77003",
+   "source": "wikipedia",
+   "name": "The Animals",
+   "url": "https://en.wikipedia.org/wiki/The_Animals",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1962,
+   "date_end": 1963,
+   "date_display": "1962–1963",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-77003.jpg",
+     "credit": "Wikimedia Commons: File:Eric_Burdon_&_the_Animals.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-77003.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Animals are an English rock band formed in Newcastle upon Tyne in 1962. Their original lineup consisted of singer Eric Burdon, guitarist Hilton Valentine, bass guitarist Chas Chandler, keyboardist Alan Price, and drummer John Steel. Known for their gritty, bluesy sound, they balanced tough, rock-edged pop singles against rhythm-and-blues-oriented album material, and were part of the British Invasion of the US.\nThe Animals rose to prominence with their signature song and transatlantic number-one hit single \"The House of the Rising Sun\", and continued this success with hits such as \"I'm Cryi"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q131422"
+   }
+  },
+  {
+   "id": "wikipedia-en-5215949",
+   "source": "wikipedia",
+   "name": "Doyle New York",
+   "url": "https://en.wikipedia.org/wiki/Doyle_New_York",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1963,
+   "date_end": null,
+   "date_display": "1963",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-5215949.jpg",
+     "credit": "Wikimedia Commons: File:Doyle_New_York_(55503354316).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-5215949.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Doyle New York is an American auction house and appraiser of fine art, jewelry, furniture, decorations and other items. It offers auctions throughout the year at its premises on the Upper East Side of Manhattan.\nThe firm was founded in 1962 by the late William Doyle as William Doyle Antiques. In 1973, it was incorporated as William Doyle Galleries, Inc."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5303766"
+   }
+  },
+  {
+   "id": "wikipedia-en-45577568",
+   "source": "wikipedia",
+   "name": "Animal Bar (chocolate bar)",
+   "url": "https://en.wikipedia.org/wiki/Animal_Bar_(chocolate_bar)",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 1963,
+   "date_end": null,
+   "date_display": "1963",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-45577568.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Bar was a brand of chocolate bar, made by Nestlé.\nIn November 2023, Nestle announced that they would be withdrawing the Animal Bar from their range after 60 years due to low sales."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q19864335"
+   }
+  },
+  {
+   "id": "wikipedia-en-11446174",
+   "source": "wikipedia",
+   "name": "The Cat (album)",
+   "url": "https://en.wikipedia.org/wiki/The_Cat_(album)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 1964,
+   "date_end": null,
+   "date_display": "1964",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-11446174.jpg",
+     "credit": "Wikimedia Commons: File:The_Cat_(album).jpeg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-11446174.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Cat is a 1964 album by Jimmy Smith. It features Smith on Hammond B-3 organ with big band arrangements by composer Lalo Schifrin. The album reached number 12 on the Billboard 200 chart. Its title track peaked at number 67 on the Billboard Hot 100 for the weeks of September 26 and October 3, 1964."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7721619"
+   }
+  },
+  {
+   "id": "wikipedia-en-530774",
+   "source": "wikipedia",
+   "name": "Fritz the Cat (comics)",
+   "url": "https://en.wikipedia.org/wiki/Fritz_the_Cat_(comics)",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1965,
+   "date_end": null,
+   "date_display": "1965",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-530774.jpg",
+     "credit": "Wikimedia Commons: File:Fritz_description.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-530774.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Fritz the Cat is an American comic strip created by Robert Crumb. Set in a \"supercity\" of anthropomorphic animals, it focused on Fritz, a tabby cat who frequently went on wild adventures that sometimes involved sexual escapades. Crumb began drawing the character in homemade comic books as a child, and Fritz would become one of his best-known characters.\nThe strip first appeared in Help!"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1413936"
+   }
+  },
+  {
+   "id": "wikipedia-en-164561",
+   "source": "wikipedia",
+   "name": "The Mamas & the Papas",
+   "url": "https://en.wikipedia.org/wiki/The_Mamas_%26_the_Papas",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1965,
+   "date_end": null,
+   "date_display": "1965",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-164561.jpg",
+     "credit": "Wikimedia Commons: File:The_Mamas_and_the_Papas_Ed_Sullivan_Show_1968.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-164561.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Mamas & the Papas were an American folk rock vocal group that recorded and performed from 1965 to 1968, with a brief reunion in 1971. The group was a defining force in the music scene of the counterculture of the 1960s. Formed in New York City, the group consisted of Americans John Phillips, Cass Elliot, and Michelle Phillips, and Canadian Denny Doherty. Its sound was based on vocal harmonies arranged by John Phillips – the songwriter and leader of the group – who adapted folk to the new beat style of the early 1960s."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q211277"
+   }
+  },
+  {
+   "id": "wikipedia-en-59115739",
+   "source": "wikipedia",
+   "name": "Peter Getting Out of Nick's Pool",
+   "url": "https://en.wikipedia.org/wiki/Peter_Getting_Out_of_Nick%27s_Pool",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "bathing in art"
+   ],
+   "date_start": 1966,
+   "date_end": null,
+   "date_display": "1966",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-59115739.jpg",
+     "credit": "Wikimedia Commons: File:Peter_Getting_Out_of_Nick's_Pool.jpeg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-59115739.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Peter Getting Out of Nick's Pool is a 1966 acrylic-on-canvas painting by the British pop art artist David Hockney. It depicts the rear view of a naked man climbing out of a swimming pool outside a contemporary house. It is held at the Walker Art Gallery, in Liverpool."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q59342636"
+   }
+  },
+  {
+   "id": "wikipedia-en-1794715",
+   "source": "wikipedia",
+   "name": "Bar-Kays",
+   "url": "https://en.wikipedia.org/wiki/Bar-Kays",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 1966,
+   "date_end": null,
+   "date_display": "1966",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1794715.jpg",
+     "credit": "Wikimedia Commons: File:The_Bar-Kays_1968_press_photo.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1794715.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Bar-Kays is an American funk band formed in 1964. The band had dozens of charting singles from the 1960s to the 1980s, including \"Soul Finger\" (US Billboard Hot 100 number 17, R&B number 3) in 1967, \"Son of Shaft\" (R&B number 10) in 1972, and \"Boogie Body Land\" (R&B number 7) in 1980. The Bar-Kays also served as the backing band for a variety of singers, including Isaac Hayes and Otis Redding."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2080089"
+   }
+  },
+  {
+   "id": "wikipedia-en-4042773",
+   "source": "wikipedia",
+   "name": "The Mamas & the Papas (album)",
+   "url": "https://en.wikipedia.org/wiki/The_Mamas_%26_the_Papas_(album)",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1966,
+   "date_end": null,
+   "date_display": "1966",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-4042773.jpg",
+     "credit": "Wikimedia Commons: File:MamasPapas.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-4042773.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Mamas & the Papas is the second studio album by the American-Canadian folk rock vocal group the Mamas & the Papas, released on August 30, 1966. The album peaked at number 4 on the US Billboard 200 album chart and number 24 in the UK. The lead off single, \"I Saw Her Again\", reached number 5 on the US Billboard Hot 100 chart and number 11 in the UK Singles Chart. \"Words of Love\" was released as the second single in the US peaking at number 5. In the UK, it was released as a double A-side with \"Dancing in the Street\" (a cover of the 1964 hit by Martha and the Vandellas) and charted at number "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2277278"
+   }
+  },
+  {
+   "id": "wikipedia-en-351264",
+   "source": "wikipedia",
+   "name": "SCUM Manifesto",
+   "url": "https://en.wikipedia.org/wiki/SCUM_Manifesto",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 1967,
+   "date_end": null,
+   "date_display": "1967",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-351264.jpg",
+     "credit": "Wikimedia Commons: File:Valerie_Solanas_-_SCUM_Manifesto.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-351264.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "SCUM Manifesto is a manifesto by American radical feminist writer Valerie Solanas which was first self-published in 1967. Sometimes described as a satire or parody, it declares male biological and moral inferiority the cause of the ills of humankind and advocates eliminating men, urging women to \"overthrow the government, eliminate the money system, institute complete automation and eliminate the male sex\".\nThe term SCUM appeared on the cover of the first edition from Olympia Press, published in 1968 following Solanas's attempted assassination of Andy Warhol, as \"S.C.U.M. (Society for Cutting "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2364255"
+   }
+  },
+  {
+   "id": "wikipedia-en-1023418",
+   "source": "wikipedia",
+   "name": "The Changeling (Star Trek: The Original Series)",
+   "url": "https://en.wikipedia.org/wiki/The_Changeling_(Star_Trek:_The_Original_Series)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 1967,
+   "date_end": 1972,
+   "date_display": "1967–1972",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1023418.jpg",
+     "credit": "Wikimedia Commons: File:\"The_Changeling\"_(Star_Trek)_screenshot.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1023418.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"The Changeling\" is the third episode of the second season of the American science fiction television series Star Trek. Written by John Meredyth Lucas and directed by Marc Daniels, it was first broadcast on September 29, 1967.\nThe crew of the USS Enterprise deals with a life-destroying space probe originally launched from Earth. The plot contains similarities to the later 1979 Star Trek film."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3488816"
+   }
+  },
+  {
+   "id": "wikipedia-en-13252514",
+   "source": "wikipedia",
+   "name": "Simon Smith and the Amazing Dancing Bear",
+   "url": "https://en.wikipedia.org/wiki/Simon_Smith_and_the_Amazing_Dancing_Bear",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1967,
+   "date_end": null,
+   "date_display": "1967",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-13252514.jpg",
+     "credit": "Wikimedia Commons: File:Simon_Smith_and_the_Amazing_Dancing_Bear.jpeg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-13252514.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Simon Smith and the Amazing Dancing Bear\" is a song written by Randy Newman, about a young man of modest means who entertains affluent diners with his dancing bear. The Alan Price Set released a version as a double A-side with \"Tickle Me\" on 24 February 1967, and it reached number four on the Record Retailer chart in Britain. The success brought Newman to public attention as a songwriter; he recorded the song himself for his 1972 album Sail Away."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7519794"
+   }
+  },
+  {
+   "id": "wikipedia-en-14617",
+   "source": "wikipedia",
+   "name": "Intel",
+   "url": "https://en.wikipedia.org/wiki/Intel",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1968,
+   "date_end": null,
+   "date_display": "1968",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-14617.jpg",
+     "credit": "Wikimedia Commons: File:Intel_Headquarters_in_2023.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-14617.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Intel Corporation is an American multinational technology company headquartered in Santa Clara, California. It designs, manufactures, and sells computer components such as central processing units (CPUs) and related products for business and consumer markets. Intel was the world's third-largest semiconductor chip manufacturer by revenue in 2024 and has been included in the Fortune 500 list of the largest United States corporations by revenue since 2007. It was one of the first companies listed on Nasdaq."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q248"
+   }
+  },
+  {
+   "id": "wikipedia-en-10239414",
+   "source": "wikipedia",
+   "name": "Indian Reservation (The Lament of the Cherokee Reservation Indian)",
+   "url": "https://en.wikipedia.org/wiki/Indian_Reservation_(The_Lament_of_the_Cherokee_Reservation_Indian)",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1968,
+   "date_end": null,
+   "date_display": "1968",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-10239414.jpg",
+     "credit": "Wikimedia Commons: File:Indian_Reservation_-_Don_Fardon.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-10239414.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Indian Reservation (The Lament of the Cherokee Reservation Indian)\" is a song written by John D. Loudermilk. It was first recorded by Marvin Rainwater in 1959 and released on MGM as \"The Pale Faced Indian\", but that release went unnoticed. The first hit version was a 1967 recording by Don Fardon –  a former member of the Sorrows –  that reached number 20 on the Hot 100 in 1968 and number 3 on the UK Singles Chart in 1970.\nIn 1971, Paul Revere & the Raiders recorded \"Indian Reservation\" for Columbia Records, and it topped the Hot 100 on July 24."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1661264"
+   }
+  },
+  {
+   "id": "wikipedia-en-1470944",
+   "source": "wikipedia",
+   "name": "Cattanooga Cats",
+   "url": "https://en.wikipedia.org/wiki/Cattanooga_Cats",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1969,
+   "date_end": 1971,
+   "date_display": "1969–1971",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1470944.jpg",
+     "credit": "Wikimedia Commons: File:Cattanooga_Cats.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1470944.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Cattanooga Cats is an American animated television series produced by Hanna-Barbera Productions that aired on ABC from September 6, 1969, to September 4, 1971.\nThe show was a package program similar to the Hanna-Barbera/NBC show The Banana Splits, except that it contained no live-action segments. During the 1969–1970 season, Cattanooga Cats ran for one hour and contained four segments: Cattanooga Cats, Around the World in 79 Days, It's the Wolf! and Motormouse and Autocat."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1609384"
+   }
+  },
+  {
+   "id": "wikipedia-en-1431440",
+   "source": "wikipedia",
+   "name": "Harry (album)",
+   "url": "https://en.wikipedia.org/wiki/Harry_(album)",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1969,
+   "date_end": null,
+   "date_display": "1969",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1431440.png",
+     "credit": "Wikimedia Commons: File:Nilsson-Harry-lp.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1431440.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Harry is the fourth studio album by Harry Nilsson, released August 1969 on RCA. It was his first album to get onto Billboard Magazine's Billboard 200 chart, remaining there for 15 weeks and reaching #120.\nHarry features jazz saxophonist Tom Scott, pianist Mike Melvoin, flutist Jim Horn, session drummer Jim Gordon, Larry Knechtel on bass, and David Cohen and Howard Roberts on guitars.\nThe album does not have a distinctive style but ranges over ballads, show tunes, nostalgic Americana, and tin pan alley-like soft shoe numbers.\nWilliam E. Martin, who wrote the songs \"Fairfax Rag\" and \"City Life\" "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5666742"
+   }
+  },
+  {
+   "id": "wikipedia-en-63727417",
+   "source": "wikipedia",
+   "name": "The Changeling (song)",
+   "url": "https://en.wikipedia.org/wiki/The_Changeling_(song)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 1970,
+   "date_end": null,
+   "date_display": "1970",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-63727417.jpg",
+     "credit": "Wikimedia Commons: File:The_Doors_changeling.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-63727417.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"The Changeling\" is a song by the American rock band the Doors. It appears as the opening track on their sixth album and final with Jim Morrison, L.A. Woman. Released in April 1971 as the B-side of \"Riders on the Storm\", the single peaked at number 14 on the Billboard Hot 100 chart."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q16035374"
+   }
+  },
+  {
+   "id": "wikipedia-en-7995974",
+   "source": "wikipedia",
+   "name": "The Decameron (film)",
+   "url": "https://en.wikipedia.org/wiki/The_Decameron_(film)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 1971,
+   "date_end": null,
+   "date_display": "1971",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-7995974.jpg",
+     "credit": "Wikimedia Commons: File:Decameron423.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-7995974.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Decameron (Italian: Il Decameron) is a 1971 sex comedy anthology film written and directed by Pier Paolo Pasolini, based on the 14th-century collection of stories by Giovanni Boccaccio. It is the first film of Pasolini's Trilogy of Life, the others being The Canterbury Tales and Arabian Nights. Each film was an adaptation of a different piece of classical literature focusing on ribald, earthy and often irreligious themes. The tales contain abundant nudity, sex, slapstick and toilet humour."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q720159"
+   }
+  },
+  {
+   "id": "wikipedia-en-69328",
+   "source": "wikipedia",
+   "name": "United Arab Emirates",
+   "url": "https://en.wikipedia.org/wiki/United_Arab_Emirates",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1971,
+   "date_end": null,
+   "date_display": "1971",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-69328.png",
+     "credit": "Wikimedia Commons: File:Flag_of_the_United_Arab_Emirates.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-69328.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern end of the Arabian Peninsula. It is a federal semi-constitutional monarchy made up of seven emirates, with Abu Dhabi serving as its national capital. The UAE borders Oman to the east and northeast, and Saudi Arabia to the south and southwest. It shares maritime borders with Saudi Arabia, Qatar, and Iran in the Persian Gulf, and with Oman in the Gulf of Oman."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q878"
+   }
+  },
+  {
+   "id": "wikipedia-en-178771",
+   "source": "wikipedia",
+   "name": "Starbucks",
+   "url": "https://en.wikipedia.org/wiki/Starbucks",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1971,
+   "date_end": null,
+   "date_display": "1971",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-178771.png",
+     "credit": "Wikimedia Commons: File:Starbucks_Corporation_Logo_2011.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-178771.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It was founded in 1971 by Jerry Baldwin, Zev Siegl, and Gordon Bowker at Seattle's Pike Place Market initially as a coffee bean wholesaler. Starbucks was converted into a coffee shop serving espresso-based drinks under the ownership of Howard Schultz, who was chief executive officer from 1986 to 2000 and led the aggressive expansion of the franchise across the West Coast of the United States.\nAs of November 2022, the company had 35,711 stores in 80 countries, 15,"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q37158"
+   }
+  },
+  {
+   "id": "wikipedia-en-871161",
+   "source": "wikipedia",
+   "name": "Euston Films",
+   "url": "https://en.wikipedia.org/wiki/Euston_Films",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1971,
+   "date_end": 2014,
+   "date_display": "1971–2014",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-871161.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Euston Films was a British film and television production company. It was originally a subsidiary of Thames Television, and operated from 1971 to 1994, producing various series for Thames, which were screened nationally on the ITV network. Euston Films productions include Van der Valk (1977), The Sweeney (1975–1978), Minder (1979–1994), Quatermass (1979), Danger UXB (1979), and Reilly, Ace of Spies (1983). The Sweeney had two feature film spin-offs, Sweeney!"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5414361"
+   }
+  },
+  {
+   "id": "wikipedia-en-1976174",
+   "source": "wikipedia",
+   "name": "Fat Cat and Friends",
+   "url": "https://en.wikipedia.org/wiki/Fat_Cat_and_Friends",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1972,
+   "date_end": 1991,
+   "date_display": "1972–1991",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1976174.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Fat Cat and Friends is an Australian children's television show starring Fat Cat (full name: Frederick Alphonso Tubsy Cat or Francis Aloysius Tom Cat), a costumed character, who is an orange/ginger anthropomorphic cat who wears red braces, a blue bow tie and a green bowler hat and striped socks. The show ran from 1972 to 1991, after which it was cancelled in controversial circumstances. However the Fat Cat character continues to feature on television in Perth, as the mascot of the Telethon fundraising organisation."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5437170"
+   }
+  },
+  {
+   "id": "wikipedia-en-3058252",
+   "source": "wikipedia",
+   "name": "Fritz the Cat (film)",
+   "url": "https://en.wikipedia.org/wiki/Fritz_the_Cat_(film)",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 1972,
+   "date_end": 1978,
+   "date_display": "1972–1978",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3058252.jpg",
+     "credit": "Wikimedia Commons: File:Fritz_the_Cat_(film).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3058252.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Fritz the Cat is a 1972 American Independent adult animated black comedy film written and directed by Ralph Bakshi in his directorial debut. Based on Robert Crumb's comic strip of the same name, the film focuses on its Skip Hinnant–portrayed titular character, a glib, womanizing and fraudulent cat in an anthropomorphic animal version of New York City during the mid-to-late 1960s. Fritz decides on a whim to drop out of college, interacts with inner city African American crows, unintentionally starts a race riot and becomes a leftist revolutionary. The film is a satire focusing on American colle"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1418615"
+   }
+  },
+  {
+   "id": "wikipedia-en-2254196",
+   "source": "wikipedia",
+   "name": "Catch Bull at Four",
+   "url": "https://en.wikipedia.org/wiki/Catch_Bull_at_Four",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 1972,
+   "date_end": null,
+   "date_display": "1972",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2254196.jpg",
+     "credit": "Wikimedia Commons: File:Catch_Bull_at_Four.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2254196.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Catch Bull at Four is the sixth studio album by Cat Stevens. The title is taken from one of the Ten Bulls of Zen. In the United States the album spent three weeks at number one on the Billboard 200, the highest an album by Stevens has reached. It also reached number one in Australia and Canada and became Stevens's second consecutive album to reach number two on the UK Albums Chart."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1050495"
+   }
+  },
+  {
+   "id": "wikipedia-en-163462",
+   "source": "wikipedia",
+   "name": "Harry and Tonto",
+   "url": "https://en.wikipedia.org/wiki/Harry_and_Tonto",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1974,
+   "date_end": 1979,
+   "date_display": "1974–1979",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-163462.jpg",
+     "credit": "Wikimedia Commons: File:Harryandtontoposter.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-163462.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Harry and Tonto is a 1974 American road comedy-drama directed by Paul Mazursky and written by Mazursky and Josh Greenfeld. The film follows a man named Harry who travels cross-country with his pet cat, Tonto. Art Carney won the Academy Award for Best Actor for his performance as Harry."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1191093"
+   }
+  },
+  {
+   "id": "wikipedia-en-1055167",
+   "source": "wikipedia",
+   "name": "Diamond Dogs",
+   "url": "https://en.wikipedia.org/wiki/Diamond_Dogs",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1974,
+   "date_end": null,
+   "date_display": "1974",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1055167.jpg",
+     "credit": "Wikimedia Commons: File:Diamond_dogs.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1055167.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Diamond Dogs is the eighth studio album by the English musician David Bowie, released on 24 May 1974 through RCA Records. Bowie produced the album and recorded it in early 1974 in London and the Netherlands, following the disbanding of his backing band the Spiders from Mars and the departure of the producer Ken Scott. Bowie played lead guitar on the record in the absence of Mick Ronson. Diamond Dogs featured the return of Tony Visconti, who had not worked with Bowie for four years; the two collaborated for the rest of the decade."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1629619"
+   }
+  },
+  {
+   "id": "wikipedia-en-36498943",
+   "source": "wikipedia",
+   "name": "The Changeling (Play of the Month)",
+   "url": "https://en.wikipedia.org/wiki/The_Changeling_(Play_of_the_Month)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 1974,
+   "date_end": null,
+   "date_display": "1974",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-36498943.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"The Changeling\" is a television play episode of the BBC One anthology television series Play of the Month, starring Stanley Baker and Helen Mirren in the lead roles. The episode is an adaptation of the play The Changeling (1622), a Jacobean tragedy by Thomas Middleton and William Rowley."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7722084"
+   }
+  },
+  {
+   "id": "wikipedia-en-690570",
+   "source": "wikipedia",
+   "name": "Fraunces Tavern",
+   "url": "https://en.wikipedia.org/wiki/Fraunces_Tavern",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1975,
+   "date_end": null,
+   "date_display": "1975",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-690570.jpg",
+     "credit": "Wikimedia Commons: File:Frauncestavern.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-690570.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Fraunces Tavern is a museum, bar and restaurant in New York City, situated at 54 Pearl Street at the corner of Pearl and Broad Streets in the Financial District of Lower Manhattan. Fraunces Tavern played a prominent role in history before, during, and after the American Revolution. Before the war, Fraunces Tavern served as a meeting place for the Sons of Liberty; as the British Army prepared to evacuate New York City, it was the site for proceedings known as \"The Birch Trials\" (the culminating event in the emancipation of thousands of Black Loyalists - one of the largest emancipations of Black"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2947539"
+   }
+  },
+  {
+   "id": "wikipedia-en-19001",
+   "source": "wikipedia",
+   "name": "Microsoft",
+   "url": "https://en.wikipedia.org/wiki/Microsoft",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1975,
+   "date_end": null,
+   "date_display": "1975",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-19001.jpg",
+     "credit": "Wikimedia Commons: File:Aerial_Microsoft_West_Campus_August_2009.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-19001.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers through software like Windows and has since expanded into areas such as Internet services, cloud computing, artificial intelligence, and video gaming, among others. A Big Tech company, Microsoft is the largest software company by revenue, one of the most valuable public companies, and one of the most valuable brands globally.\nFounded in 1975 by Bill Gates and Paul Allen to market BASIC interpreters for the Altair 8800,"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2283"
+   }
+  },
+  {
+   "id": "wikipedia-en-1205166",
+   "source": "wikipedia",
+   "name": "Here and There (Elton John album)",
+   "url": "https://en.wikipedia.org/wiki/Here_and_There_(Elton_John_album)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 1976,
+   "date_end": null,
+   "date_display": "1976",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1205166.jpg",
+     "credit": "Wikimedia Commons: File:Elton_John_-_Here_and_There.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1205166.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Here and There is a live album and the fourteenth official album release by British musician Elton John, released in 1976. The title refers to the two concerts represented on the album: \"Here\" is a concert recorded at the Royal Festival Hall in London in May 1974; \"There\" is a concert recorded at New York City's Madison Square Garden on 28 November 1974. The 1995 reissue of the album on CD is notable for including the final live appearance of John Lennon, who was invited to perform with John on the recent hit single \"Whatever Gets You thru the Night\", as well as two additional songs by the Bea"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1753993"
+   }
+  },
+  {
+   "id": "wikipedia-en-22591",
+   "source": "wikipedia",
+   "name": "Oracle Corporation",
+   "url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1977,
+   "date_end": null,
+   "date_display": "1977",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-22591.jpg",
+     "credit": "Wikimedia Commons: File:Oracle_Campus_in_Austin_2018.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-22591.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Oracle Corporation is an American multinational technology company headquartered in Austin, Texas. Co-founded in Santa Clara, California, in 1977 by Bob Miner, Ed Oates, and current chairman of the board and chief technology officer Larry Ellison, Oracle is among the 50 largest companies in the world by market cap, and ranked 52nd on the Forbes Global 2000 as of 2026.\nThe company sells database software (particularly the Oracle Database), enterprise applications, and cloud infrastructure and hardware. Oracle's core application software is a suite of enterprise software products, including ente"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q19900"
+   }
+  },
+  {
+   "id": "wikipedia-en-515081",
+   "source": "wikipedia",
+   "name": "Circus Oz",
+   "url": "https://en.wikipedia.org/wiki/Circus_Oz",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1977,
+   "date_end": null,
+   "date_display": "1977",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-515081.jpg",
+     "credit": "Wikimedia Commons: File:Board_pic.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-515081.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Circus Oz is a contemporary circus company based in Australia, collectively owned by its Membership, founded in 1978. Its shows incorporate circus, theatre, satire, rock 'n' roll and a uniquely Australian humour."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1092982"
+   }
+  },
+  {
+   "id": "wikipedia-en-155972",
+   "source": "wikipedia",
+   "name": "Animals (Pink Floyd album)",
+   "url": "https://en.wikipedia.org/wiki/Animals_(Pink_Floyd_album)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1977,
+   "date_end": null,
+   "date_display": "1977",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-155972.jpg",
+     "credit": "Wikimedia Commons: File:Pink_Floyd-Animals-Frontal.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-155972.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animals is the tenth studio album by the English rock band Pink Floyd, released on 21 January 1977, by Harvest Records and Columbia Records. It was produced by the band at their new studio, Britannia Row Studios, in London throughout 1976. The album continued the long-form songs of Pink Floyd's previous albums, such as Meddle (1971) and Wish You Were Here (1975).\nAnimals is a concept album that focuses on the sociopolitical conditions of mid-1970s Britain."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q206216"
+   }
+  },
+  {
+   "id": "wikipedia-en-707096",
+   "source": "wikipedia",
+   "name": "\"Omaha\" the Cat Dancer",
+   "url": "https://en.wikipedia.org/wiki/%22Omaha%22_the_Cat_Dancer",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1978,
+   "date_end": null,
+   "date_display": "1978",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-707096.jpg",
+     "credit": "Wikimedia Commons: File:Omaha_The_Cat_Dancer_1.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-707096.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Omaha\" the Cat Dancer is an erotic comic strip and later comic book created by artist Reed Waller and writer Kate Worley. Set in fictional Mipple City, Minnesota (derived from \"MPLS\", the old postal abbreviation for Minneapolis) in a universe populated by anthropomorphic animal characters, the strip is a soap opera focusing on Omaha, a feline exotic dancer, and her lover, Chuck, the son of a business tycoon.\nThe strip debuted in the funny animal magazine Vootie, and it was subsequently published in a number of underground comix in the late 1970s and early 1980s. \"Omaha\" the Cat Dancer became "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3430145"
+   }
+  },
+  {
+   "id": "wikipedia-en-347268",
+   "source": "wikipedia",
+   "name": "Iranian Revolution",
+   "url": "https://en.wikipedia.org/wiki/Iranian_Revolution",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1978,
+   "date_end": 1979,
+   "date_display": "1978–1979",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-347268.jpg",
+     "credit": "Wikimedia Commons: File:Mass_demonstration_in_Iran,_date_unknown.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-347268.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Iranian Revolution, also known as the Islamic Revolution, culminated in the overthrow of the Pahlavi dynasty in 1979. The revolution led to the replacement of the Imperial State of Iran by the Islamic Republic of Iran, as the monarchical government of Shah Mohammad Reza Pahlavi was superseded by Ruhollah Khomeini, an Islamist cleric who had headed one of the rebel factions, and became the country’s supreme leader.The ousting of Mohammad Reza Pahlavi, the last Shah of Iran, formally marked the end of Iran's historical monarchy.\nIn 1953, the CIA and MI6-backed 1953 Iranian coup d'état overth"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q126065"
+   }
+  },
+  {
+   "id": "wikipedia-en-437840",
+   "source": "wikipedia",
+   "name": "Drunken Master",
+   "url": "https://en.wikipedia.org/wiki/Drunken_Master",
+   "categories": [
+    "fighting"
+   ],
+   "tags": [
+    "Chinese martial arts animal styles"
+   ],
+   "date_start": 1978,
+   "date_end": 1982,
+   "date_display": "1978–1982",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-437840.jpg",
+     "credit": "Wikimedia Commons: File:DrunkenMasterMoviePoster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-437840.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Drunken Master (Chinese: 醉拳; lit. 'Drunken Fist and Jui Kuen'), also known as Drunken Master The Beginning, is a 1978 Hong Kong martial arts comedy film directed by Yuen Woo-ping and produced and co-written by Ng See-yuen. The film features much of the same crew as Yuen's Snake in the Eagle's Shadow released earlier the same year, including lead actors Jackie Chan, Yuen Siu-tien (Woo-ping's father), and Hwang Jang-lee; although narratively unrelated, Drunken Master bears similarities to its predecessor in its story and style.\nDrunken Master features Chan and Yuen Siu-tien as fictionalized vers"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q838514"
+   }
+  },
+  {
+   "id": "wikipedia-en-2435343",
+   "source": "wikipedia",
+   "name": "Five Deadly Venoms",
+   "url": "https://en.wikipedia.org/wiki/Five_Deadly_Venoms",
+   "categories": [
+    "fighting"
+   ],
+   "tags": [
+    "Chinese martial arts animal styles"
+   ],
+   "date_start": 1978,
+   "date_end": 1979,
+   "date_display": "1978–1979",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2435343.jpg",
+     "credit": "Wikimedia Commons: File:Fivedeadlyvenoms.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2435343.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Five Deadly Venoms (Chinese: 五毒), also known as The Five Venoms, is a 1978 Hong Kong martial arts mystery film directed and co-written by Chang Cheh and produced by Runme Shaw for the Shaw Brothers Studio. It stars Chiang Shieng as Yang Tieh, a martial arts pupil who aims to follow his master's dying wish: to find the new identities of the master's five previous pupils, and kill them if they have turned towards evil. While doing so, Yang stumbles onto a web of murders and investigations involving all five pupils. Each of the master's previous pupils (the titular \"Five Deadly Venoms\") practices"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3828759"
+   }
+  },
+  {
+   "id": "wikipedia-en-4357281",
+   "source": "wikipedia",
+   "name": "Back to Earth (Cat Stevens album)",
+   "url": "https://en.wikipedia.org/wiki/Back_to_Earth_(Cat_Stevens_album)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 1978,
+   "date_end": null,
+   "date_display": "1978",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-4357281.jpg",
+     "credit": "Wikimedia Commons: File:Back_to_Earth_(Cat_Stevens_album_-_cover_art).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-4357281.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Back to Earth is the eleventh studio album released by the British singer/songwriter Cat Stevens. It is the only album he recorded using the name Cat Stevens after his conversion to Islam until the release in September 2017 of The Laughing Apple, his fifteenth studio album (credited to \"Yusuf / Cat Stevens\"). It was also the last album of contemporary Western music that he recorded until An Other Cup, 28 years later."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q798348"
+   }
+  },
+  {
+   "id": "wikipedia-en-83463",
+   "source": "wikipedia",
+   "name": "Chiptune",
+   "url": "https://en.wikipedia.org/wiki/Chiptune",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music",
+    "8bit music"
+   ],
+   "date_start": 1978,
+   "date_end": null,
+   "date_display": "1978",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-83463.jpg",
+     "credit": "Wikimedia Commons: File:Chiptune-Setup-Game-Boys.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-83463.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Chiptune, also called 8-bit music (although not all chiptune is 8-bit), is a style of electronic music and musical subculture made using the programmable sound generator (PSG) sound chips or synthesizers in vintage arcade machines, computers and video game consoles. The term is commonly used to refer to tracker format music using extremely basic and small samples that a pre-2000s computer or console could produce (this is the original meaning of the term), as well as music that combines PSG sounds with modern musical styles. It has been described as \"an interpretation of many genres\". Any exis"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q135637"
+   }
+  },
+  {
+   "id": "wikipedia-en-164007",
+   "source": "wikipedia",
+   "name": "Stray Cats",
+   "url": "https://en.wikipedia.org/wiki/Stray_Cats",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1980,
+   "date_end": null,
+   "date_display": "1980",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-164007.jpg",
+     "credit": "Wikimedia Commons: File:Stray_Cats.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-164007.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Stray Cats are an American rockabilly band formed in 1979 by guitarist and vocalist Brian Setzer, double bassist Lee Rocker, and drummer Slim Jim Phantom in the Long Island hamlet of Massapequa, New York. The group had numerous hit singles in the UK, Australia, Canada, and the U.S. including \"Stray Cat Strut\", \"(She's) Sexy + 17\", \"Look at That Cadillac\", \"I Won't Stand in Your Way\", \"Bring It Back Again\", and \"Rock This Town\", which the Rock and Roll Hall of Fame has listed as one of the songs that shaped rock and roll."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1161663"
+   }
+  },
+  {
+   "id": "wikipedia-en-30724231",
+   "source": "wikipedia",
+   "name": "Golden Monkey stamp",
+   "url": "https://en.wikipedia.org/wiki/Golden_Monkey_stamp",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 1980,
+   "date_end": null,
+   "date_display": "1980",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-30724231.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Golden Monkey Stamp or Gēngshēn Monkey is a postage stamp issued in China in 1980 of which 5 million copies were printed. Although not rare, the stamp has come to symbolise the strong market for collectable postage stamps in Asia. Demand for the stamp has made it one of the most sought after contemporary Chinese stamps."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5100471"
+   }
+  },
+  {
+   "id": "wikipedia-en-1803595",
+   "source": "wikipedia",
+   "name": "The Changeling (film)",
+   "url": "https://en.wikipedia.org/wiki/The_Changeling_(film)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 1980,
+   "date_end": null,
+   "date_display": "1980",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1803595.jpg",
+     "credit": "Wikimedia Commons: File:Changeling_ver1.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1803595.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Changeling is a 1980 Canadian supernatural psychological horror film directed by Peter Medak, written by William Gray and Diana Maddox, and starring George C. Scott, Trish Van Devere, and Melvyn Douglas. Its plot follows an esteemed New York City composer who relocates to a Seattle mansion he comes to believe is haunted.\nThe screenplay for The Changeling is based upon events that playwright Russell Hunter claimed to have experienced while he was living in the Henry Treat Rogers mansion in the Cheesman Park neighborhood of Denver, Colorado, in the late 1960s; Hunter served as a co-writer of"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1168623"
+   }
+  },
+  {
+   "id": "wikipedia-en-2664107",
+   "source": "wikipedia",
+   "name": "Slipstream (magazine)",
+   "url": "https://en.wikipedia.org/wiki/Slipstream_(magazine)",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1980,
+   "date_end": null,
+   "date_display": "1980",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2664107.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Slipstream is a literary press, founded in 1980 in Niagara Falls, New York, that publishes poetry and short fiction by both new and established writers. Charles Bukowski, Kaveh Akbar, Sherman Alexie, Gerald Locklin, Wanda Coleman, Lyn Lifshin, Meg Johnson, David Chorlton, J.P. Dancing Bear, Sean Thomas Dougherty, Ron Koertge, Jim Daniels, Neil Carpathios, Rebecca Hazelton, Traci Brimhall, Joel Allegretti, Charles Harper Webb, Jean Hollander, Hal Sirowitz, red hawk, Susan Roney-O'Brien, and Terry Godbey are among the many writers whose work has appeared in the pages of Slipstream magazine. The "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7540959"
+   }
+  },
+  {
+   "id": "wikipedia-en-2726915",
+   "source": "wikipedia",
+   "name": "Animal Magnetism (Scorpions album)",
+   "url": "https://en.wikipedia.org/wiki/Animal_Magnetism_(Scorpions_album)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1980,
+   "date_end": null,
+   "date_display": "1980",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2726915.jpg",
+     "credit": "Wikimedia Commons: File:ScorpionsAnimalMagnetism.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2726915.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Magnetism is the seventh studio album by German hard rock band Scorpions, released in 1980. The RIAA certified the record as Gold on 8 March 1984, and Platinum on 28 October 1991.\nIn the 2001 remaster edition by EMI, an extra track \"Hey You\" (rare single), sung by Rudolf Schenker is included (although Klaus Meine sings the chorus). The song was originally recorded during the Lovedrive sessions in 1978 and released two years later as side-A (together with \"The Zoo\" as side-B)."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q313773"
+   }
+  },
+  {
+   "id": "wikipedia-en-22284807",
+   "source": "wikipedia",
+   "name": "101 Uses for a Dead Cat",
+   "url": "https://en.wikipedia.org/wiki/101_Uses_for_a_Dead_Cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1981,
+   "date_end": null,
+   "date_display": "1981",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-22284807.jpg",
+     "credit": "Wikimedia Commons: File:101UsesforDeadCat.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-22284807.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "101 Uses for a Dead Cat, by Simon Bond (1947–2011), was a bestselling collection of macabre cartoons. The book was promoted with the tag line, \"Since time immemorial mankind has been plagued by the question, 'What do you do with a dead cat?'\" It consisted of cartoons depicting the bodies of dead cats being used for various purposes, including anchoring boats, sharpening pencils and holding bottles of wine."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3607953"
+   }
+  },
+  {
+   "id": "wikipedia-en-61598575",
+   "source": "wikipedia",
+   "name": "Museum of the Dog",
+   "url": "https://en.wikipedia.org/wiki/Museum_of_the_Dog",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1982,
+   "date_end": null,
+   "date_display": "1982",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-61598575.jpg",
+     "credit": "Wikimedia Commons: File:Sir_Edwin_Henry_Landseer_-_Study_of_a_Greyhound_-_Google_Art_Project.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-61598575.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "AKC Museum of the Dog is a nonprofit canine museum located at 101 Park Avenue in the Murray Hill neighborhood of Manhattan, New York City. The museum features exhibits that include: Dogs in film, dogs of presidents, war dogs, dogs in exploration. The museum features one of the largest collections of dog-related art."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q76726860"
+   }
+  },
+  {
+   "id": "wikipedia-en-6977611",
+   "source": "wikipedia",
+   "name": "The Changeling (album)",
+   "url": "https://en.wikipedia.org/wiki/The_Changeling_(album)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 1982,
+   "date_end": null,
+   "date_display": "1982",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-6977611.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Changeling is a studio album by the English new wave band Toyah, fronted by Toyah Willcox, released in 1982 by Safari Records. The album peaked at number 6 in the UK where it was certified silver for sales exceeding 60,000 copies. It included the Top 40 single \"Brave New World\"."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2184355"
+   }
+  },
+  {
+   "id": "wikipedia-en-905586",
+   "source": "wikipedia",
+   "name": "Albedo Anthropomorphics",
+   "url": "https://en.wikipedia.org/wiki/Albedo_Anthropomorphics",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1983,
+   "date_end": null,
+   "date_display": "1983",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-905586.jpg",
+     "credit": "Wikimedia Commons: File:Albedo_08.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-905586.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Albedo Anthropomorphics, or Albedo for short, is a furry comic book anthology series that was credited with starting the furry comic book subgenre that featured sophisticated stories with talking animals primarily intended for an adult audience. The first issue of Albedo was published in 1983; the most recent issue was published in 2005.\nAlbedo was started by Steve Gallacci (pronounced /ɡʌˈlɑt͡ʃi/), who produced its main feature, Erma Felna: EDF—a sophisticated science fiction military series set in a sector of space populated by sapient and predominantly humanoid versions of mammal and avian "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4709475"
+   }
+  },
+  {
+   "id": "wikipedia-en-22819497",
+   "source": "wikipedia",
+   "name": "Keyboard Cat",
+   "url": "https://en.wikipedia.org/wiki/Keyboard_Cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1984,
+   "date_end": null,
+   "date_display": "1984",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-22819497.jpg",
+     "credit": "Wikimedia Commons: File:Keyboard_cat.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-22819497.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Keyboard Cat is a viral video and internet meme. Its original form was a video made in 1984 by Charlie Schmidt of his cat Fatso seemingly playing a musical keyboard (though manipulated by Schmidt off-camera) to a cheery tune. While Schmidt had uploaded the video himself to YouTube in 2007, Brad O'Farrell, with Schmidt's permission, appended the video to the end of a blooper video uploaded in 2009 as if to have the cat \"play\" the person offstage after the gaffe as they had done in vaudeville. The idea of this quickly expanded on the Internet by numerous other users, typically under the name \"Pl"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1602458"
+   }
+  },
+  {
+   "id": "wikipedia-en-5592187",
+   "source": "wikipedia",
+   "name": "What's Michael?",
+   "url": "https://en.wikipedia.org/wiki/What%27s_Michael%3F",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 1984,
+   "date_end": 2003,
+   "date_display": "1984–2003",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-5592187.jpg",
+     "credit": "Wikimedia Commons: File:What's_Michael.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-5592187.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "What's Michael? is a Japanese manga series created by Makoto Kobayashi. It was originally serialized in Kodansha's seinen manga magazine Morning from February 1984 to September 1989, and in its sister magazine, Evening, from December 2001 to April 2003. The manga shows Michael, an orange American Shorthair tabby cat, his feline friends, and other domesticated pets in a series of humorous episodes."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1033127"
+   }
+  },
+  {
+   "id": "wikipedia-en-3417692",
+   "source": "wikipedia",
+   "name": "The Black Company",
+   "url": "https://en.wikipedia.org/wiki/The_Black_Company",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dog in mythology"
+   ],
+   "date_start": 1984,
+   "date_end": null,
+   "date_display": "1984",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3417692.jpg",
+     "credit": "Wikimedia Commons: File:The_Black_Company.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3417692.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Black Company is a series of dark fantasy books written by American author Glen Cook. The series combines elements of grimdark with epic fantasy as it follows an elite mercenary unit, the Black Company, through more than forty years of its approximately four-hundred-year history. Their exploits include battling for, then against, a large empire; navigating persistently untrustworthy employers and internecine conflicts among allies; and surviving several dramatic reductions in their membership rolls."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2636351"
+   }
+  },
+  {
+   "id": "wikipedia-en-2234521",
+   "source": "wikipedia",
+   "name": "Animalize",
+   "url": "https://en.wikipedia.org/wiki/Animalize",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1984,
+   "date_end": null,
+   "date_display": "1984",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2234521.jpg",
+     "credit": "Wikimedia Commons: File:Animalize.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2234521.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animalize is the twelfth studio album by American rock band Kiss. It was released on September 13, 1984, by Mercury Records. The album marked the only appearance by lead guitarist Mark St. John, who replaced Vinnie Vincent in April 1984."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q547599"
+   }
+  },
+  {
+   "id": "wikipedia-en-28062772",
+   "source": "wikipedia",
+   "name": "Wild Animal",
+   "url": "https://en.wikipedia.org/wiki/Wild_Animal",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1984,
+   "date_end": null,
+   "date_display": "1984",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-28062772.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Wild Animal is the 1984 debut studio album by Canadian singer Vanity. Released by Motown Records in November 1984, the album yielded two hit singles on the US R&B Songs chart:  \"Pretty Mess\" and \"Mechanical Emotion\". The album's third single, \"Samuelle\", scored minor radio play yet failed to chart on either Hot 100 or R&B singles."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q8000492"
+   }
+  },
+  {
+   "id": "wikipedia-en-7184418",
+   "source": "wikipedia",
+   "name": "Lament (Ultravox album)",
+   "url": "https://en.wikipedia.org/wiki/Lament_(Ultravox_album)",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1984,
+   "date_end": null,
+   "date_display": "1984",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-7184418.png",
+     "credit": "Wikimedia Commons: File:Ultravox_-_Lament.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-7184418.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Lament is the seventh studio album by British new wave band Ultravox, released on April 6, 1984 by Chrysalis Records. It was the last album featuring original drummer Warren Cann until the band's reunion album Brilliant in 2012. The album peaked at number eight on the UK Albums Chart and was certified gold by the British Phonographic Industry (BPI) on June 8, 1984 for shipments of 100,000 copies. It also reached number 25 in Germany and number 115 in the United States."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q966706"
+   }
+  },
+  {
+   "id": "wikipedia-en-11961316",
+   "source": "wikipedia",
+   "name": "Dancing with Tears in My Eyes",
+   "url": "https://en.wikipedia.org/wiki/Dancing_with_Tears_in_My_Eyes",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1984,
+   "date_end": null,
+   "date_display": "1984",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-11961316.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Dancing with Tears in My Eyes\" a song by British new wave band Ultravox, released as the second single from their seventh studio album, Lament, on May 11, 1984. The single peaked at No. 3 on the UK singles chart and reached the top 10 in several European countries."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1159377"
+   }
+  },
+  {
+   "id": "wikipedia-en-470253",
+   "source": "wikipedia",
+   "name": "1942 (video game)",
+   "url": "https://en.wikipedia.org/wiki/1942_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 1984,
+   "date_end": 1986,
+   "date_display": "1984–1986",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-470253.png",
+     "credit": "Wikimedia Commons: File:1942_arcade_flyer.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-470253.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "1942 is a 1984 vertically scrolling shooter video game developed and published by Capcom for arcades. Designed by Yoshiki Okamoto, it was the first game in the 194X series, and was followed by 1943: The Battle of Midway.\n1942 is set in the Pacific Theater of World War II, and is loosely based on the Battle of Midway. Despite the game being created by Japanese developers, the goal is to reach Tokyo and destroy the Japanese air fleet."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q55532"
+   }
+  },
+  {
+   "id": "wikipedia-en-159633",
+   "source": "wikipedia",
+   "name": "Atmel",
+   "url": "https://en.wikipedia.org/wiki/Atmel",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 1984,
+   "date_end": null,
+   "date_display": "1984",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-159633.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Atmel Corporation was a creator and manufacturer of semiconductors before being subsumed by Microchip Technology in 2016. Atmel was founded in 1984. The company focused on embedded systems built around microcontrollers. Its products included microcontrollers (8-bit AVR, 32-bit AVR, 32-bit ARM-based, automotive grade, and 8-bit Intel 8051 derivatives) radio-frequency (RF) devices including Wi-Fi, EEPROM, and flash memory devices, symmetric and asymmetric security chips, touch sensors and controllers, and application-specific products."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q757489"
+   }
+  },
+  {
+   "id": "wikipedia-en-1528733",
+   "source": "wikipedia",
+   "name": "Blood Meridian",
+   "url": "https://en.wikipedia.org/wiki/Blood_Meridian",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1985,
+   "date_end": null,
+   "date_display": "1985",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1528733.png",
+     "credit": "Wikimedia Commons: File:Blood_Meridian_Cormac_McCarthy_book_cover.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1528733.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Blood Meridian or the Evening Redness in the West, commonly known as Blood Meridian, is a 1985 epic historical novel by American author Cormac McCarthy, classified as an anti-Western and Gothic Western. McCarthy's fifth book, it was published by Random House.\nSet in the American frontier and drawing on historical events, the narrative follows a fictional teenager from Tennessee referred to as \"the Kid\", with the bulk of the text devoted to his experiences with the Glanton gang, a historical group of scalp hunters who massacred American Indians and others in the United States–Mexico borderlands"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q581426"
+   }
+  },
+  {
+   "id": "wikipedia-en-903072",
+   "source": "wikipedia",
+   "name": "Paperboy (video game)",
+   "url": "https://en.wikipedia.org/wiki/Paperboy_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 1985,
+   "date_end": 1991,
+   "date_display": "1985–1991",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-903072.png",
+     "credit": "Wikimedia Commons: File:Paperboy_arcadeflyer.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-903072.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Paperboy is a 1985 action video game developed and published by Atari Games for arcades. The player takes the role of a paperboy who delivers a fictional newspaper called The Daily Sun to houses on a street while riding his bicycle. The arcade version featured bike handlebars as the controller.\nThe game was widely ported to home systems beginning in 1986, and was followed by the computer and console-exclusive sequel Paperboy 2 in 1991."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1330205"
+   }
+  },
+  {
+   "id": "wikipedia-en-1707250",
+   "source": "wikipedia",
+   "name": "Journey to the West (1986 TV series)",
+   "url": "https://en.wikipedia.org/wiki/Journey_to_the_West_(1986_TV_series)",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 1986,
+   "date_end": 1999,
+   "date_display": "1986–1999",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1707250.jpg",
+     "credit": "Wikimedia Commons: File:Journey_to_the_West_(1986_TV_series).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1707250.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Journey to the West is a Chinese television series adapted from Wu Cheng'en's 16th-century novel of the same name. It was directed by Yang Jie and stars Liu Xiao Ling Tong as Sun Wukong, Chi Chongrui as Tang Sanzang, Ma Dehua as Zhu Bajie, and Yan Huaili as Sha Wujing.\nThe pilot first aired in Mainland China in 1982. Eleven completed episodes were released on 1 October 1986 before all 25 episodes were collectively broadcast on CCTV in 1988."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2353327"
+   }
+  },
+  {
+   "id": "wikipedia-en-18597967",
+   "source": "wikipedia",
+   "name": "Metroid (video game)",
+   "url": "https://en.wikipedia.org/wiki/Metroid_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 1986,
+   "date_end": 1988,
+   "date_display": "1986–1988",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-18597967.jpg",
+     "credit": "Wikimedia Commons: File:Metroid_boxart.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-18597967.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Metroid is a 1986 action-adventure game developed and published by Nintendo. The first installment in the Metroid series, it was originally released in Japan for the Family Computer Disk System in August 1986. North America received a release in August 1987 on the Nintendo Entertainment System, with the European release following in January 1988. Set on the planet Zebes, the story follows Samus Aran as she attempts to retrieve the predatory Metroid organisms that were stolen by Space Pirates, who plan to replicate the Metroids by exposing them to beta rays and then use them as biological weapo"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2530723"
+   }
+  },
+  {
+   "id": "wikipedia-en-773215",
+   "source": "wikipedia",
+   "name": "Dragon Quest (video game)",
+   "url": "https://en.wikipedia.org/wiki/Dragon_Quest_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 1986,
+   "date_end": 2019,
+   "date_display": "1986–2019",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-773215.jpg",
+     "credit": "Wikimedia Commons: File:Dragon_Warrior.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-773215.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Dragon Quest, titled Dragon Warrior when initially localized to North America, is a 1986 role-playing video game developed by Chunsoft and published by Enix for the Nintendo Entertainment System. It was originally released in Japan in May 1986 and by Nintendo in North America in August 1989. It is the first game in the Dragon Quest video game series. Dragon Quest has been ported and remade for several video game platforms."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2313869"
+   }
+  },
+  {
+   "id": "wikipedia-en-30724908",
+   "source": "wikipedia",
+   "name": "Hachikō Monogatari",
+   "url": "https://en.wikipedia.org/wiki/Hachik%C5%8D_Monogatari",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1987,
+   "date_end": null,
+   "date_display": "1987",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-30724908.jpg",
+     "credit": "Wikimedia Commons: File:Hachikô_Monogatari_Poster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-30724908.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Hachikō Monogatari (Japanese: ハチ公物語, Hepburn: Hachikō Monogatari; The Story of Hachikō) is a 1987 Japanese drama film directed by Seijirō Kōyama and written by Kaneto Shindo. Starring Tatsuya Nakadai, Kaoru Yachigusa, Mako Ishino and Masumi Harukawa, the film depicts the true story of Hachikō, a loyal Akita dog who continued to wait for his owner, Professor Hidesaburō Ueno, to return from work nine years following Ueno's death. It was the top Japanese film at the box office the year of its release and received the Yamaji Fumiko Film Award."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1750530"
+   }
+  },
+  {
+   "id": "wikipedia-en-30873608",
+   "source": "wikipedia",
+   "name": "Metal Gear (video game)",
+   "url": "https://en.wikipedia.org/wiki/Metal_Gear_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 1987,
+   "date_end": 1989,
+   "date_display": "1987–1989",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-30873608.jpg",
+     "credit": "Wikimedia Commons: File:Metal_Gear_cover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-30873608.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Metal Gear is a 1987 action-adventure stealth game developed and published by Konami for the MSX2. Originally released in Japan and parts of Europe in July 1987, it is the first game in the Metal Gear series and the first video game developed by Hideo Kojima. Players control Solid Snake, an operative of the U.S. special forces unit FOXHOUND, who is sent on a solo infiltration mission into the fortified state of Outer Heaven to destroy Metal Gear, a bipedal mecha capable of launching nuclear missiles to anywhere in the world, as well as rescue a number of fellow agents who have been taken hosta"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6552947"
+   }
+  },
+  {
+   "id": "wikipedia-en-6217210",
+   "source": "wikipedia",
+   "name": "25 Cats Name Sam and One Blue Pussy",
+   "url": "https://en.wikipedia.org/wiki/25_Cats_Name_Sam_and_One_Blue_Pussy",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1988,
+   "date_end": null,
+   "date_display": "1988",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-6217210.jpg",
+     "credit": "Wikimedia Commons: File:25_Cats_Name_Sam_and_One_Blue_Pussy_(book_cover).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-6217210.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "25 Cats Name Sam and One Blue Pussy is a privately printed, limited edition artist's book by the American artist Andy Warhol in 1957."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4632154"
+   }
+  },
+  {
+   "id": "wikipedia-en-5125713",
+   "source": "wikipedia",
+   "name": "Worker Adjustment and Retraining Notification Act of 1988",
+   "url": "https://en.wikipedia.org/wiki/Worker_Adjustment_and_Retraining_Notification_Act_of_1988",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1988,
+   "date_end": null,
+   "date_display": "1988",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-5125713.png",
+     "credit": "Wikimedia Commons: File:Great_Seal_of_the_United_States_(obverse).svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-5125713.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Worker Adjustment and Retraining Notification Act of 1988 (the \"WARN Act\") is a U.S. labor law that protects employees, their families, and communities by requiring most employers with 100 or more employees to provide notification 60 calendar days in advance of planned closings and mass layoffs of employees.\nEmployees entitled to notice under the WARN Act include managers and supervisors, hourly wage, and salaried workers. The WARN Act requires that notice also be given to employees' representatives (e.g., a labor union), the local chief elected official (e.g. the mayor), and the state dis"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q8034681"
+   }
+  },
+  {
+   "id": "wikipedia-en-30758911",
+   "source": "wikipedia",
+   "name": "Goribor",
+   "url": "https://en.wikipedia.org/wiki/Goribor",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1988,
+   "date_end": null,
+   "date_display": "1988",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-30758911.jpg",
+     "credit": "Wikimedia Commons: File:Goribornis.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-30758911.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Goribor (Serbian Cyrillic: Горибор; trans. Burningbor) is a Serbian alternative rock band from Bor. Having performed as a teenage band called Projekat (Serbian Cyrillic: Пројекат; trans. The Project) from 1988 until 1992, after a four-year hiatus, the band was reformed in 1996 by the founding members, the vocalist Aleksandar Stojković \"St\" and guitarist Željko Ljubić \"Pity\" with the guitarist Predrag Marković \"Peđa\"."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1564786"
+   }
+  },
+  {
+   "id": "wikipedia-en-513090",
+   "source": "wikipedia",
+   "name": "All Dogs Go to Heaven",
+   "url": "https://en.wikipedia.org/wiki/All_Dogs_Go_to_Heaven",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1989,
+   "date_end": 1990,
+   "date_display": "1989–1990",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-513090.jpg",
+     "credit": "Wikimedia Commons: File:AllDogsGotoHeaven.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-513090.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "All Dogs Go to Heaven is a 1989 animated musical fantasy comedy drama film directed by Don Bluth. It stars the voices of Loni Anderson, Judith Barsi (in her final film role), Dom DeLuise, Melba Moore, Charles Nelson Reilly, Burt Reynolds, and Vic Tayback. Set in New Orleans in 1939, it tells the story of Charlie B. Barkin, a German Shepherd mix who is murdered by his former friend, Carface Carruthers. Charlie escapes from Heaven to return to Earth, where his best friend, Itchy Itchiford, still lives, to take revenge on Carface."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1067080"
+   }
+  },
+  {
+   "id": "wikipedia-en-61103",
+   "source": "wikipedia",
+   "name": "German reunification",
+   "url": "https://en.wikipedia.org/wiki/German_reunification",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 1989,
+   "date_end": 1990,
+   "date_display": "1989–1990",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-61103.jpg",
+     "credit": "Wikimedia Commons: File:West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-61103.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "German reunification (German: Deutsche Wiedervereinigung), also known as the expansion of the Federal Republic of Germany (BRD), was the process of re-establishing Germany as a single sovereign state, which began on 9 November 1989 and culminated on 3 October 1990 with the dissolution of the German Democratic Republic and the integration of its re-established constituent federated states into the Federal Republic of Germany to form present-day Germany. This date was chosen as the customary German Unity Day, and has thereafter been celebrated each year as a national holiday. On the same date, E"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q56039"
+   }
+  },
+  {
+   "id": "wikipedia-en-28011800",
+   "source": "wikipedia",
+   "name": "International Animal Rescue",
+   "url": "https://en.wikipedia.org/wiki/International_Animal_Rescue",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1989,
+   "date_end": null,
+   "date_display": "1989",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-28011800.jpg",
+     "credit": "Wikimedia Commons: File:Iar-logo-200x200.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-28011800.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "International Animal Rescue (IAR) is a British wildlife protection and conservation non-profit organisation. IAR aims to protect and mitigate threats to wildlife and habitats.\nIAR performs hands-on rescue when necessary to reduce the suffering of animals, aiming to rehabilitate and return them to the wild if possible. Animals that cannot be released are provided with permanent sanctuary."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6048188"
+   }
+  },
+  {
+   "id": "wikipedia-en-17701542",
+   "source": "wikipedia",
+   "name": "KattenKabinet",
+   "url": "https://en.wikipedia.org/wiki/KattenKabinet",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1990,
+   "date_end": null,
+   "date_display": "1990",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-17701542.jpg",
+     "credit": "Wikimedia Commons: File:Cat_Cabinet_face_Amsterdam-Photo_by_Pejman_Akbarzadeh_Persian_Dutch_Network.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-17701542.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The KattenKabinet (\"Cat Cabinet\") is an art museum in Amsterdam devoted to works depicting cats. The museum collection includes paintings, drawings, sculptures and other works of art by Pablo Picasso, Rembrandt, Henri de Toulouse-Lautrec, Corneille, Sal Meijer, Théophile Steinlen, Ed van der Elsken and Jože Ciuha, among others.\nThe museum is housed in a canalside building at Herengracht 497, in the grand Gouden Bocht (\"Golden Bend\") of this canal.  The owner lives on the second floor of the building with his family."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2916386"
+   }
+  },
+  {
+   "id": "wikipedia-en-34985353",
+   "source": "wikipedia",
+   "name": "El Diablo (1990 film)",
+   "url": "https://en.wikipedia.org/wiki/El_Diablo_(1990_film)",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1990,
+   "date_end": null,
+   "date_display": "1990",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-34985353.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "El Diablo is a 1990 American Western comedy television film directed by Peter Markle. It stars Anthony Edwards and Louis Gossett Jr. The film was co-written by Tommy Lee Wallace, John Carpenter and Bill Phillips, and produced by Carpenter and Debra Hill.\nEl Diablo focuses on Billy Ray Smith (Edwards), a teacher living in Texas, as he tracks down the outlaw El Diablo (Robert Beltran), who has kidnapped one of Smith's students."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3720901"
+   }
+  },
+  {
+   "id": "wikipedia-en-9445189",
+   "source": "wikipedia",
+   "name": "Animal Defenders International",
+   "url": "https://en.wikipedia.org/wiki/Animal_Defenders_International",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1990,
+   "date_end": null,
+   "date_display": "1990",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-9445189.png",
+     "credit": "Wikimedia Commons: File:Animal_Defenders_International_logo.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-9445189.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Defenders International (ADI), founded 1990, has offices in US, UK, Colombia, Peru and South Africa; it actuates education and public awareness campaigns to protect animals in captivity and wild animals and their environments. ADI's campaigns focus on animals used in entertainment, sport, for clothing; illegal wildlife trade; and replacement of animals used in research and testing. ADI collaborates with governments on large-scale international rescues of wild animals following legislation to end animal circuses, illegal animal trafficking. ADI owns and operates the ADI Wildlife Sanctuar"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4764792"
+   }
+  },
+  {
+   "id": "wikipedia-en-39990378",
+   "source": "wikipedia",
+   "name": "Stop Dragging Me Down",
+   "url": "https://en.wikipedia.org/wiki/Stop_Dragging_Me_Down",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 1990,
+   "date_end": null,
+   "date_display": "1990",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-39990378.jpg",
+     "credit": "Wikimedia Commons: File:Stop_Dragging_Me_Down.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-39990378.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Stop Draggin Me Down is the debut album by the Bellingham, Washington-based garage rock group the Mono Men, released in 1990."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q17130583"
+   }
+  },
+  {
+   "id": "wikipedia-en-3001475",
+   "source": "wikipedia",
+   "name": "Canción Animal",
+   "url": "https://en.wikipedia.org/wiki/Canci%C3%B3n_Animal",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1990,
+   "date_end": null,
+   "date_display": "1990",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3001475.jpg",
+     "credit": "Wikimedia Commons: File:SodaStereo_CancionAnimal.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3001475.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Canción Animal (pronounced [kanˈsjon aniˈmal]; transl. Animal Song) is the fifth studio album by the Argentine rock band Soda Stereo. Released on 7 August 1990, the album features a rock sound, a change from the band's previous new wave and funk albums.\nTo create Canción Animal, the band drew inspiration primarily from the sound of Argentine rock bands from the 1970s that they had listened to during their adolescence, such as Pescado Rabioso, Vox Dei, and Color Humano. Apart from the alternative and hard rock from the album, Canción Animal features country, folk, psychedelic, and acoustic song"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5031525"
+   }
+  },
+  {
+   "id": "wikipedia-en-83585859",
+   "source": "wikipedia",
+   "name": "Riga Circus",
+   "url": "https://en.wikipedia.org/wiki/Riga_Circus",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 1991,
+   "date_end": null,
+   "date_display": "1991",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-83585859.jpg",
+     "credit": "Wikimedia Commons: File:Cirks_-_Merķeļa_iela_4,_Rīga.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-83585859.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Riga Circus (Latvian: Rīgas cirks) is a circus venue and state-owned cultural institution in central Riga, Latvia. Its permanent building at 4 Merķeļa Street opened on 29 December 1888 as Salamonsky's Circus and was designed by the Latvian architect Jānis Frīdrihs Baumanis. Architectural and tourism sources describe the building as one of the oldest circus-focused buildings in Europe and as the only permanent circus building in the Baltic states.\nThe building is listed as a state-protected architectural monument."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4394570"
+   }
+  },
+  {
+   "id": "wikipedia-en-2839919",
+   "source": "wikipedia",
+   "name": "Techno Animal",
+   "url": "https://en.wikipedia.org/wiki/Techno_Animal",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1991,
+   "date_end": null,
+   "date_display": "1991",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2839919.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Techno Animal was an electronic duo formed in 1990 in London, England by British musicians Justin Broadrick (of the band Godflesh) and Kevin Martin (a.k.a. the Bug, of the band God). The duo released six LPs beginning with their 1991 debut Ghosts. They blended dub production with dark, beat-oriented ambient music and paranoiac themes."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q18162708"
+   }
+  },
+  {
+   "id": "wikipedia-en-901827",
+   "source": "wikipedia",
+   "name": "Meredith Music Festival",
+   "url": "https://en.wikipedia.org/wiki/Meredith_Music_Festival",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 1991,
+   "date_end": null,
+   "date_display": "1991",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-901827.png",
+     "credit": "Wikimedia Commons: File:Meredith_Music_Festival_logo.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-901827.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Meredith Music Festival (MMF), also known simply as Meredith, is a three-day outdoor music festival held every December at the Meredith Supernatural Amphitheatre, a natural amphitheatre located on private farmland near the town of Meredith in Victoria, Australia."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6818962"
+   }
+  },
+  {
+   "id": "wikipedia-en-297111",
+   "source": "wikipedia",
+   "name": "Reservoir Dogs",
+   "url": "https://en.wikipedia.org/wiki/Reservoir_Dogs",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 1992,
+   "date_end": null,
+   "date_display": "1992",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-297111.png",
+     "credit": "Wikimedia Commons: File:Reservoir_Dogs.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-297111.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Reservoir Dogs is a 1992 American heist film written and directed by Quentin Tarantino in his feature-length directorial debut. It stars Harvey Keitel, Tim Roth, Chris Penn, Steve Buscemi, Lawrence Tierney, Michael Madsen, Tarantino, and Edward Bunker as diamond thieves whose heist of a jewelry store goes terribly wrong. Kirk Baltz, Randy Brooks, and Steven Wright also play supporting roles. The film incorporates many motifs that have become Tarantino's hallmarks: violent crime, pop culture references, profanity, and nonlinear storytelling."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q72962"
+   }
+  },
+  {
+   "id": "wikipedia-en-183619",
+   "source": "wikipedia",
+   "name": "Baraka (film)",
+   "url": "https://en.wikipedia.org/wiki/Baraka_(film)",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1992,
+   "date_end": 1993,
+   "date_display": "1992–1993",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-183619.jpg",
+     "credit": "Wikimedia Commons: File:Baraka.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-183619.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Baraka is a 1992 American non-narrative documentary film directed by Ron Fricke.  It was photographed in the 65 mm Todd-AO format, and is the first film ever to be restored and scanned at 8K resolution."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q514170"
+   }
+  },
+  {
+   "id": "wikipedia-en-20828443",
+   "source": "wikipedia",
+   "name": "Lament for the Weary",
+   "url": "https://en.wikipedia.org/wiki/Lament_for_the_Weary",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1992,
+   "date_end": null,
+   "date_display": "1992",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-20828443.jpg",
+     "credit": "Wikimedia Commons: File:Seventh_Angel_-_Lament_for_the_Weary.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-20828443.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Lament for the Weary is Christian thrash metal band Seventh Angel's second studio album, released in late 1991 on Music for Nations. The album saw the band incorporating doom metal elements to thrash. The album garnered generous reviews from British music press at the time. Lament for the Weary is a concept album about a man who suffered abuse during childhood and struggles with depression and suicidal thoughts in adulthood."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5397117"
+   }
+  },
+  {
+   "id": "wikipedia-en-52762",
+   "source": "wikipedia",
+   "name": "Final Fantasy Mystic Quest",
+   "url": "https://en.wikipedia.org/wiki/Final_Fantasy_Mystic_Quest",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 1992,
+   "date_end": 1993,
+   "date_display": "1992–1993",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-52762.jpg",
+     "credit": "Wikimedia Commons: File:Final_Fantasy_Mystic_US_boxart.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-52762.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Final Fantasy Mystic Quest, released as Mystic Quest Legend in PAL regions and as Final Fantasy USA: Mystic Quest in Japan, is a 1992 role-playing video game developed and published by Square for the Super Nintendo Entertainment System. It is a spin-off of the broader Final Fantasy series. Final Fantasy Mystic Quest was first released in North America in 1992 and marketed as a \"simplified role-playing game... designed for the entry-level player\" in an attempt to broaden the genre's appeal."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1249187"
+   }
+  },
+  {
+   "id": "wikipedia-en-43986526",
+   "source": "wikipedia",
+   "name": "Moscow Cat Museum",
+   "url": "https://en.wikipedia.org/wiki/Moscow_Cat_Museum",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1993,
+   "date_end": null,
+   "date_display": "1993",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-43986526.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Moscow Cat Museum is a museum in Moscow, created in 1993 and dedicated entirely to the theme of cats in art and life."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4304212"
+   }
+  },
+  {
+   "id": "wikipedia-en-1952014",
+   "source": "wikipedia",
+   "name": "Animal Nitrate",
+   "url": "https://en.wikipedia.org/wiki/Animal_Nitrate",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1993,
+   "date_end": null,
+   "date_display": "1993",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1952014.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Animal Nitrate\" is the third single by English rock band Suede, released through Nude Records on 22 February 1993 and later included on the band's debut album, Suede (1993). It charted at No. 7 on the UK Singles Chart, making it the highest-charting single from the album. The song is the band's highest-charting single in Ireland and New Zealand, peaking at No."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2352223"
+   }
+  },
+  {
+   "id": "wikipedia-en-38324869",
+   "source": "wikipedia",
+   "name": "Gramercy Tavern",
+   "url": "https://en.wikipedia.org/wiki/Gramercy_Tavern",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 1994,
+   "date_end": null,
+   "date_display": "1994",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-38324869.jpg",
+     "credit": "Wikimedia Commons: File:Gramercy_Tavern.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-38324869.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Gramercy Tavern is a New American restaurant located at 42 East 20th Street (between Broadway and Park Avenue S.), in the Flatiron District in Manhattan, New York City.\nIt is owned by Danny Meyer (originally co-founded by Meyer and Chef Tom Colicchio), along with Chef/Partner Michael Anthony.  The Executive Pastry Chef is Karen Demasco.  The General Manager is Asher Russem."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5593638"
+   }
+  },
+  {
+   "id": "wikipedia-en-2687974",
+   "source": "wikipedia",
+   "name": "Drunken Master II",
+   "url": "https://en.wikipedia.org/wiki/Drunken_Master_II",
+   "categories": [
+    "fighting"
+   ],
+   "tags": [
+    "Chinese martial arts animal styles"
+   ],
+   "date_start": 1994,
+   "date_end": null,
+   "date_display": "1994",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2687974.jpg",
+     "credit": "Wikimedia Commons: File:DrunkenMasterII.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2687974.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Drunken Master II (Chinese: 醉拳二; Cantonese Yale: Jui Kuen II) is a 1994 Hong Kong action-comedy kung fu film directed by Lau Kar-leung and starring Jackie Chan as Chinese martial arts master and a Cantonese folk hero, Wong Fei-hung. It was Chan's first traditional style martial arts film since Fearless Hyena Part II (1983). The film was released in North America as The Legend of Drunken Master in 2000.\nThe film is a sequel to Chan's 1978 film Drunken Master, directed by Yuen Woo-ping."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1261372"
+   }
+  },
+  {
+   "id": "wikipedia-en-30575",
+   "source": "wikipedia",
+   "name": "12 Monkeys",
+   "url": "https://en.wikipedia.org/wiki/12_Monkeys",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 1995,
+   "date_end": 1996,
+   "date_display": "1995–1996",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-30575.jpg",
+     "credit": "Wikimedia Commons: File:Twelve_monkeysmp.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-30575.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "12 Monkeys is a 1995 science fiction thriller film directed by Terry Gilliam from a screenplay by David Peoples and Janet Peoples, based on Chris Marker's 1962 short film La Jetée. The film stars Bruce Willis, Madeleine Stowe, Brad Pitt, and Christopher Plummer. Set in a post-apocalyptic future devastated by disease, its plot follows a convict who is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet. It is an international co-production between the United Kingdom, France, Japan, the United States and Germany."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q175038"
+   }
+  },
+  {
+   "id": "wikipedia-en-369499",
+   "source": "wikipedia",
+   "name": "Changeling: The Dreaming",
+   "url": "https://en.wikipedia.org/wiki/Changeling:_The_Dreaming",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 1995,
+   "date_end": null,
+   "date_display": "1995",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-369499.jpg",
+     "credit": "Wikimedia Commons: File:Chandrea_c.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-369499.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Changeling: The Dreaming is a tabletop role-playing game originally published by White Wolf Publishing in July 1995, and is part of the World of Darkness series. Player characters are changelings, fae souls reborn into human bodies, a practice begun by the fae to protect themselves as magic vanished from the world. White Wolf Publishing released a second edition in 1997, and Onyx Path Publishing released a 20th Anniversary Edition in 2017.\nThe game explores the balance between imagination and practicality, and the struggle of art and beauty against the dark, mysterious \"Gothic-Punk\" World of D"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1061994"
+   }
+  },
+  {
+   "id": "wikipedia-en-3879758",
+   "source": "wikipedia",
+   "name": "The Adversary (Star Trek: Deep Space Nine)",
+   "url": "https://en.wikipedia.org/wiki/The_Adversary_(Star_Trek:_Deep_Space_Nine)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 1995,
+   "date_end": 1996,
+   "date_display": "1995–1996",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3879758.jpg",
+     "credit": "Wikimedia Commons: File:The_Adversary_(Star_Trek,_Deep_Space_Nine)_photo.jpeg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3879758.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"The Adversary\" is the 72nd episode of the syndicated American science fiction television series Star Trek: Deep Space Nine, the season finale of the third season.\nSet in the 24th century, the series follows the adventures of the crew of Deep Space Nine, a space station located near a stable wormhole between the Alpha and Gamma quadrants of the Milky Way Galaxy; the Gamma Quadrant is home to the Dominion, a hostile empire controlled by the shape-shifting Changelings. In this episode, set mostly on the starship Defiant, the newly promoted Captain Sisko (Avery Brooks) and the crew must stop a Ch"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7712702"
+   }
+  },
+  {
+   "id": "wikipedia-en-53948697",
+   "source": "wikipedia",
+   "name": "Wildlife SOS",
+   "url": "https://en.wikipedia.org/wiki/Wildlife_SOS",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1995,
+   "date_end": null,
+   "date_display": "1995",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-53948697.jpg",
+     "credit": "Wikimedia Commons: File:Wildlife_SOS_Logo.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-53948697.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Wildlife SOS (WSOS) is a conservation non-profit organisation in India, established in 1995 with the primary objective of rescuing and rehabilitating wildlife in distress, and preserving India's natural heritage. It is one of the largest wildlife organisations in South Asia.\nWSOS worked to end the cruel and barbaric practice of dancing bears from the streets of India, while creating alternative livelihoods for the nomadic communities that depended on the exploitation of the bears.  It also rehabilitates sloth bears and more recently elephants."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q25303065"
+   }
+  },
+  {
+   "id": "wikipedia-en-1558543",
+   "source": "wikipedia",
+   "name": "The Bambi Molesters",
+   "url": "https://en.wikipedia.org/wiki/The_Bambi_Molesters",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 1995,
+   "date_end": null,
+   "date_display": "1995",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1558543.jpg",
+     "credit": "Wikimedia Commons: File:Thebambimolesters.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1558543.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Bambi Molesters were a surf rock band from Sisak, Croatia, founded in 1995.\nThey performed regularly in Croatia and all over Europe, often opening for the US rock band R.E.M.  They released five studio albums from 1997 until 2013. In  collaboration with Chris Eckman, leader of the gothic-americana band The Walkabouts, the project \"The Strange\" was born. In 2018, after 23 years, they announced on Facebook that they would disband 'It's time for a new era' but did not reveal any reasons."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q456356"
+   }
+  },
+  {
+   "id": "wikipedia-en-5461872",
+   "source": "wikipedia",
+   "name": "Lament of the Lamb",
+   "url": "https://en.wikipedia.org/wiki/Lament_of_the_Lamb",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1995,
+   "date_end": null,
+   "date_display": "1995",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-5461872.jpg",
+     "credit": "Wikimedia Commons: File:Lamentofthelamb.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-5461872.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Lament of the Lamb (Japanese: 羊のうた, Hepburn: Hitsuji no Uta; lit. \"Song of the Sheep\"), alternatively titled The Lament of a Lamb or Sheep's Song, is a Japanese horror manga series written and illustrated by Kei Toume. It follows Kazuna, a boy with a mysterious illness which turns out to be vampirism. It was adapted into a live action film in 2002 directed by Junji Hanado, a three-part Drama CD in 2002–03, and an anime OVA series in 2003–04."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q195759"
+   }
+  },
+  {
+   "id": "wikipedia-en-5008340",
+   "source": "wikipedia",
+   "name": "Wipeout (video game)",
+   "url": "https://en.wikipedia.org/wiki/Wipeout_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 1995,
+   "date_end": null,
+   "date_display": "1995",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-5008340.jpg",
+     "credit": "Wikimedia Commons: File:WipEoutCover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-5008340.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Wipeout (stylised as wipE′out″) is a 1995 racing video game developed and published by Psygnosis for the PlayStation. The first installment in the Wipeout series, it was a launch title for the PlayStation in Europe. It was ported to MS-DOS, followed by the Saturn the next year. Psygnosis' parent company, Sony Computer Entertainment, re-released the game for the PlayStation 3 and PlayStation Portable via the PlayStation Network in 2007."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q286205"
+   }
+  },
+  {
+   "id": "wikipedia-en-23494787",
+   "source": "wikipedia",
+   "name": "Legend of Wukong",
+   "url": "https://en.wikipedia.org/wiki/Legend_of_Wukong",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 1996,
+   "date_end": 2008,
+   "date_display": "1996–2008",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-23494787.jpg",
+     "credit": "Wikimedia Commons: File:Wkboxfront.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-23494787.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Legend of Wukong, originally known as Wucom Legend (Chinese: 悟空外傳; pinyin: Wùkōng Wàizhuàn; lit. 'Wukong Rumors' – 外傳 wàizhuàn is analogous to the Japanese Gaiden), is a Taiwanese role-playing adventure game for the Sega Mega Drive/Genesis developed by Gamtec. It was originally released in 1996 in Chinese only. The game's story is loosely based on the novel Journey to the West."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6517780"
+   }
+  },
+  {
+   "id": "wikipedia-en-202838",
+   "source": "wikipedia",
+   "name": "Animal Rights (album)",
+   "url": "https://en.wikipedia.org/wiki/Animal_Rights_(album)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1996,
+   "date_end": null,
+   "date_display": "1996",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-202838.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Rights is the fourth album by the American musician Moby, released on September 23, 1996. The album was a temporary style shift from the electronica music that Moby had previously released to an alternative rock sound influenced by the hardcore punk music that he had enjoyed as a teenager. The album was released to mediocre critical reviews and commercial performance."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q734112"
+   }
+  },
+  {
+   "id": "wikipedia-en-7118668",
+   "source": "wikipedia",
+   "name": "M. Chat",
+   "url": "https://en.wikipedia.org/wiki/M._Chat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 1997,
+   "date_end": null,
+   "date_display": "1997",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-7118668.jpg",
+     "credit": "Wikimedia Commons: File:Sarajevo,_Bosnia_and_Herzegovina_(7370712062).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-7118668.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "M. Chat (also known as Monsieur Chat and Mr Chat) is the name of a graffiti cat that originally appeared in Orléans, France in 1997. The graffiti appeared most frequently on chimneys, but was also sighted in other places, such as train platforms and at political rallies. The artist was originally anonymous, but in 2007, Thoma Vuille, born in 1977, in Boudry, in the canton of Neuchâtel, was caught in the act of creating the cat.\nThe yellow cartoon cat is characterized by its large Cheshire Cat grin and body."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3272429"
+   }
+  },
+  {
+   "id": "wikipedia-en-42992130",
+   "source": "wikipedia",
+   "name": "Nipro Hachiko Dome",
+   "url": "https://en.wikipedia.org/wiki/Nipro_Hachiko_Dome",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 1997,
+   "date_end": null,
+   "date_display": "1997",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-42992130.jpg",
+     "credit": "Wikimedia Commons: File:Odate_Jukai_Dome_20181202.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-42992130.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Nipro Hachiko Dome (ニプロハチ公ドーム, Nipuro Hachikou Dōmu) is a large wooden stadium in Ōdate, Akita, in northern Japan. The stadium covers an area of 12,915 m2. It was completed in June 1997 and is made from 25,000 Akita cypress trees which are covered with a special double Teflon-coated membrane. This allows enough sunlight into the stadium so that during the day no artificial lights are needed."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q11441926"
+   }
+  },
+  {
+   "id": "wikipedia-en-938552",
+   "source": "wikipedia",
+   "name": "Working Families Party",
+   "url": "https://en.wikipedia.org/wiki/Working_Families_Party",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "working animal"
+   ],
+   "date_start": 1998,
+   "date_end": null,
+   "date_display": "1998",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-938552.png",
+     "credit": "Wikimedia Commons: File:Working_Families_Party_logo_circa_2025.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-938552.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Working Families Party (WFP) is a progressive minor political party in the United States. WFP promotes for economic progressivism, left-wing populism, and cultural liberalism.\nWFP was organized in 1998 as a successor to the New Party by a coalition of labor unions including CWA and SEIU, advocacy groups including Citizen Action, and community organizations including ACORN. Founded in New York, WFP has active chapters in nearly two dozen states. WFP has statewide ballot access in Connecticut, New York, and Oregon."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2741156"
+   }
+  },
+  {
+   "id": "wikipedia-en-454586",
+   "source": "wikipedia",
+   "name": "Mechanical Animals",
+   "url": "https://en.wikipedia.org/wiki/Mechanical_Animals",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 1998,
+   "date_end": null,
+   "date_display": "1998",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-454586.png",
+     "credit": "Wikimedia Commons: File:Marilyn_Manson_-_Mechanical_Animals.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-454586.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Mechanical Animals is the third studio album by American rock band Marilyn Manson. It was released on September 15, 1998, by Interscope Records. While not abandoning the band's industrial metal roots, the album is less abrasive and more reminiscent of 1970s glam rock, such as David Bowie, T. Rex and Queen. The themes of Mechanical Animals primarily deal with the trappings of fame and drug abuse."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q752883"
+   }
+  },
+  {
+   "id": "wikipedia-en-195809",
+   "source": "wikipedia",
+   "name": "PayPal",
+   "url": "https://en.wikipedia.org/wiki/PayPal",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 1998,
+   "date_end": null,
+   "date_display": "1998",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-195809.jpg",
+     "credit": "Wikimedia Commons: File:PayPal_San_Jose_Headquarters.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-195809.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money transfers; it serves as an electronic alternative to traditional paper methods such as checks and money orders. The company operates as a payment processor for online vendors, auction sites and many other commercial and company users, which involve a fee. \nEstablished in March 2000 after a merger between Confinity and X.com, PayPal went public through an IPO in 2002."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q483959"
+   }
+  },
+  {
+   "id": "wikipedia-en-3501768",
+   "source": "wikipedia",
+   "name": "Lucero (band)",
+   "url": "https://en.wikipedia.org/wiki/Lucero_(band)",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 1998,
+   "date_end": null,
+   "date_display": "1998",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3501768.jpg",
+     "credit": "Wikimedia Commons: File:Lucero1(by_Scott_Dudelson).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3501768.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Lucero is an American country-punk/alternative country/alternative rock band based in Memphis, Tennessee, United States. Lucero's sound has been described as a \"synthesis of soul, rock, and country [that] is distinctly Memphisian.\" They have released 12 albums and one live DVD, mostly through their own label. The band mainly tours around North America."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q38359"
+   }
+  },
+  {
+   "id": "wikipedia-en-12126810",
+   "source": "wikipedia",
+   "name": "Parasite Eve (video game)",
+   "url": "https://en.wikipedia.org/wiki/Parasite_Eve_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 1998,
+   "date_end": null,
+   "date_display": "1998",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-12126810.png",
+     "credit": "Wikimedia Commons: File:Parasite_Eve_Coverart.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-12126810.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Parasite Eve is a 1998 role-playing video game developed and published by Square. The game is a sequel to the novel Parasite Eve, written by Hideaki Sena; it is the first game in the Parasite Eve video game series. The story follows New York City police officer Aya Brea over a six-day span in 1997 as she attempts to stop Eve, a woman who plans to destroy the human race through spontaneous human combustion. Players explore levels set in areas of New York while utilizing a pausable real-time combat system along with several role-playing elements."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2165750"
+   }
+  },
+  {
+   "id": "wikipedia-en-73538320",
+   "source": "wikipedia",
+   "name": "Music (video game)",
+   "url": "https://en.wikipedia.org/wiki/Music_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 1998,
+   "date_end": null,
+   "date_display": "1998",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-73538320.jpg",
+     "credit": "Wikimedia Commons: File:Music_1998_cover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-73538320.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Music is a 1998 music sequencer video game developed by Jester Interactive and published by Codemasters for the PlayStation. It was initially released only in Europe. A sequel, Music 2000, was released in 1999."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q117705119"
+   }
+  },
+  {
+   "id": "wikipedia-en-1459689",
+   "source": "wikipedia",
+   "name": "Dance Dance Revolution (1998 video game)",
+   "url": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_(1998_video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 1998,
+   "date_end": null,
+   "date_display": "1998",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1459689.jpg",
+     "credit": "Wikimedia Commons: File:DDR_1stMIX_flyer.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1459689.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Dance Dance Revolution (DDR) is a music video game developed by Konami. Played with feet instead of hands, DDR popularized the genre, spawning imitators and a franchise of the same name. \nIt was originally released to arcades in Japan on September 26, 1998. In March 1999, the game was released to North American arcades as Dance Dance Revolution and to European arcades under the name Dancing Stage."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4920311"
+   }
+  },
+  {
+   "id": "wikipedia-en-30865414",
+   "source": "wikipedia",
+   "name": "Animal Collective",
+   "url": "https://en.wikipedia.org/wiki/Animal_Collective",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 1999,
+   "date_end": null,
+   "date_display": "1999",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-30865414.jpg",
+     "credit": "Wikimedia Commons: File:Animal_Collective-25_(cropped).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-30865414.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Collective is an American experimental pop band from Baltimore, Maryland. It has comprised multi-instrumentalists Avey Tare (David Portner), Panda Bear (Noah Lennox), Geologist (Brian Weitz), and Deakin (Josh Dibb) since inception. The band's work is characterized by an eclectic exploration of styles, including psychedelia, freak folk, noise, and electronica, with the use of elements such as loops, drones, sampling, vocal harmonies, and sound collage. AllMusic's Fred Thomas suggests that the group \"defined the face of independent experimental rock during the 2000s and 2010s.\"\nThe band m"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q547272"
+   }
+  },
+  {
+   "id": "wikipedia-en-3214945",
+   "source": "wikipedia",
+   "name": "8 Bit Weapon",
+   "url": "https://en.wikipedia.org/wiki/8_Bit_Weapon",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 1999,
+   "date_end": null,
+   "date_display": "1999",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3214945.jpg",
+     "credit": "Wikimedia Commons: File:8_Bit_Weapon.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3214945.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "8 Bit Weapon is an American chiptune music band formed in Ventura County, California, by Seth and Michelle Sternberger. It was originally created by Seth Sternberger around 1998. Its instruments consists primarily of old 8-bit and 16-bit computers (with 8-bit audio output) such as the VIC-20, Commodore 64, Commodore 128,  Amiga 500, and the Apple II, as well as game consoles such as the Nintendo Entertainment System, Game Boy, Atari 2600, and an Intellivision synthesizer.\nThe band started around 1998 by remixing Commodore 64 SID tunes like Crazy Comets, M.U.L.E., and some Nintendo NES game mus"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4645225"
+   }
+  },
+  {
+   "id": "wikipedia-en-13920865",
+   "source": "wikipedia",
+   "name": "Monkey Day",
+   "url": "https://en.wikipedia.org/wiki/Monkey_Day",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2000,
+   "date_end": null,
+   "date_display": "2000",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-13920865.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Monkey Day is an unofficial international holiday celebrated on December 14. The holiday was created and popularized in 2000 by artists Casey Sorrow and Eric Millikin when they were art students at Michigan State University. Monkey Day celebrates monkeys and \"all things simian\", including other non-human primates such as apes, tarsiers, and lemurs. Monkey Day is celebrated worldwide and often also known as World Monkey Day and International Monkey Day."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6900729"
+   }
+  },
+  {
+   "id": "wikipedia-en-37589336",
+   "source": "wikipedia",
+   "name": "The Changeling (Ōe novel)",
+   "url": "https://en.wikipedia.org/wiki/The_Changeling_(%C5%8Ce_novel)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2000,
+   "date_end": null,
+   "date_display": "2000",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-37589336.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Changeling (Japanese: 取り替え子 (チェンジリング), romanized: Torikaeko (Chenjiringu)) is a 2000 novel by Kenzaburō Ōe. It is the first book of a trilogy. A translation into English by Deborah Boliver Boehm (ISBN 9780802119360), was published in 2010 by Grove Press in the United States and by Atlantic Books in the United Kingdom. Boehm uses American English heavily in her translation."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4367920"
+   }
+  },
+  {
+   "id": "wikipedia-en-59910364",
+   "source": "wikipedia",
+   "name": "Bear Sanctuary Belitsa",
+   "url": "https://en.wikipedia.org/wiki/Bear_Sanctuary_Belitsa",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 2000,
+   "date_end": null,
+   "date_display": "2000",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-59910364.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bear Sanctuary Belitsa (formerly \"Dancing Bears Park Belitsa\") is a project run by Four Paws and the Brigitte Bardot Foundation, near the town of Belitsa in southwest Bulgaria, which provides mistreated and neglected brown bears with a home."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q63560159"
+   }
+  },
+  {
+   "id": "wikipedia-en-6074422",
+   "source": "wikipedia",
+   "name": "Murder on Music Row",
+   "url": "https://en.wikipedia.org/wiki/Murder_on_Music_Row",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 2000,
+   "date_end": null,
+   "date_display": "2000",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-6074422.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Murder on Music Row\" is a 1999 song written by Larry Cordle and Larry Shell, and originally recorded by American bluegrass group Larry Cordle & Lonesome Standard Time, as the title track from their album Murder on Music Row. It gained fame soon after that when it was recorded as a duet between American country music artists George Strait and Alan Jackson. The song laments the rise of country pop and the accompanying decline of the traditional country music sound; it refers to Music Row, an area in Nashville, Tennessee considered the epicenter of the country music industry.\nAlthough the Strait"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q16954113"
+   }
+  },
+  {
+   "id": "wikipedia-en-501566",
+   "source": "wikipedia",
+   "name": "Conker's Bad Fur Day",
+   "url": "https://en.wikipedia.org/wiki/Conker%27s_Bad_Fur_Day",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2001,
+   "date_end": null,
+   "date_display": "2001",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-501566.jpg",
+     "credit": "Wikimedia Commons: File:Conkersbfdbox.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-501566.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Conker's Bad Fur Day is a 2001 platform game developed by Rare for the Nintendo 64. It is the second installment in the Conker series, after Conker's Pocket Tales (1999). The game follows Conker, a greedy, hard-drinking red squirrel who must return home to his girlfriend, Berri, after an evening of heavily drinking at the local pub. Most of the game requires the player to complete a linear sequence of challenges that involve jumping over obstacles, solving puzzles, and fighting enemies."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q841712"
+   }
+  },
+  {
+   "id": "wikipedia-en-1205872",
+   "source": "wikipedia",
+   "name": "Halo (franchise)",
+   "url": "https://en.wikipedia.org/wiki/Halo_(franchise)",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 2001,
+   "date_end": null,
+   "date_display": "2001",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1205872.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Halo is an American military science fiction video game series and media franchise, originally developed by Bungie and currently managed and developed by Activision and Halo Studios (previously 343 Industries), part of Microsoft's Xbox Game Studios. The series launched in November 2001 with the first-person shooter video game Halo: Combat Evolved and its tie-in novel, The Fall of Reach. The latest installment, Halo: Campaign Evolved, a remake of the original Combat Evolved campaign newly powered by Unreal Engine 5, was released in July 2026. Spinoffs include real-time strategy and twin-stick s"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1747150"
+   }
+  },
+  {
+   "id": "wikipedia-en-15658254",
+   "source": "wikipedia",
+   "name": "Fast & Furious",
+   "url": "https://en.wikipedia.org/wiki/Fast_%26_Furious",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 2001,
+   "date_end": null,
+   "date_display": "2001",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-15658254.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Fast & Furious (formerly known as The Fast and the Furious) is an American action media franchise centered on a series of films revolving around street racing, heists, and spies. The franchise also includes short films, a television series, toys, video games, live shows, theme park and museum attractions. The films are distributed by Universal Pictures.\nThe first film, based on the 1998 Vibe magazine article \"Racer X\" by Ken Li and written by Gary Scott Thompson, Erik Bergquist, and David Ayer, was released in 2001."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1576873"
+   }
+  },
+  {
+   "id": "wikipedia-en-2056466",
+   "source": "wikipedia",
+   "name": "The Animal",
+   "url": "https://en.wikipedia.org/wiki/The_Animal",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2001,
+   "date_end": null,
+   "date_display": "2001",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2056466.jpg",
+     "credit": "Wikimedia Commons: File:The_Animal_film_poster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2056466.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Animal is a 2001 American comedy film directed by Luke Greenfield (in his feature length directorial debut), and written by Tom Brady and Rob Schneider from a story conceived by Brady. It stars Schneider in the lead role, alongside Colleen Haskell, John C. McGinley, Guy Torry, and Edward Asner with supporting roles by Michael Caton and Louis Lombardi. The film depicts a police station evidence clerk who is critically injured and is put back together by a mad scientist who transplants animal parts, resulting in strange animalistic changes to his behavior.\nProduced by Revolution Studios and "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q547517"
+   }
+  },
+  {
+   "id": "wikipedia-en-101230",
+   "source": "wikipedia",
+   "name": "Rez (video game)",
+   "url": "https://en.wikipedia.org/wiki/Rez_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2001,
+   "date_end": null,
+   "date_display": "2001",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-101230.jpg",
+     "credit": "Wikimedia Commons: File:RezBoxArt.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-101230.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Rez is a music rail shooter video game developed by United Game Artists and published by Sega for the Dreamcast and PlayStation 2. It was released in Japan in 2001, followed by releases to the United States and Europe in 2002. The game was ported to Xbox 360 as Rez HD by Q Entertainment and HexaDrive in 2008. A virtual reality-compatible expanded version dubbed Rez Infinite was co-developed and released through 2016 to 2023 by Enhance Games, Resonair and Monstars for PlayStation 4, Windows, Android, Oculus Quest and PlayStation 5."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q693311"
+   }
+  },
+  {
+   "id": "wikipedia-en-1608010",
+   "source": "wikipedia",
+   "name": "Majestic (video game)",
+   "url": "https://en.wikipedia.org/wiki/Majestic_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2001,
+   "date_end": null,
+   "date_display": "2001",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1608010.jpg",
+     "credit": "Wikimedia Commons: File:Majestic_logo.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1608010.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Majestic was one of the first alternate reality games (ARGs), a type of game that blurs the line between in-game and out-of-game experiences.  Majestic was created by Neil Young. It debuted on July 24, 2001. While noted for its unusual concept, it did not fare well commercially."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6737680"
+   }
+  },
+  {
+   "id": "wikipedia-en-26619204",
+   "source": "wikipedia",
+   "name": "Nintendocore",
+   "url": "https://en.wikipedia.org/wiki/Nintendocore",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2001,
+   "date_end": null,
+   "date_display": "2001",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-26619204.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Nintendocore is a broadly defined style of music that most commonly fuses chiptune and video game music with hardcore punk and/or heavy metal. The genre is sometimes considered a direct subgenre of post-hardcore and a fusion genre between metalcore and chiptune.\nPractitioners of this style include Horse the Band and Minibosses."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2035976"
+   }
+  },
+  {
+   "id": "wikipedia-en-762019",
+   "source": "wikipedia",
+   "name": "Tropico (video game)",
+   "url": "https://en.wikipedia.org/wiki/Tropico_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2001,
+   "date_end": null,
+   "date_display": "2001",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-762019.png",
+     "credit": "Wikimedia Commons: File:Tropico_Coverart.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-762019.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Tropico is a construction and management simulation video game developed by PopTop Software and published by Gathering of Developers in April 2001. Feral Interactive has developed and published a number of the games in the series for Mac OS X. The games see the player taking the role of \"El Presidente\", who rules a fictional Caribbean island country named Tropico during the Cold War era and beyond.\nThe game is tongue-in-cheek in its presentation of semi-democratic banana republics, using a great deal of humor while still referencing such topics as totalitarianism, electoral fraud, and the inte"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1050924"
+   }
+  },
+  {
+   "id": "wikipedia-en-1720451",
+   "source": "wikipedia",
+   "name": "Arctic Monkeys",
+   "url": "https://en.wikipedia.org/wiki/Arctic_Monkeys",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2002,
+   "date_end": null,
+   "date_display": "2002",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1720451.jpg",
+     "credit": "Wikimedia Commons: File:Arctic_Monkeys_-_Orange_Stage_-_Roskilde_Festival_2014.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1720451.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Arctic Monkeys are an English rock band formed in Sheffield in 2002. They comprise lead singer and guitarist Alex Turner, drummer Matt Helders, guitarist Jamie Cook and bassist Nick O'Malley, who replaced co-founder and original bassist Andy Nicholson in 2006. Though initially associated with the short-lived landfill indie movement, Arctic Monkeys were one of the earliest bands to come to public attention via the Internet, during the emerging \"blog rock\" era. Commentators have suggested that this period marked a shift in how new bands were promoted and marketed."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q170599"
+   }
+  },
+  {
+   "id": "wikipedia-en-758134",
+   "source": "wikipedia",
+   "name": "Bo' Selecta!",
+   "url": "https://en.wikipedia.org/wiki/Bo%27_Selecta!",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2002,
+   "date_end": 2009,
+   "date_display": "2002–2009",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-758134.jpg",
+     "credit": "Wikimedia Commons: File:Bo'Selecta.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-758134.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Bo' Selecta! is a British television sketch show written and performed by Leigh Francis. It was broadcast on Channel 4 from 2002 until 2009 and lampooned popular culture, becoming known for its often surreal, abstract toilet humour. Series 4 was known as A Bear's Tail while Series 5 shifted filming to the United States and was called Bo!"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2907476"
+   }
+  },
+  {
+   "id": "wikipedia-en-970755",
+   "source": "wikipedia",
+   "name": "LinkedIn",
+   "url": "https://en.wikipedia.org/wiki/LinkedIn",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 2002,
+   "date_end": null,
+   "date_display": "2002",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-970755.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "LinkedIn is an American business and employment-oriented social networking service by Microsoft. The platform is primarily used for professional networking and career development, as it allows job seekers to post their CVs and employers to post their job listings. It was launched on May 5, 2003, by Reid Hoffman and Eric Ly, receiving financing from numerous venture capital firms, including Sequoia Capital, in the years following its inception. Users can invite other people to become connections on the platform, regardless of whether the invitees are already members of LinkedIn."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q213660"
+   }
+  },
+  {
+   "id": "wikipedia-en-71257753",
+   "source": "wikipedia",
+   "name": "XXX (video game)",
+   "url": "https://en.wikipedia.org/wiki/XXX_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2002,
+   "date_end": null,
+   "date_display": "2002",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-71257753.jpg",
+     "credit": "Wikimedia Commons: File:XXX_video_game_cover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-71257753.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "XXX (stylized as xXx) is a 2002 action video game developed by Digital Eclipse and published by Activision for the Game Boy Advance. Based on the film of the same name, the narrative follows Xander \"xXx\" Cage, an underground thrill-seeker who is recruited as a spy to stop the evil Anarchy 99 organization before it unleashes an assault on the Earth. Much of the game is played in a side-scrolling run and gun format, while a few levels feature vehicular combat inspired by Road Rash. The game was developed in approximately two months and received mixed reviews upon release, with critics faulting t"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q25396610"
+   }
+  },
+  {
+   "id": "wikipedia-en-11410275",
+   "source": "wikipedia",
+   "name": "Music of Kingdom Hearts",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Kingdom_Hearts",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2002,
+   "date_end": null,
+   "date_display": "2002",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-11410275.jpg",
+     "credit": "Wikimedia Commons: File:Yoko_Shimomura.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-11410275.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The music of the Kingdom Hearts video game series was composed by Yoko Shimomura with orchestral music arranged by Kaoru Wada. The original soundtracks of the games have been released on three albums and a fourth compilation album. The soundtracks to the Kingdom Hearts games feature several musical pieces from both Square Enix and Disney works, including such pieces as \"Mickey Mouse Club March\" by Jimmie Dodd, \"This Is Halloween\" by Danny Elfman, and \"One-Winged Angel\" by Nobuo Uematsu. They also feature several vocal songs, the most notable being the four main theme songs: \"Hikari\", \"Passion\""
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1646257"
+   }
+  },
+  {
+   "id": "wikipedia-en-8208043",
+   "source": "wikipedia",
+   "name": "MAGFest",
+   "url": "https://en.wikipedia.org/wiki/MAGFest",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2002,
+   "date_end": null,
+   "date_display": "2002",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-8208043.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "MAGFest (Music and Gaming Festival, originally the Mid-Atlantic Gaming Festival) is a non-profit organization and video game, art, music, and culture festival. They hold multiple events throughout the year, with their flagship event being an annual festival held in the Washington metropolitan area or the National Harbor. The events feature concerts by chiptune artists and video game cover bands, educational panels and activities, free-to-play arcade cabinets, a bring your own computer (BYOC) LAN party, community jam spaces, and charity speedruns & auctions. \nIn addition to the primary \"Super M"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6714189"
+   }
+  },
+  {
+   "id": "wikipedia-en-4803480",
+   "source": "wikipedia",
+   "name": "The Cat in the Hat (2003 film)",
+   "url": "https://en.wikipedia.org/wiki/The_Cat_in_the_Hat_(2003_film)",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 2003,
+   "date_end": 2004,
+   "date_display": "2003–2004",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-4803480.jpg",
+     "credit": "Wikimedia Commons: File:The_Cat_In_The_Hat_Poster_2003.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-4803480.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Dr. Seuss' The Cat in the Hat (or simply The Cat in the Hat) is a 2003 American fantasy comedy film loosely based on the 1957 book of the same name by Dr. Seuss. Directed by Bo Welch and written by Alec Berg, David Mandel and Jeff Schaffer, the film stars Mike Myers as the titular character, alongside Alec Baldwin, Kelly Preston, Dakota Fanning and Spencer Breslin."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1286387"
+   }
+  },
+  {
+   "id": "wikipedia-en-480153",
+   "source": "wikipedia",
+   "name": "Little Britain (TV series)",
+   "url": "https://en.wikipedia.org/wiki/Little_Britain_(TV_series)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2003,
+   "date_end": 2006,
+   "date_display": "2003–2006",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-480153.png",
+     "credit": "Wikimedia Commons: File:Little_Britain_скетч_шоу_логотип.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-480153.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Little Britain is a British sketch comedy series that began as a radio show in 2000 and ran as a television series between 2003 and 2006. It was written and performed by David Walliams and Matt Lucas. Financed by the BBC, the radio series was first broadcast on BBC Radio 4, with the initial two television series premiering on BBC Three and the third and final series on BBC One.\nThe programme consists of sketches involving exaggerated parodies of British people from various walks of life."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q637033"
+   }
+  },
+  {
+   "id": "wikipedia-en-804683",
+   "source": "wikipedia",
+   "name": "Dirty Sanchez (TV series)",
+   "url": "https://en.wikipedia.org/wiki/Dirty_Sanchez_(TV_series)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2003,
+   "date_end": 2007,
+   "date_display": "2003–2007",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-804683.jpg",
+     "credit": "Wikimedia Commons: File:Dirtysanchezstart-1-.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-804683.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Dirty Sanchez is a British stunt and prank television series featuring a group of three Welshmen and one warped southerner, (as the show describes him) harming themselves, and each other, through dangerous stunts, which ran from 2003 until 2007. It was known as Sanchez Boys and Team Sanchez in the United States. The performers are the Welshmen Mathew Pritchard, Lee Dainton, Michael \"Pancho\" Locke and the Englishman Dan Joyce and was originally based in Newport, Wales, but later series of the show took place elsewhere in the United Kingdom and the world. Pritchard and Locke also starred as the "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1228269"
+   }
+  },
+  {
+   "id": "wikipedia-en-737298",
+   "source": "wikipedia",
+   "name": "Castlevania: Lament of Innocence",
+   "url": "https://en.wikipedia.org/wiki/Castlevania:_Lament_of_Innocence",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 2003,
+   "date_end": null,
+   "date_display": "2003",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-737298.jpg",
+     "credit": "Wikimedia Commons: File:Castlevania_-_Lament_of_Innocense_(Gamecover).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-737298.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Castlevania: Lament of Innocence is a 2003 action-adventure game developed by Konami Computer Entertainment Tokyo and published by Konami for the PlayStation 2 console. Part of Konami's Castlevania video game series, it is the first installment of the series on the PlayStation 2 and the third to make use of a 3D style of gameplay. It was released in Japan and North America in late 2003 and Europe and Australia in early 2004.\nLament of Innocence is chronologically the first game in the Castlevania series."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q568115"
+   }
+  },
+  {
+   "id": "wikipedia-en-46410",
+   "source": "wikipedia",
+   "name": "YMCK",
+   "url": "https://en.wikipedia.org/wiki/YMCK",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2003,
+   "date_end": null,
+   "date_display": "2003",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-46410.jpg",
+     "credit": "Wikimedia Commons: File:YMCK_live.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-46410.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "YMCK is a Japanese chiptune band, composed of Midori Kurihara (vocals), Takeshi Yokemura (music, lyrics, arrangement), and Tomoyuki Nakamura (composition, music video).\nTheir work has not been confined to Japan, having released albums in Korea, Thailand and the United States as well as appearing at various events around East Asia and Europe.\nYMCK's name is derived from the CMYK subtractive color model."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1150056"
+   }
+  },
+  {
+   "id": "wikipedia-en-24452632",
+   "source": "wikipedia",
+   "name": "She (Swedish band)",
+   "url": "https://en.wikipedia.org/wiki/She_(Swedish_band)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2003,
+   "date_end": null,
+   "date_display": "2003",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-24452632.png",
+     "credit": "Wikimedia Commons: File:Shemusic_logo.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-24452632.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "she is a musical project formed in 2003 by the Polish artist, producer and musician Lain Volta Trzaska, and is sometimes credited as shemusic, Lain Volta. As its main producer, songwriter, and instrumentalist, Lain is the only official member, but he brings in vocalists to perform.\nLain is known to have multiple different musical projects, including those such as Imagery by Sound, D7VON, 4ikai, and Spillexo."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q20038335"
+   }
+  },
+  {
+   "id": "wikipedia-en-2310058",
+   "source": "wikipedia",
+   "name": "Super Robot Monkey Team Hyperforce Go!",
+   "url": "https://en.wikipedia.org/wiki/Super_Robot_Monkey_Team_Hyperforce_Go!",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2004,
+   "date_end": 2006,
+   "date_display": "2004–2006",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2310058.webp",
+     "credit": "Wikimedia Commons: File:Logo_of_Super_Robot_Monkey_Team_Hyperforce_Go!_on_Disney+.webp"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2310058.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Super Robot Monkey Team Hyperforce Go! (also known as SRMTHFG or simply Super Robot Monkey Team) is an American animated television series created by Ciro Nieli. It was produced by Walt Disney Television Animation, with animation being done by The Answer Studio in Japan, and is thus sometimes considered an anime because of it. The series was the first original show produced for the Jetix block and for the Jetix and Disney channels worldwide, where the show premiered on September 18, 2004."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q367708"
+   }
+  },
+  {
+   "id": "wikipedia-en-15528323",
+   "source": "wikipedia",
+   "name": "Hachiko Waits",
+   "url": "https://en.wikipedia.org/wiki/Hachiko_Waits",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 2004,
+   "date_end": null,
+   "date_display": "2004",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-15528323.jpg",
+     "credit": "Wikimedia Commons: File:Hachiko_Waits.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-15528323.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Hachiko Waits is a children's book, written by Lesléa Newman and illustrated by Machiyo Kodaira. It uses the true story of Hachikō the Akita dog from Japan and adds Yasuo, a young boy, to the story. It won several awards."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5637047"
+   }
+  },
+  {
+   "id": "wikipedia-en-8266132",
+   "source": "wikipedia",
+   "name": "Look Mexico",
+   "url": "https://en.wikipedia.org/wiki/Look_Mexico",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2004,
+   "date_end": null,
+   "date_display": "2004",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-8266132.jpg",
+     "credit": "Wikimedia Commons: File:Look_Mexico.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-8266132.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Look Mexico is an American rock band from Tallahassee, Florida, United States. The band is composed of Matt Agrella, Ryan Slate, Ryan Smith, Josh Mikel and Gary Battreall. Since their inception in 2004, Look Mexico have released three full-length albums and four EPs, touring extensively in their support. All of the band's song titles are direct quotes from Vin Diesel's characters across various films."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6675025"
+   }
+  },
+  {
+   "id": "wikipedia-en-2535705",
+   "source": "wikipedia",
+   "name": "Conflict: Vietnam",
+   "url": "https://en.wikipedia.org/wiki/Conflict:_Vietnam",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2004,
+   "date_end": null,
+   "date_display": "2004",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-2535705.png",
+     "credit": "Wikimedia Commons: File:Conflict_-_Vietnam_Coverart.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-2535705.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Conflict: Vietnam is a tactical shooter video game developed by Pivotal Games and published by Global Star Software and SCi Games for PlayStation 2, Xbox, and Windows. Released in 2004, it is the third installment in the Conflict series. A separate version was developed by 8bit Games and published by Synergenix for mobile devices the same year. A port for Gizmondo devices was planned before being cancelled."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2555199"
+   }
+  },
+  {
+   "id": "wikipedia-en-23965402",
+   "source": "wikipedia",
+   "name": "Anamanaguchi",
+   "url": "https://en.wikipedia.org/wiki/Anamanaguchi",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2004,
+   "date_end": null,
+   "date_display": "2004",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-23965402.jpg",
+     "credit": "Wikimedia Commons: File:Anamanaguchi.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-23965402.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Anamanaguchi is an American chiptune-based pop and rock band from New York City. The band has four members: lead songwriters and guitarists Peter Berkman and Ary Warnaar, bassist James DeVito, and drummer Luke Silas.\nAnamanaguchi combines digital electronic sounds such as those seen in chiptune and bitpop with traditional band instrumentation. As with other chiptune artists, they have created music using video game hardware from the mid- to late 1980s: namely a NES and a Game Boy."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q485416"
+   }
+  },
+  {
+   "id": "wikipedia-en-1443960",
+   "source": "wikipedia",
+   "name": "Castlevania: Curse of Darkness",
+   "url": "https://en.wikipedia.org/wiki/Castlevania:_Curse_of_Darkness",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 2005,
+   "date_end": null,
+   "date_display": "2005",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-1443960.webp",
+     "credit": "Wikimedia Commons: File:CurseOfDarkness_NA_Cover.webp"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-1443960.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Castlevania: Curse of Darkness is a 2005 action role-playing game developed and published by Konami for the PlayStation 2 and Xbox. It is the fourth 3D title in the Castlevania series, following Castlevania: Lament of Innocence (2003). The game received mixed-to-positive reviews from journalists, with praise for its combat system, mechanics, and music, though many criticized its repetitive level design."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2735354"
+   }
+  },
+  {
+   "id": "wikipedia-en-3402331",
+   "source": "wikipedia",
+   "name": "The Greatest (Cat Power album)",
+   "url": "https://en.wikipedia.org/wiki/The_Greatest_(Cat_Power_album)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 2006,
+   "date_end": null,
+   "date_display": "2006",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-3402331.png",
+     "credit": "Wikimedia Commons: File:Cat_Power_The_Greatest.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-3402331.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Greatest is the seventh studio album by Cat Power, the stage name and eponymous band of American singer-songwriter Chan Marshall. All tracks on the album were written by Marshall, making it her first album not to include any cover songs. The Memphis Rhythm Band includes Roy Brewer, Teenie Hodges, Steve Potts, Dave Smith, Rick Steff, Doug Easley, Jim Spake, Scott Thompson and Susan Marshall. String arrangements were contributed by Harlan T. Bobo and Jonathan Kirkscey."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1080203"
+   }
+  },
+  {
+   "id": "wikipedia-en-9321437",
+   "source": "wikipedia",
+   "name": "Favourite Worst Nightmare",
+   "url": "https://en.wikipedia.org/wiki/Favourite_Worst_Nightmare",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2007,
+   "date_end": null,
+   "date_display": "2007",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-9321437.jpg",
+     "credit": "Wikimedia Commons: File:Favourite_Worst_Nightmare.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-9321437.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Favourite Worst Nightmare is the second studio album by the English rock band Arctic Monkeys, first released in Japan on 18 April 2007 and in the United Kingdom on 23 April 2007 by Domino Recording Company. Recorded in East London's Miloco Studios with producers James Ford and Mike Crossey, the album was preceded by the release of lead single \"Brianstorm\" on 2 April 2007. It was the band's first album with new bassist Nick O'Malley, replacing their previous bassist Andy Nicholson, who left the band shortly before the North American tour of the band's debut studio album, Whatever People Say I A"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q955243"
+   }
+  },
+  {
+   "id": "wikipedia-en-11095487",
+   "source": "wikipedia",
+   "name": "Changeling: The Lost",
+   "url": "https://en.wikipedia.org/wiki/Changeling:_The_Lost",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2007,
+   "date_end": null,
+   "date_display": "2007",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-11095487.jpg",
+     "credit": "Wikimedia Commons: File:ChangelingTheLostCover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-11095487.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Changeling: The Lost is the fifth supplementary role-playing game line published by White Wolf Publishing as part of the Chronicles of Darkness setting. It uses the Storytelling System for rules. Changeling is the second limited game published by White Wolf after Promethean: The Created, but in April 2008 it was announced that because of the success of the line it would be an extended limited series not limited to the five books originally planned. Since then, three full hard-cover books were published: Equinox Road, Dancers in the Dusk, and Swords at Dawn."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q2720180"
+   }
+  },
+  {
+   "id": "wikipedia-en-12215954",
+   "source": "wikipedia",
+   "name": "Changeling: The Autobiography of Mike Oldfield",
+   "url": "https://en.wikipedia.org/wiki/Changeling:_The_Autobiography_of_Mike_Oldfield",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2007,
+   "date_end": null,
+   "date_display": "2007",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-12215954.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Changeling (ISBN 978-1852273811) is a 2007 autobiography by Mike Oldfield. It was published in May 2007 by Virgin Books. In May 2008 Changeling was re-released in a paperback edition.\nChangeling was published by Virgin Books, the publishing arm of the conglomerate Virgin Group whose Virgin Records business was launched with the release of Oldfield's debut album, Tubular Bells."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q860022"
+   }
+  },
+  {
+   "id": "wikipedia-en-16304826",
+   "source": "wikipedia",
+   "name": "This Is Animal Music",
+   "url": "https://en.wikipedia.org/wiki/This_Is_Animal_Music",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2007,
+   "date_end": null,
+   "date_display": "2007",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-16304826.jpg",
+     "credit": "Wikimedia Commons: File:This_Is_Animal_Music.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-16304826.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "This Is Animal Music is the debut studio album by Look Mexico. The album, which was released July 10, 2007, has been noted by the band's record label as a mature step forward. The band has toured extensively throughout the US in support of the record. The album can easily be noted as a beginning for the band's commercial success, as it has sparked attention among major music news sources and has even got the band featured in Alternative Press as a band to look for in 2007."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7785767"
+   }
+  },
+  {
+   "id": "wikipedia-en-10591883",
+   "source": "wikipedia",
+   "name": "8-Bit Operators: The Music of Kraftwerk",
+   "url": "https://en.wikipedia.org/wiki/8-Bit_Operators:_The_Music_of_Kraftwerk",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2007,
+   "date_end": null,
+   "date_display": "2007",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-10591883.jpg",
+     "credit": "Wikimedia Commons: File:8bitopsLogo3.JPG"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-10591883.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "8-Bit Operators: The Music of Kraftwerk was released in 2007 by the group 8-Bit Operators on Kraftwerk's US label Astralwerks and EMI Records worldwide. It features cover versions of Kraftwerk songs by several prominent chiptune artists. \nIn March 2007, the CD release reached as high as number 1 on the CMJ RPM (North American college Electronic) charts."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4644261"
+   }
+  },
+  {
+   "id": "wikipedia-en-27043795",
+   "source": "wikipedia",
+   "name": "Pete the Cat",
+   "url": "https://en.wikipedia.org/wiki/Pete_the_Cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 2008,
+   "date_end": null,
+   "date_display": "2008",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-27043795.jpg",
+     "credit": "Wikimedia Commons: File:Petecover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-27043795.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Pete the Cat is a fictional cartoon cat created by American artist James Dean. The series started with four books illustrated by Dean and with text by Eric Litwin; since then, James Dean and his wife Kimberly Dean have written and illustrated a series of the books."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7172364"
+   }
+  },
+  {
+   "id": "wikipedia-en-48846128",
+   "source": "wikipedia",
+   "name": "The Village Pet Store and Charcoal Grill",
+   "url": "https://en.wikipedia.org/wiki/The_Village_Pet_Store_and_Charcoal_Grill",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2008,
+   "date_end": null,
+   "date_display": "2008",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-48846128.jpg",
+     "credit": "Wikimedia Commons: File:Primate_(3009900665).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-48846128.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Village Pet Store and Charcoal Grill is an art installation by Banksy. Held in Greenwich Village in 2008, it marked the graffiti artist's first official exhibition in New York.  The installation took the form of a fake pet shop and aimed to question \"our relationship with animals and the ethics and sustainability of factory farming\".\nBanksy said that \"New Yorkers don't care about art, they care about pets."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q24038153"
+   }
+  },
+  {
+   "id": "wikipedia-en-43495783",
+   "source": "wikipedia",
+   "name": "Monkey selfie copyright dispute",
+   "url": "https://en.wikipedia.org/wiki/Monkey_selfie_copyright_dispute",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2008,
+   "date_end": null,
+   "date_display": "2008",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-43495783.jpg",
+     "credit": "Wikimedia Commons: File:Macaca_nigra_self-portrait_large.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-43495783.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Between 2011 and 2018, a series of disputes took place about the copyright status of selfie photographs taken by Celebes crested macaques, using equipment belonging to British wildlife photographer David J. Slater. The disputes involved Wikimedia Commons and the blog Techdirt, which have hosted the images following their publication in newspapers in July 2011 over Slater's objections that he holds the copyright. Additionally, People for the Ethical Treatment of Animals (PETA) have argued that the copyright should be assigned to the macaque.\nSlater has argued that he has a valid copyright claim"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q17596101"
+   }
+  },
+  {
+   "id": "wikipedia-en-18349944",
+   "source": "wikipedia",
+   "name": "The Wrong Door",
+   "url": "https://en.wikipedia.org/wiki/The_Wrong_Door",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2008,
+   "date_end": null,
+   "date_display": "2008",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-18349944.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Wrong Door is a comedy sketch show, that first aired on BBC Three on 28 August 2008. The sketch show was set in a parallel universe, employing a mix of celebrity cameos, impractical locations and CGI visual effects. As such, it was initially produced under the working title of The CGI Sketch Show. The show contained strong language, adult humour and toilet humour."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1858447"
+   }
+  },
+  {
+   "id": "wikipedia-en-10825132",
+   "source": "wikipedia",
+   "name": "Changeling (film)",
+   "url": "https://en.wikipedia.org/wiki/Changeling_(film)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2008,
+   "date_end": 2009,
+   "date_display": "2008–2009",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-10825132.jpg",
+     "credit": "Wikimedia Commons: File:Changeling_poster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-10825132.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Changeling is a 2008 American crime drama film directed, produced, and scored by Clint Eastwood and written by J. Michael Straczynski. The story was based on actual events, specifically the 1928 Wineville Chicken Coop murders in Mira Loma, California. It stars Angelina Jolie as a woman \"reunited\" with a boy who was not her missing son. When she tries to demonstrate that to the police and city authorities, she is vilified as delusional, labeled as an unfit mother, and confined to a psychiatric ward."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q275553"
+   }
+  },
+  {
+   "id": "wikipedia-en-20410985",
+   "source": "wikipedia",
+   "name": "Changeling (soundtrack)",
+   "url": "https://en.wikipedia.org/wiki/Changeling_(soundtrack)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2008,
+   "date_end": null,
+   "date_display": "2008",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-20410985.jpg",
+     "credit": "Wikimedia Commons: File:Changeling_(soundtrack).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-20410985.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Changeling is the score to the 2008 film produced and directed by Clint Eastwood. In common with all his films since Mystic River (2003), composed the music himself. The score is jazz- and bebop-influenced, and mainly low-key, featuring lilting guitars and strings. The addition of brass instruments has its roots in film noir and plays to the film's setting in a city controlled by corrupt police."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3205115"
+   }
+  },
+  {
+   "id": "wikipedia-en-17435032",
+   "source": "wikipedia",
+   "name": "The Midnight Organ Fight",
+   "url": "https://en.wikipedia.org/wiki/The_Midnight_Organ_Fight",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 2008,
+   "date_end": null,
+   "date_display": "2008",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-17435032.jpg",
+     "credit": "Wikimedia Commons: File:MidnightOrganFightCover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-17435032.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Midnight Organ Fight is the second studio album by Scottish indie rock band Frightened Rabbit. Recorded during 2007 between studios at Bridgeport, Connecticut and Glasgow, Scotland, the album was released on 14 April 2008 (15 April in the US) through independent label Fat Cat Records. Hailed by critics as \"one of the finest [breakup records] of recent vintage\", frontman Scott Hutchison has described the album as being \"a lot more intense\" than its predecessor Sing the Greys (2006). Following the album's completion, it took around a month for him to be able to listen to it."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7751319"
+   }
+  },
+  {
+   "id": "wikipedia-en-13776860",
+   "source": "wikipedia",
+   "name": "Jukebox (Cat Power album)",
+   "url": "https://en.wikipedia.org/wiki/Jukebox_(Cat_Power_album)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 2008,
+   "date_end": null,
+   "date_display": "2008",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-13776860.jpg",
+     "credit": "Wikimedia Commons: File:Jukebox_cat_power_album.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-13776860.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Jukebox is the eighth studio album by Cat Power, released on January 22, 2008 on Matador Records. The album is composed almost entirely of cover songs, save for \"Song to Bobby\" and \"Metal Heart\" (previously recorded and released in 1998). It is Marshall's second record of cover songs, after The Covers Record.\nA limited-edition silver foil deluxe package was also released containing a bonus disc with five extra songs."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3188299"
+   }
+  },
+  {
+   "id": "wikipedia-en-13238263",
+   "source": "wikipedia",
+   "name": "Braid (video game)",
+   "url": "https://en.wikipedia.org/wiki/Braid_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2008,
+   "date_end": null,
+   "date_display": "2008",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-13238263.jpg",
+     "credit": "Wikimedia Commons: File:Braidlogo.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-13238263.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Braid is an indie puzzle-platform video game developed by Number None. The game was originally released in August 2008 for the Xbox 360's Xbox Live Arcade service. Ports were developed and released for Microsoft Windows in April 2009, Mac OS X in May 2009, PlayStation 3 in November 2009, and Linux in December 2010. Jonathan Blow designed the game as a personal critique of contemporary trends in video game development."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q897376"
+   }
+  },
+  {
+   "id": "wikipedia-en-43179766",
+   "source": "wikipedia",
+   "name": "Eight Bit (studio)",
+   "url": "https://en.wikipedia.org/wiki/Eight_Bit_(studio)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2008,
+   "date_end": null,
+   "date_display": "2008",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-43179766.png",
+     "credit": "Wikimedia Commons: File:8bit_studio_logo_new.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-43179766.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Eightbit co., Ltd. (Japanese: 株式会社エイトビット, Hepburn: Kabushiki-gaisha Eitobitto), also known as Animation Studio Eightbit or 8bit for short, is a Japanese animation studio established in September 2008 by former Satelight members.\nOn June 8, 2020, it was announced that Eight Bit had entered a partnership with Bandai Namco Arts to create multiple anime productions. Their first project was Season 2 of The Slime Diaries: That Time I Got Reincarnated as a Slime."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q11289604"
+   }
+  },
+  {
+   "id": "wikipedia-en-25072649",
+   "source": "wikipedia",
+   "name": "Kabouter Wesley",
+   "url": "https://en.wikipedia.org/wiki/Kabouter_Wesley",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2009,
+   "date_end": 2010,
+   "date_display": "2009–2010",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-25072649.jpg",
+     "credit": "Wikimedia Commons: File:Kabouter_Wesley.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-25072649.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Kabouter Wesley (English: Gnome Wesley) is a Flemish/Belgian series of comics and short animated cartoons about a grumpy and violent kabouter (gnome), made by Jonas Geirnaert. Both the drawing style and the content are purposely made naïve and amateurish and the situations are surreal and violent. There is also a lot of insulting and toilet humour in the series."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1583529"
+   }
+  },
+  {
+   "id": "wikipedia-en-27548031",
+   "source": "wikipedia",
+   "name": "Boy & Bear",
+   "url": "https://en.wikipedia.org/wiki/Boy_%26_Bear",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "dancing bear"
+   ],
+   "date_start": 2009,
+   "date_end": null,
+   "date_display": "2009",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-27548031.jpg",
+     "credit": "Wikimedia Commons: File:Boy_&_Bear_2015.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-27548031.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Boy & Bear are an Australian indie folk band formed in 2009, consisting of David Hosking (vocals and guitar), Killian Gavin (vocals and guitar), Tim Hart (drums, vocals, banjo, mandolin), Jonathan Hart (keys, synths, vocals), and David Symes (bass). The band has released two EPs and five studio albums. Moonfire (2011) debuted at #2 on the ARIA Charts, while Harlequin Dream (2013) and Limit of Love (2015) both debuted at #1. On 27 September 2019, they released their long-awaited fourth studio album, Suck on Light."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4411699"
+   }
+  },
+  {
+   "id": "wikipedia-en-18571859",
+   "source": "wikipedia",
+   "name": "Hachi: A Dog's Tale",
+   "url": "https://en.wikipedia.org/wiki/Hachi:_A_Dog%27s_Tale",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 2009,
+   "date_end": 2010,
+   "date_display": "2009–2010",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-18571859.jpg",
+     "credit": "Wikimedia Commons: File:Hachi_poster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-18571859.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Hachi: A Dog's Tale is a 2009 drama film and a remake of Seijirō Kōyama's 1987 Japanese film Hachikō Monogatari. The original film told the true story of the Akita dog named Hachikō who lived in Japan 1923–1935. Hachi: A Dog's Tale is an updated American adaptation based on the Japanese film.\nThis version, which places it in a modern American context, was directed by Lasse Hallström, written by Stephen P. Lindsey and Kaneto Shindo, and produced by Richard Gere, Bill Johnson and Vicki Shigekuni Wong."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q59249"
+   }
+  },
+  {
+   "id": "wikipedia-en-24250799",
+   "source": "wikipedia",
+   "name": "The Cat Piano",
+   "url": "https://en.wikipedia.org/wiki/The_Cat_Piano",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 2009,
+   "date_end": null,
+   "date_display": "2009",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-24250799.jpg",
+     "credit": "Wikimedia Commons: File:TheCatPiano.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-24250799.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Cat Piano is a 2009 Australian animated short film directed by Eddie White and Ari Gibson, and narrated by Nick Cave."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4236957"
+   }
+  },
+  {
+   "id": "wikipedia-en-13362612",
+   "source": "wikipedia",
+   "name": "Flower (video game)",
+   "url": "https://en.wikipedia.org/wiki/Flower_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2009,
+   "date_end": null,
+   "date_display": "2009",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-13362612.png",
+     "credit": "Wikimedia Commons: File:Flower_cover.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-13362612.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Flower is a video game developed by Thatgamecompany and published by Sony Computer Entertainment for the PlayStation 3. It was designed by Jenova Chen and Nicholas Clark and was released in February 2009 on the PlayStation Network. PlayStation 4 and PlayStation Vita versions of the game were ported by Bluepoint Games and released in November 2013. An iOS version was released in September 2017, and a Windows version was released in February 2019, both published by Annapurna Interactive."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1825218"
+   }
+  },
+  {
+   "id": "wikipedia-en-27659451",
+   "source": "wikipedia",
+   "name": "The Cat in the Hat Knows a Lot About That!",
+   "url": "https://en.wikipedia.org/wiki/The_Cat_in_the_Hat_Knows_a_Lot_About_That!",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 2010,
+   "date_end": 2018,
+   "date_display": "2010–2018",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-27659451.png",
+     "credit": "Wikimedia Commons: File:The-cat-in-the-hat-logo.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-27659451.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Cat in the Hat Knows a Lot About That! is an animated musical educational children's television series starring Martin Short as The Cat in the Hat. The series premiered on Treehouse TV in Canada on August 7, 2010, also airing on YTV and Nickelodeon Canada on weekday mornings from 2012 to 2013, and on PBS Kids and PBS Kids Preschool Block in the US on September 6, 2010; it also aired on CITV and Tiny Pop in the UK, and Disney Junior India. The series is based on Random House's Beginner Books franchise and The Cat in the Hat's Learning Library, itself based on the 1957 children's book The Ca"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q6382105"
+   }
+  },
+  {
+   "id": "wikipedia-en-49525863",
+   "source": "wikipedia",
+   "name": "Pusheen",
+   "url": "https://en.wikipedia.org/wiki/Pusheen",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 2010,
+   "date_end": null,
+   "date_display": "2010",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-49525863.png",
+     "credit": "Wikimedia Commons: File:Pusheen_the_Cat.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-49525863.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Pusheen is a cartoon cat who is the subject of comic strips, plush toys, vinyl figures, sticker sets, among other merchandise, on Tumblr, Facebook, Instagram, iMessage, YouTube, and other social media platforms. Pusheen was created in 2010 by Claire Belton and Andrew Duff for a comic strip on their website, Everyday Cute. More recently, the Pusheen character has been used in social media posts, and on the Pusheen blog.\nOn the official Pusheen website, Pusheen is described as being a female fictional cat who loves blogging, snacking, and going on adventures."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q22947657"
+   }
+  },
+  {
+   "id": "wikipedia-en-25092459",
+   "source": "wikipedia",
+   "name": "Animal (Kesha album)",
+   "url": "https://en.wikipedia.org/wiki/Animal_(Kesha_album)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2010,
+   "date_end": null,
+   "date_display": "2010",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-25092459.jpg",
+     "credit": "Wikimedia Commons: File:AnimalKesha.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-25092459.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal is the debut studio album by American singer and songwriter Kesha. The album was first released on January 1, 2010, by Sony Music, and was released in the United States on January 5, 2010, by RCA Records. Kesha worked on the album with a variety of record producers and songwriters such as Lukasz \"Dr. Luke\" Gottwald, Benny Blanco, David Gamson, Greg Kurstin, Max Martin and others."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q547234"
+   }
+  },
+  {
+   "id": "wikipedia-en-26711830",
+   "source": "wikipedia",
+   "name": "8Bit Heart",
+   "url": "https://en.wikipedia.org/wiki/8Bit_Heart",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2010,
+   "date_end": null,
+   "date_display": "2010",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-26711830.jpg",
+     "credit": "Wikimedia Commons: File:8Bit_Heart.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-26711830.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "8Bit Heart is the debut album by American singer-songwriter and record producer Simon Curtis. It was released March 23, 2010 for free download via Curtis' official website. Curtis co-produced the album with Jeff \"Jadion\" Wells. The album was downloaded 80 thousand times in its first week of being released."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q9554710"
+   }
+  },
+  {
+   "id": "wikipedia-en-32573406",
+   "source": "wikipedia",
+   "name": "Clancy's Tavern",
+   "url": "https://en.wikipedia.org/wiki/Clancy%27s_Tavern",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "tavern"
+   ],
+   "date_start": 2011,
+   "date_end": null,
+   "date_display": "2011",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-32573406.jpg",
+     "credit": "Wikimedia Commons: File:ClancysTavern.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-32573406.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Clancy's Tavern is the seventeenth studio album by American country music artist Toby Keith. \nIt was released on October 25, 2011, by Show Dog-Universal Music. Lead-off single \"Made in America\" was released on June 13, 2011, reaching number one on the country charts in October 2011. Clancy's Tavern draws its name from the title track, which Keith wrote about his grandmother's bar in Fort Smith, Arkansas."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5125735"
+   }
+  },
+  {
+   "id": "wikipedia-en-34004113",
+   "source": "wikipedia",
+   "name": "My Head Is an Animal",
+   "url": "https://en.wikipedia.org/wiki/My_Head_Is_an_Animal",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2011,
+   "date_end": null,
+   "date_display": "2011",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-34004113.jpg",
+     "credit": "Wikimedia Commons: File:My_Head_Is_An_Animal.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-34004113.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "My Head Is an Animal is the debut studio album by the Icelandic indie rock band Of Monsters and Men, released through Record Records in Iceland on 20 September 2011. After their success, topping the Icelandic charts with their debut single, \"Little Talks\", the band signed with Universal Music Group and the album was released internationally through Republic Records on 3 April 2012. The title of the album comes from the second line in \"Dirty Paws\"."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q3868849"
+   }
+  },
+  {
+   "id": "wikipedia-en-36060783",
+   "source": "wikipedia",
+   "name": "The Greatest Video Game Music",
+   "url": "https://en.wikipedia.org/wiki/The_Greatest_Video_Game_Music",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2011,
+   "date_end": null,
+   "date_display": "2011",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-36060783.jpg",
+     "credit": "Wikimedia Commons: File:TheGreatestVideoGameMusic.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-36060783.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Greatest Video Game Music, performed by the London Philharmonic Orchestra, features classical orchestrations of video game themes including those from Super Mario Bros., Call of Duty, Metal Gear Solid, Final Fantasy, Halo, World of Warcraft, Angry Birds and many more. A sequel, The Greatest Video Game Music 2, was released a year later."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5601470"
+   }
+  },
+  {
+   "id": "wikipedia-en-28408694",
+   "source": "wikipedia",
+   "name": "Catherine (video game)",
+   "url": "https://en.wikipedia.org/wiki/Catherine_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2011,
+   "date_end": null,
+   "date_display": "2011",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-28408694.png",
+     "credit": "Wikimedia Commons: File:Catherine_Cover_Art.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-28408694.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Catherine is a puzzle video game developed by Atlus. The game was released for the PlayStation 3 and Xbox 360 in Japan and North America in 2011, in PAL regions by Deep Silver in 2012, and for Windows by Sega in 2019. A re-release with additional content, titled Catherine: Full Body, was released in 2019 for the PlayStation 4 worldwide and for the PlayStation Vita only in Japan, and a Nintendo Switch version released worldwide in 2020.\nThe story follows Vincent Brooks, a man who is beset by supernatural nightmares while torn between his feelings for his longtime girlfriend Katherine and the si"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q277377"
+   }
+  },
+  {
+   "id": "wikipedia-en-41207042",
+   "source": "wikipedia",
+   "name": "May We Be Forgiven",
+   "url": "https://en.wikipedia.org/wiki/May_We_Be_Forgiven",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 2012,
+   "date_end": null,
+   "date_display": "2012",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-41207042.jpg",
+     "credit": "Wikimedia Commons: File:May_We_Be_Forgiven_(novel).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-41207042.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "May We Be Forgiven is a 2012 novel by American writer A. M. Homes. It won the 2013 Baileys Women's Prize for Fiction."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q16997453"
+   }
+  },
+  {
+   "id": "wikipedia-en-35788313",
+   "source": "wikipedia",
+   "name": "Changeling (album)",
+   "url": "https://en.wikipedia.org/wiki/Changeling_(album)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2012,
+   "date_end": null,
+   "date_display": "2012",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-35788313.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Changeling is the second studio album by the Irish rock musician Camille O'Sullivan, released on 4 February 2012 on Little Cat Records.\nRecorded throughout 2011 at various recording studios in Dublin with producers and musicians Feargal Murray and Eanna Hickey, Changeling consists entirely of cover versions of songs by artists including Nick Cave, Tom Waits and Radiohead, who O'Sullivan describes as \"influences.\" The album also contains two songs written exclusively for O'Sullivan by collaborator/producer Eanna Hickey and Snow Patrol frontman Gary Lightbody.\nUpon its release, Changeling receiv"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q5071909"
+   }
+  },
+  {
+   "id": "wikipedia-en-43044295",
+   "source": "wikipedia",
+   "name": "Chaplin's Circus",
+   "url": "https://en.wikipedia.org/wiki/Chaplin%27s_Circus",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 2012,
+   "date_end": null,
+   "date_display": "2012",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-43044295.png",
+     "credit": "Wikimedia Commons: File:Chaplin's_Circus_Logo.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-43044295.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Chaplin's Circus is a touring U.K. circus, established in 2012 by Gary Stocker and Mark Foot. It is a narrative-driven performance which incorporates both pantomime with traditional circus skills and tells the story of a 1920s circus \"on the brink of bankruptcy that is saved by an inventor who builds the world's first human cannon\". Chaplin's Circus features neither animals nor clowns."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q17986376"
+   }
+  },
+  {
+   "id": "wikipedia-en-36795146",
+   "source": "wikipedia",
+   "name": "King Animal",
+   "url": "https://en.wikipedia.org/wiki/King_Animal",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2012,
+   "date_end": null,
+   "date_display": "2012",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-36795146.jpg",
+     "credit": "Wikimedia Commons: File:Soundgarden_KA_Album_cover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-36795146.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "King Animal is the sixth studio album by American rock band Soundgarden, released on November 13, 2012, through Universal Republic and Loma Vista Recordings in North America and Vertigo Records elsewhere. Produced by the band alongside Adam Kasper, King Animal was Soundgarden's first studio album in 16 years, following Down on the Upside (1996), and their final studio album to be released prior to the death of frontman Chris Cornell in 2017 and the dissolution of the band the following year."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q29750"
+   }
+  },
+  {
+   "id": "wikipedia-en-42074090",
+   "source": "wikipedia",
+   "name": "Glass Animals",
+   "url": "https://en.wikipedia.org/wiki/Glass_Animals",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2012,
+   "date_end": null,
+   "date_display": "2012",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-42074090.jpg",
+     "credit": "Wikimedia Commons: File:Glass_Animals_-_Brooklyn_Mirage_2022_07_(cropped).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-42074090.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Glass Animals are an English indie rock band formed in Oxford, England in 2010. The band's line-up consists of Dave Bayley (vocals, guitar, keyboards, drums, songwriting), Drew MacFarlane (guitar, keyboards, backing vocals), Edmund Irwin-Singer (bass, keyboards, backing vocals), and Joe Seaward (drums).\nTheir first album, Zaba (2014), spawned the hit single \"Gooey\", which was eventually certified platinum in the U.S. and propelled the band into worldwide recognition. Their second full album, How to Be a Human Being, received positive reviews and won in two categories at the 2018 MPG Awards for"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q16839267"
+   }
+  },
+  {
+   "id": "wikipedia-en-27730446",
+   "source": "wikipedia",
+   "name": "Journey (2012 video game)",
+   "url": "https://en.wikipedia.org/wiki/Journey_(2012_video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2012,
+   "date_end": 2015,
+   "date_display": "2012–2015",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-27730446.png",
+     "credit": "Wikimedia Commons: File:Journey_Title_Poster.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-27730446.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Journey is an adventure game developed by Thatgamecompany and published by Sony Computer Entertainment for the PlayStation 3. The indie game was released on the PlayStation Network in March 2012 and ported to PlayStation 4 in July 2015. It was later released on Windows in June 2019 and iOS in August 2019 by Annapurna Interactive.\nIn Journey, the player controls a cloaked figure in a vast desert, traveling towards a distant mountain."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q677274"
+   }
+  },
+  {
+   "id": "wikipedia-en-38191828",
+   "source": "wikipedia",
+   "name": "Rocket Monkeys",
+   "url": "https://en.wikipedia.org/wiki/Rocket_Monkeys",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2013,
+   "date_end": 2016,
+   "date_display": "2013–2016",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-38191828.gif",
+     "credit": "Wikimedia Commons: File:RocketMonkeysLogotrans.gif"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-38191828.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Rocket Monkeys is a Canadian animated television series created by Dan Abdo and Jason Patterson for Teletoon. It premiered in Canada on January 10, 2013, and aired its last new episode on November 23, 2016, before entering reruns. Breakthrough Entertainment produced the series in association with Hornet Films and Atomic Cartoons. 66 episodes were produced."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7355119"
+   }
+  },
+  {
+   "id": "wikipedia-en-39764862",
+   "source": "wikipedia",
+   "name": "AM (Arctic Monkeys album)",
+   "url": "https://en.wikipedia.org/wiki/AM_(Arctic_Monkeys_album)",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2013,
+   "date_end": null,
+   "date_display": "2013",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-39764862.png",
+     "credit": "Wikimedia Commons: File:Arctic_Monkeys_-_AM.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-39764862.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "AM is the fifth studio album by the English rock band Arctic Monkeys, released on 6 September 2013 through Domino Recording Company. It was produced by longtime collaborator James Ford and co-produced by Ross Orton at Sage & Sound Recording in Los Angeles and Rancho De La Luna in Joshua Tree, California.\nThe album was promoted by the singles \"R U Mine?\", \"Do I Wanna Know?\", \"Why'd You Only Call Me When You're High?\", \"One for the Road\", \"Arabella\", and \"Snap Out of It\". It features guest appearances by Josh Homme, Bill Ryder-Jones, and Pete Thomas."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q13539256"
+   }
+  },
+  {
+   "id": "wikipedia-en-37089124",
+   "source": "wikipedia",
+   "name": "Journey to the West: Conquering the Demons",
+   "url": "https://en.wikipedia.org/wiki/Journey_to_the_West:_Conquering_the_Demons",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 2013,
+   "date_end": null,
+   "date_display": "2013",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-37089124.jpg",
+     "credit": "Wikimedia Commons: File:JourneytotheWestConqueringtheDemons.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-37089124.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Journey to the West: Conquering the Demons (Chinese: 西遊·降魔篇) is a 2013 fantasy comedy film co-written and produced by Stephen Chow and co-directed by Chow and Derek Kwok. A Chinese-Hong Kong co-production, the movie was first announced in July 2011 and was released on 10 February 2013 in China.  The film is a loose comedic re-interpretation of the 16th-century novel Journey to the West, a Chinese literary classic often believed to be written by Wu Cheng'en.\nA sequel, Journey to the West: The Demons Strike Back, written and produced by Chow and directed by Tsui Hark, was released on January 28,"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q4253250"
+   }
+  },
+  {
+   "id": "wikipedia-en-45204817",
+   "source": "wikipedia",
+   "name": "Music of The Last of Us (video game)",
+   "url": "https://en.wikipedia.org/wiki/Music_of_The_Last_of_Us_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2013,
+   "date_end": 2014,
+   "date_display": "2013–2014",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-45204817.jpg",
+     "credit": "Wikimedia Commons: File:Gustavo_Santaolalla_(Guadalajara)_cropped.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-45204817.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The music for the 2013 action-adventure survival horror video game The Last of Us, developed by Naughty Dog and published by Sony Computer Entertainment, was composed by Argentine musician Gustavo Santaolalla. Supplementary music for the game's downloadable content The Last of Us: Left Behind was composed by Santaolalla, Andrew Buresh, Anthony Caruso, and Jonathan Mayer. Both soundtracks were produced by Santaolalla, Mayer, and Aníbal Kerpel, with separate segments recorded in both Los Angeles and Nashville.\nSantaolalla, known for his minimalist approach to composing, was excited to work on th"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q19961334"
+   }
+  },
+  {
+   "id": "wikipedia-en-40390532",
+   "source": "wikipedia",
+   "name": "8BitMMO",
+   "url": "https://en.wikipedia.org/wiki/8BitMMO",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "8bit music"
+   ],
+   "date_start": 2013,
+   "date_end": null,
+   "date_display": "2013",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-40390532.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "8BitMMO is a massively multiplayer free-to-play sandbox game created by Robby Zinchak. The game launched as a browser game on June 19, 2011. In addition to the browser version, it was released as a Steam Early Access title on December 14, 2013, and left Early Access with Version 1.0 on January 26, 2015. It was created and is actively developed by Robby Zinchak."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q15643276"
+   }
+  },
+  {
+   "id": "wikipedia-en-29747496",
+   "source": "wikipedia",
+   "name": "The Monkey King (2014 film)",
+   "url": "https://en.wikipedia.org/wiki/The_Monkey_King_(2014_film)",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 2014,
+   "date_end": null,
+   "date_display": "2014",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-29747496.jpg",
+     "credit": "Wikimedia Commons: File:TheMonkeyKing.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-29747496.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Monkey King (also known as The Monkey King: Havoc in Heaven's Palace) is a 2014 action-fantasy film directed by Soi Cheang and starring Donnie Yen as the titular protagonist Sun Wukong. A Hong Kong-Chinese co-production, Yen also serves as the film's action director. The film co-stars Donald Chow, Aaron Kwok, Joe Chen and Peter Ho.\nProduction began in Beijing on 18 October 2010 and was filmed in 3D. The plot is based on an episode of  Journey to the West, a 16th-century Chinese literary classic written in the Ming Dynasty by Wu Cheng'en."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q7752052"
+   }
+  },
+  {
+   "id": "wikipedia-en-42678516",
+   "source": "wikipedia",
+   "name": ".bar",
+   "url": "https://en.wikipedia.org/wiki/.bar",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 2014,
+   "date_end": null,
+   "date_display": "2014",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-42678516.png",
+     "credit": "Wikimedia Commons: File:DotBar_gTLD_logo.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-42678516.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": ".bar is an Internet domain that is specifically geared for bars, pubs and nightclubs, including bar and restaurant guides, critics, delivery services, wine and liquor, and related industries. It is a gTLD owned by Mexico City–based company Punto 2012. The domain .bar was released on June 11, 2014."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q8791861"
+   }
+  },
+  {
+   "id": "wikipedia-en-41844524",
+   "source": "wikipedia",
+   "name": "The Flash (2014 TV series)",
+   "url": "https://en.wikipedia.org/wiki/The_Flash_(2014_TV_series)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2014,
+   "date_end": 2023,
+   "date_display": "2014–2023",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-41844524.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Flash is an American superhero television series developed by Greg Berlanti, Andrew Kreisberg, and Geoff Johns, airing on The CW. It is based on the Barry Allen incarnation of DC Comics character the Flash, a costumed superhero crime-fighter with the power to move at superhuman speeds. It is a spin-off of Arrow, existing in the same fictional universe known as the Arrowverse. The series premiered in the United States on The CW on October 7, 2014, and ran for nine seasons until May 24, 2023. The series follows Barry Allen, portrayed by Grant Gustin, a crime scene investigator who gains supe"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q15711398"
+   }
+  },
+  {
+   "id": "wikipedia-en-56617465",
+   "source": "wikipedia",
+   "name": "Post Animal",
+   "url": "https://en.wikipedia.org/wiki/Post_Animal",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2014,
+   "date_end": null,
+   "date_display": "2014",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-56617465.jpg",
+     "credit": "Wikimedia Commons: File:Post_animal.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-56617465.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Post Animal is an American psychedelic rock band from Chicago, Illinois formed in 2014. The group consists of six members: Dalton Allison (bass), Matt Williams (guitar), Jake Hirshland (guitar/keyboard), Joe Keery (guitar), Wesley Toledo (drums), and Javi Reyes (guitar). All members share songwriting contributions and frequently sing on the songs they contributed most for."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q54952498"
+   }
+  },
+  {
+   "id": "wikipedia-en-47747360",
+   "source": "wikipedia",
+   "name": "Animal Ambition",
+   "url": "https://en.wikipedia.org/wiki/Animal_Ambition",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2014,
+   "date_end": null,
+   "date_display": "2014",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-47747360.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Ambition: An Untamed Desire to Win, more commonly known as just Animal Ambition, is the fifth studio album by American rapper 50 Cent. It was released on June 3, 2014, by G-Unit Records and Caroline. All 11 tracks on the standard edition were issued as singles prior to the album's release. The album features guest appearances from Yo Gotti, Trey Songz, Kidd Kidd, Jadakiss, Mr."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q15787901"
+   }
+  },
+  {
+   "id": "wikipedia-en-42328050",
+   "source": "wikipedia",
+   "name": "Trouble's Lament",
+   "url": "https://en.wikipedia.org/wiki/Trouble%27s_Lament",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 2014,
+   "date_end": null,
+   "date_display": "2014",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-42328050.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Trouble's Lament\" is a song by American singer-songwriter and pianist Tori Amos from her fourteenth studio album, Unrepentant Geraldines (2014). It was released as the album's lead promotional single on March 28, 2014, by Universal/Mercury Classics as a digital download only."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q17036451"
+   }
+  },
+  {
+   "id": "wikipedia-en-44093539",
+   "source": "wikipedia",
+   "name": "Lament (Einstürzende Neubauten album)",
+   "url": "https://en.wikipedia.org/wiki/Lament_(Einst%C3%BCrzende_Neubauten_album)",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 2014,
+   "date_end": null,
+   "date_display": "2014",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-44093539.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Lament is the eleventh studio album by German band Einstürzende Neubauten, released on 7 November 2014. The album is a studio reconstruction of a performance piece commissioned by the Belgian town of Diksmuide to commemorate the outbreak of World War I. Among the album's pieces are an opening track featuring lyrics that are not sung, but intended to be read by the audience.\nThe track \"The Willy - Nicky Telegrams\" is a duet between Alexander Hacke, playing Russian Tsar Nicholas II, and Blixa Bargeld, as Kaiser Wilhelm of Germany, discussing the diplomatic manoeuvring that led to war via telegra"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q18344976"
+   }
+  },
+  {
+   "id": "wikipedia-en-74844464",
+   "source": "wikipedia",
+   "name": "Cool Cat Saves the Kids",
+   "url": "https://en.wikipedia.org/wiki/Cool_Cat_Saves_the_Kids",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 2015,
+   "date_end": null,
+   "date_display": "2015",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-74844464.jpg",
+     "credit": "Wikimedia Commons: File:Cool_Cat_Saves_the_Kids_DVD_Box_Cover.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-74844464.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Cool Cat Saves the Kids is a 2015 American independent family film. It was the feature-length directorial debut of Derek Savage, who was also the film's writer and producer. It is based on Savage's Cool Cat children's book series. The film is an anti-bullying movie aimed at children featuring Vivica A. Fox and Erik Estrada, as well as Savage himself and other lesser-known actors."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q21527567"
+   }
+  },
+  {
+   "id": "wikipedia-en-48563394",
+   "source": "wikipedia",
+   "name": "Look Who's Back (film)",
+   "url": "https://en.wikipedia.org/wiki/Look_Who%27s_Back_(film)",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "animals at work satire"
+   ],
+   "date_start": 2015,
+   "date_end": 2016,
+   "date_display": "2015–2016",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-48563394.jpg",
+     "credit": "Wikimedia Commons: File:ErIstWiederDa.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-48563394.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Look Who's Back (German: Er ist wieder da, pronounced [ˈeːɐ̯ ʔɪst ˈviːdɐ daː]; transl. \"He's back again\") is a 2015 German satirical black comedy film directed by David Wnendt and based on the 2012 novel of the same name by Timur Vermes. It is a work of political satire about former Führer Adolf Hitler waking up in the modern era, and his attempts to reintegrate with modern German society and politics.  \nThe film features unscripted vignettes of Oliver Masucci as Adolf Hitler interacting with ordinary Germans, interspersed with scripted storyline sequences. \nIt was listed as one of eight films"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q21065355"
+   }
+  },
+  {
+   "id": "wikipedia-en-46576555",
+   "source": "wikipedia",
+   "name": "Meow the Jewels",
+   "url": "https://en.wikipedia.org/wiki/Meow_the_Jewels",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "cat organ"
+   ],
+   "date_start": 2015,
+   "date_end": null,
+   "date_display": "2015",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-46576555.png",
+     "credit": "Wikimedia Commons: File:MeowtheJewels.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-46576555.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Meow the Jewels is a remix album by American hip hop duo Run the Jewels. It was released on September 25, 2015, by Mass Appeal Records and RBC Records. The album, a remix of the duo's original album Run the Jewels 2, has all instrumentals replaced with sounds of cats."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q26964664"
+   }
+  },
+  {
+   "id": "wikipedia-en-43113764",
+   "source": "wikipedia",
+   "name": "The Monkey King 2",
+   "url": "https://en.wikipedia.org/wiki/The_Monkey_King_2",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 2016,
+   "date_end": null,
+   "date_display": "2016",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-43113764.jpg",
+     "credit": "Wikimedia Commons: File:TheMonkeyKing2.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-43113764.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Monkey King 2 (Chinese: 西遊記之孫悟空三打白骨精) is a 2016 action fantasy film based on the classic 16th-century novel Journey to the West by Wu Cheng'en. A Hong Kong-Chinese co-production, the film was shot in 3D and is a sequel to the 2014 box office hit The Monkey King with Soi Cheang returning as director and Sammo Hung as action director, who replaces Donnie Yen's role from the previous franchise. \nThe film stars Aaron Kwok, who portrayed the main antagonist in the previous franchise, as the film's titular protagonist, who also replaces Yen from the previous franchise. Other cast for the film in"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q18786472"
+   }
+  },
+  {
+   "id": "wikipedia-en-80386818",
+   "source": "wikipedia",
+   "name": "The Times They Are a Changeling",
+   "url": "https://en.wikipedia.org/wiki/The_Times_They_Are_a_Changeling",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2016,
+   "date_end": null,
+   "date_display": "2016",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-80386818.png",
+     "credit": "Wikimedia Commons: File:Spike_introducing_Thorax_as_his_friend_S6E16.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-80386818.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"The Times They Are a Changeling\" is the sixteenth episode of the sixth season of the animated television series My Little Pony: Friendship Is Magic. The episode was written by Kevin Burke, Michael Vogel, and Chris \"Doc\" Wyatt (story) and Kevin Burke and Wyatt (teleplay). It originally aired on Discovery Family on August 20, 2016. In this episode, Spike befriends a changeling named Thorax who wants to make friends despite facing prejudice from ponies, and must defend him when his true identity is revealed to the Crystal Empire."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q29416010"
+   }
+  },
+  {
+   "id": "wikipedia-en-53364575",
+   "source": "wikipedia",
+   "name": "Private View (Inside No. 9)",
+   "url": "https://en.wikipedia.org/wiki/Private_View_(Inside_No._9)",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2017,
+   "date_end": null,
+   "date_display": "2017",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-53364575.jpg",
+     "credit": "Wikimedia Commons: File:Private_View,_Inside_No._9.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-53364575.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Private View\" is the sixth and final episode of the third series of the British black comedy anthology television programme Inside No. 9. Written by Steve Pemberton and Reece Shearsmith, the episode was directed by Guillem Morales and was first shown on 21 March 2017, on BBC Two. It stars Pemberton, Shearsmith, Fiona Shaw, Montserrat Lombard, Morgana Robinson, Felicity Kendal, Johnny Flynn, and Muriel Gray."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q47450880"
+   }
+  },
+  {
+   "id": "wikipedia-en-50695543",
+   "source": "wikipedia",
+   "name": "Toilet: Ek Prem Katha",
+   "url": "https://en.wikipedia.org/wiki/Toilet:_Ek_Prem_Katha",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2017,
+   "date_end": 2018,
+   "date_display": "2017–2018",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-50695543.jpg",
+     "credit": "Wikimedia Commons: File:Toilet_Ek_Prem_Katha.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-50695543.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Toilet: Ek Prem Katha (transl. Toilet: A Love \nStory) or simply Toilet, is a 2017 Indian Hindi-language comedy-drama film directed by Shree Narayan Singh. Co-produced by Akshay Kumar and Neeraj Pandey, the film stars Akshay Kumar and Bhumi Pednekar, with campaigns to improve sanitation conditions in India, with an emphasis on the eradication of open defecation, which is still a problem, especially in rural areas.\nIt was reported that the movie is based on the true story of Anita Narre from Madhya Pradesh, who refused to go back to her husband Shivram's home because it had no toilet. In fact, a"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q28180128"
+   }
+  },
+  {
+   "id": "wikipedia-en-55160649",
+   "source": "wikipedia",
+   "name": "The Changeling (LaValle novel)",
+   "url": "https://en.wikipedia.org/wiki/The_Changeling_(LaValle_novel)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2017,
+   "date_end": null,
+   "date_display": "2017",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-55160649.jpg",
+     "credit": "Wikimedia Commons: File:The_Changeling_(LaValle_novel).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-55160649.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Changeling is a 2017 fantasy horror novel by Victor LaValle. The novel received critical acclaim, winning awards including the 2017 Dragon Award for Best Horror Novel, 2018 British Fantasy Award for Best Horror Novel (August Derleth Award), 2018 Locus Award for Best Horror Novel, and 2018 World Fantasy Award—Novel. The novel was adapted into a television show of the same name which premiered in 2023."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q76548367"
+   }
+  },
+  {
+   "id": "wikipedia-en-81176539",
+   "source": "wikipedia",
+   "name": "Cattails (video game)",
+   "url": "https://en.wikipedia.org/wiki/Cattails_(video_game)",
+   "categories": [
+    "fighting"
+   ],
+   "tags": [
+    "animal combat in art"
+   ],
+   "date_start": 2017,
+   "date_end": 2018,
+   "date_display": "2017–2018",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-81176539.png",
+     "credit": "Wikimedia Commons: File:Cattails_key_art.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-81176539.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Cattails is a 2017 role-playing video game developed by Falcon Development for Microsoft Windows, MacOS, Linux and Nintendo Switch. The game follows an abandoned housecat who joins one of three feral cat colonies and builds relationships with its members and their neighboring colonies. A sequel, Cattails: Wildwood Story, was released in 2023.\nThe player can hunt, forage, and fight, with their actions affecting how the other colonies view them."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q59276029"
+   }
+  },
+  {
+   "id": "wikipedia-en-49438675",
+   "source": "wikipedia",
+   "name": "Croydon Cat Killer",
+   "url": "https://en.wikipedia.org/wiki/Croydon_Cat_Killer",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cat in folklore"
+   ],
+   "date_start": 2018,
+   "date_end": null,
+   "date_display": "2018",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-49438675.png",
+     "credit": "Wikimedia Commons: File:M25_cat_killer_map.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-49438675.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Croydon Cat Killer is the supposed individual alleged to have killed, dismembered and decapitated more than 400 cats and various other animals across England, beginning in 2014 in Croydon, South London. Reports of cat deaths attributed to the killer were spread across and around London, and as far north as Manchester. However, in 2018, the Metropolitan Police concluded that the mutilations had not been carried out by a human and were likely caused by wildlife predation or scavenging on cats killed in vehicle collisions, a conclusion subsequently supported by further research.\nSome experts,"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q24083486"
+   }
+  },
+  {
+   "id": "wikipedia-en-52651705",
+   "source": "wikipedia",
+   "name": "Isle of Dogs (film)",
+   "url": "https://en.wikipedia.org/wiki/Isle_of_Dogs_(film)",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 2018,
+   "date_end": null,
+   "date_display": "2018",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-52651705.jpg",
+     "credit": "Wikimedia Commons: File:IsleOfDogsFirstLook.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-52651705.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Isle of Dogs (Japanese: 犬ヶ島, Hepburn: Inu ga Shima) is a 2018 stop-motion adult animated science fiction comedy-drama film of British-American-German co-production The film was written, produced, and directed by Wes Anderson, narrated by Courtney B. Vance and starring an ensemble cast consisting of Bryan Cranston, Koyu Rankin, Edward Norton, Liev Schreiber, Bill Murray, Bob Balaban, Jeff Goldblum, Scarlett Johansson, Kunichi Nomura, Tilda Swinton, Ken Watanabe, Akira Ito, Greta Gerwig, Akira Takayama, Frances McDormand, F. Murray Abraham, Yojiro Noda, Fisher Stevens, Mari Natsuki, Nijiro Murak"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q28065409"
+   }
+  },
+  {
+   "id": "wikipedia-en-74779556",
+   "source": "wikipedia",
+   "name": "Elf Bar",
+   "url": "https://en.wikipedia.org/wiki/Elf_Bar",
+   "categories": [
+    "bar"
+   ],
+   "tags": [
+    "bar"
+   ],
+   "date_start": 2018,
+   "date_end": null,
+   "date_display": "2018",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-74779556.png",
+     "credit": "Wikimedia Commons: File:Pair_of_Elfbar_e-cigs.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-74779556.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Elf Bar (stylized ELFBAR, also sold in some markets as EBDesign or EBCreate) is a Chinese brand of electronic cigarettes produced by Shenzhen iMiracle Technology, a part of Heaven Gifts. These vapor products are characterized by their fruity flavors and colorful appearance. Elf Bar is, as of 2023, the most popular brand for disposable e-cigarettes in the world. Reusable variants are also marketed."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q123452106"
+   }
+  },
+  {
+   "id": "wikipedia-en-59284486",
+   "source": "wikipedia",
+   "name": "Hades (video game)",
+   "url": "https://en.wikipedia.org/wiki/Hades_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2018,
+   "date_end": 2020,
+   "date_display": "2018–2020",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-59284486.jpg",
+     "credit": "Wikimedia Commons: File:Hades_cover_art.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-59284486.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Hades is a 2020 roguelike action role-playing game developed and published by Supergiant Games. It was released for macOS, Nintendo Switch, and Windows on September 17, 2020, following an early access release in December 2018. It was later released for PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S in August 2021, and was released for iOS in March 2024 through Netflix Games.\nPlayers control Zagreus, the son of Hades, in his many attempts to escape from the Underworld and find his mother, Persephone."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q59756366"
+   }
+  },
+  {
+   "id": "wikipedia-en-64429806",
+   "source": "wikipedia",
+   "name": "Woman yelling at a cat",
+   "url": "https://en.wikipedia.org/wiki/Woman_yelling_at_a_cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 2019,
+   "date_end": null,
+   "date_display": "2019",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-64429806.jpg",
+     "credit": "Wikimedia Commons: File:WomanYellingAtACat_meme.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-64429806.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Woman yelling at a cat is an Internet meme first used in a post by Twitter user @MISSINGEGIRL on May 1, 2019. It juxtaposes two images: on the left, a screen capture of \"Malibu Beach Party from Hell\", an episode from The Real Housewives of Beverly Hills, depicting cast member Taylor Armstrong crying and pointing (held back by Kyle Richards); and on the right, a picture uploaded to Tumblr in June 2018, depicting a cat from Ottawa, Ontario, Smudge, sitting at a dinner table behind a salad with a seemingly bemused expression."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q89642723"
+   }
+  },
+  {
+   "id": "wikipedia-en-62750956",
+   "source": "wikipedia",
+   "name": "COVID-19 pandemic",
+   "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 2019,
+   "date_end": null,
+   "date_display": "2019",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-62750956.jpg",
+     "credit": "Wikimedia Commons: File:Covid-19_SP_-_UTI_V._Nova_Cachoeirinha.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-62750956.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The global COVID-19 pandemic (also known as the coronavirus pandemic), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), began with an outbreak in Wuhan, China, in December 2019. It spread to other parts of Asia and then worldwide in early 2020. The World Health Organization (WHO) declared the outbreak a public health emergency of international concern (PHEIC) on 30 January 2020 and assessed it as having become a pandemic on 11 March. The WHO declared that the public health emergency caused by COVID-19 had ended in May 2023, while noting that COVID-19 continued to be a gl"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q81068910"
+   }
+  },
+  {
+   "id": "wikipedia-en-65584728",
+   "source": "wikipedia",
+   "name": "Phasmophobia (video game)",
+   "url": "https://en.wikipedia.org/wiki/Phasmophobia_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2020,
+   "date_end": null,
+   "date_display": "2020",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-65584728.jpg",
+     "credit": "Wikimedia Commons: File:Phasmophobia_VG.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-65584728.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Phasmophobia is a 2020 paranormal horror game developed and published by British indie game studio Kinetic Games (based in Southampton). The game became available in early access for Microsoft Windows with virtual reality support in September 2020. In the game, one to four players take on the role of ghost hunters who work to complete a contract where they must identify the type of ghost haunting a designated site and complete other optional objectives.\nPhasmophobia rose in popularity after many Twitch streamers and YouTubers played it during October 2020, becoming the sixth-most popular game "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q99990957"
+   }
+  },
+  {
+   "id": "wikipedia-en-72446821",
+   "source": "wikipedia",
+   "name": "Stray Dogs (comic)",
+   "url": "https://en.wikipedia.org/wiki/Stray_Dogs_(comic)",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 2021,
+   "date_end": null,
+   "date_display": "2021",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-72446821.jpg",
+     "credit": "Wikimedia Commons: File:Stray_Dogs_(comic)_issue_1_cover_art.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-72446821.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Stray Dogs is an American horror comic series written by Tony Fleecs with art by Trish Forstner, told from the viewpoint of dogs. It was first published by Image Comics as five individual issues in 2021; a trade paperback was published in 2021. \nIn 2021 and 2022, a two-issue spinoff called Stray Dogs: Dog Days was released, expanding on the backstories of various dogs seen in the original series. The two issues, as well as a prologue featured in  Free Comic Book Day prints of Stray Dogs #1, were collected and released in July 2022."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q115326556"
+   }
+  },
+  {
+   "id": "wikipedia-en-66131527",
+   "source": "wikipedia",
+   "name": "Reservation Dogs",
+   "url": "https://en.wikipedia.org/wiki/Reservation_Dogs",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 2021,
+   "date_end": 2023,
+   "date_display": "2021–2023",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-66131527.jpg",
+     "credit": "Wikimedia Commons: File:Reservation_Dogs_Logo.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-66131527.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Reservation Dogs is a Native American comedy drama television series created by Sterlin Harjo and Taika Waititi for FX Productions. It follows the lives of Indigenous teenagers living in rural Oklahoma, as they navigate adolescence while balancing their heritage with their desire to escape the confines of life on the reservation. It was renewed for a second season in 2021 and a third and final season in 2022, which premiered on August 2, 2023. The series concluded on September 27, 2023."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q104902493"
+   }
+  },
+  {
+   "id": "wikipedia-en-68862483",
+   "source": "wikipedia",
+   "name": "Chimera (South Korean TV series)",
+   "url": "https://en.wikipedia.org/wiki/Chimera_(South_Korean_TV_series)",
+   "categories": [
+    "hybrid"
+   ],
+   "tags": [
+    "chimera mythology"
+   ],
+   "date_start": 2021,
+   "date_end": null,
+   "date_display": "2021",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-68862483.jpg",
+     "credit": "Wikimedia Commons: File:Chimera_South_Korean_TV_series.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-68862483.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Chimera (Korean: 키마이라; RR: Kimaira) is a South Korean television series directed by Kim Do-hoon and written by Lee Jin-mae. Starring Park Hae-soo, Lee Hee-joon and Claudia Kim, the series tells the story of three leading characters who dig through secrets of the past 30 years to find a culprit named 'Chimera'. It aired every Saturday and Sunday at 22:30 on OCN from October 30 to December 19, 2021. (KST)."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q108811704"
+   }
+  },
+  {
+   "id": "wikipedia-en-67664579",
+   "source": "wikipedia",
+   "name": "The Ultra Vivid Lament",
+   "url": "https://en.wikipedia.org/wiki/The_Ultra_Vivid_Lament",
+   "categories": [
+    "sad_piano"
+   ],
+   "tags": [
+    "lament (music)"
+   ],
+   "date_start": 2021,
+   "date_end": null,
+   "date_display": "2021",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-67664579.png",
+     "credit": "Wikimedia Commons: File:Manic_Street_Preachers_-_The_Ultra_Vivid_Lament.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-67664579.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Ultra Vivid Lament is the fourteenth studio album by Welsh alternative rock band Manic Street Preachers, released on 10 September 2021 by Columbia Records.\nPreceded by two supporting singles, \"Orwellian\" and \"The Secret He Had Missed\", the album features contributions from Julia Cumming and Mark Lanegan. It was received well by critics, and debuted at number one on the UK Albums Chart."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q108570421"
+   }
+  },
+  {
+   "id": "wikipedia-en-74121847",
+   "source": "wikipedia",
+   "name": "For All the Dogs",
+   "url": "https://en.wikipedia.org/wiki/For_All_the_Dogs",
+   "categories": [
+    "dog"
+   ],
+   "tags": [
+    "dogs in art"
+   ],
+   "date_start": 2022,
+   "date_end": null,
+   "date_display": "2022",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-74121847.png",
+     "credit": "Wikimedia Commons: File:Drake_-_For_All_The_Dogs.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-74121847.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "For All the Dogs is the eighth studio album by the Canadian rapper Drake. It was released by OVO Sound and Republic Records on October 6, 2023. The album features guest appearances from Teezo Touchdown, 21 Savage, J. Cole, Yeat, SZA, PartyNextDoor, Chief Keef, Bad Bunny, Sexyy Red, and Lil Yachty. Production was handled by Drake, Teezo Touchdown, Lil Yachty, 40, Sango, Oz, Bnyx, Southside, Boi-1da, Vinylz, Tay Keith, FnZ, Jahaan Sweet, the late DJ Screw, Stwo, Gordo, Justin Raisen, and the Alchemist, among others."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q120487897"
+   }
+  },
+  {
+   "id": "wikipedia-en-70466700",
+   "source": "wikipedia",
+   "name": "Return to Monkey Island",
+   "url": "https://en.wikipedia.org/wiki/Return_to_Monkey_Island",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2022,
+   "date_end": null,
+   "date_display": "2022",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-70466700.jpg",
+     "credit": "Wikimedia Commons: File:Return-to-Monkey-Island.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-70466700.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Return to Monkey Island is a 2022 point-and-click adventure game developed by Terrible Toybox and published by Devolver Digital in association with Lucasfilm Games. It is the sixth installment in the Monkey Island series, and was first released for macOS, Nintendo Switch, and Windows on September 19, 2022. Ports were later released for Linux, PlayStation 5, Xbox Series X/S, iOS, and Android. The story follows series protagonist Guybrush Threepwood as he searches for the real secret of Monkey Island."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q111538856"
+   }
+  },
+  {
+   "id": "wikipedia-en-71591571",
+   "source": "wikipedia",
+   "name": "The Car (album)",
+   "url": "https://en.wikipedia.org/wiki/The_Car_(album)",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2022,
+   "date_end": null,
+   "date_display": "2022",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-71591571.jpg",
+     "credit": "Wikimedia Commons: File:The_Car_by_Arctic_Monkeys_album.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-71591571.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Car is the seventh studio album by English rock band Arctic Monkeys, released on 21 October 2022 by Domino Recording Company. The album's songs were primarily written by frontman and guitarist Alex Turner in his Los Angeles home and Paris. It was produced in Suffolk, Paris and London by frequent Arctic Monkeys collaborator James Ford, alongside frequent guest musicians Tom Rowley, Loren Humphrey and Tyler Parkford, and arranged by Bridget Samuels, Ford and Turner. Drummer Matt Helders took the picture on the album cover, which depicts a white Toyota Camry in an otherwise empty parking gara"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q113613216"
+   }
+  },
+  {
+   "id": "wikipedia-en-72364827",
+   "source": "wikipedia",
+   "name": "Colin from Accounts",
+   "url": "https://en.wikipedia.org/wiki/Colin_from_Accounts",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2022,
+   "date_end": null,
+   "date_display": "2022",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-72364827.jpg",
+     "credit": "Wikimedia Commons: File:Colin_From_Accounts_Key_Art.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-72364827.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Colin from Accounts is an Australian romantic dramedy television series created and written by husband-and-wife team Patrick Brammall and Harriet Dyer, who also star as the show's main characters, Gordon and Ashley. It is produced by Easy Tiger Productions and CBS Studios for Foxtel, and streams in Australia on Binge. The show aired on BBC Two in the UK and streams on BBC iPlayer. It started streaming on Paramount+ in the US on 9 November 2023."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q115816564"
+   }
+  },
+  {
+   "id": "wikipedia-en-67824355",
+   "source": "wikipedia",
+   "name": "Warner Bros. Discovery",
+   "url": "https://en.wikipedia.org/wiki/Warner_Bros._Discovery",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 2022,
+   "date_end": null,
+   "date_display": "2022",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-67824355.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Warner Bros. Discovery, Inc. was an American multinational mass media and entertainment conglomerate headquartered in New York City. It was formed on April 8, 2022, by the merger of Discovery, Inc."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q107074885"
+   }
+  },
+  {
+   "id": "wikipedia-en-79553453",
+   "source": "wikipedia",
+   "name": "Cats in the Museum",
+   "url": "https://en.wikipedia.org/wiki/Cats_in_the_Museum",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 2023,
+   "date_end": 2024,
+   "date_display": "2023–2024",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-79553453.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Cats in the Museum (Russian: Коты Эрмитажа, romanized: Koty Ermitazha, lit. 'Cats of the Hermitage') is a 2023 Russian animated comedy film directed, written, produced, and edited by Vasiliy Rovenskiy. The film follows Vincent, a ginger cat, and Maurice, a mouse, team up with other cats to protect pieces of artwork in the Hermitage Museum.\nThe film was released in Russia on March 23, 2023.\nA sequel Cats in the Museum 2: Treasures of Egypt was released on March 26, 2026."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q118287653"
+   }
+  },
+  {
+   "id": "wikipedia-en-77271229",
+   "source": "wikipedia",
+   "name": "Chainsmoker Cat",
+   "url": "https://en.wikipedia.org/wiki/Chainsmoker_Cat",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 2023,
+   "date_end": null,
+   "date_display": "2023",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-77271229.png",
+     "credit": "Wikimedia Commons: File:Yani_Neko_01.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-77271229.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Chainsmoker Cat (Japanese: ヤニねこ, Hepburn: Yani Neko) is a Japanese manga series written and illustrated by NyanNyanFactory. It has been serialized in Kodansha's seinen manga magazine Weekly Young Magazine since February 2023. An anime television series adaptation produced by Bibury Animation Studios aired from July to September 2026."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q124496885"
+   }
+  },
+  {
+   "id": "wikipedia-en-68889019",
+   "source": "wikipedia",
+   "name": "American Born Chinese (TV series)",
+   "url": "https://en.wikipedia.org/wiki/American_Born_Chinese_(TV_series)",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 2023,
+   "date_end": null,
+   "date_display": "2023",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-68889019.jpg",
+     "credit": "Wikimedia Commons: File:American_Born_Chinese_Logo.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-68889019.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "American Born Chinese is an American fantasy action comedy television sitcom created by Kelvin Yu for Disney+. It follows tenth-grader Jin Wang (Ben Wang), who is struggling to fit in with his peers. When he is tasked with showing new exchange student Wei-Chen (Jimmy Liu) around, he is unexpectedly thrust into a battle between mythical Chinese gods, including Sun Wukong (Daniel Wu) and Guanyin (Michelle Yeoh). The series is based on the 2006 graphic novel American Born Chinese by Gene Luen Yang, who drew inspiration from his own adolescent years in the 1990s, incorporating elements from Chines"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q111169509"
+   }
+  },
+  {
+   "id": "wikipedia-en-74099660",
+   "source": "wikipedia",
+   "name": "Skibidi Toilet",
+   "url": "https://en.wikipedia.org/wiki/Skibidi_Toilet",
+   "categories": [
+    "bathroom"
+   ],
+   "tags": [
+    "toilet humour"
+   ],
+   "date_start": 2023,
+   "date_end": null,
+   "date_display": "2023",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-74099660.png",
+     "credit": "Wikimedia Commons: File:Skibidi_Toilet_Logo.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-74099660.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Skibidi Toilet (  SKIB-ih-dee; stylized in all lowercase) is an animated web series created by  Alexey Gerasimov and released through YouTube videos and Shorts on his channel, skibidi (formerly DaFuq!?Boom!). Produced using Source Filmmaker, the series follows a war between toilets with human heads coming out of their bowls and humanoid characters with electronic devices, such as cameras, for heads.\nSince the first short was posted on 7 February 2023, Skibidi Toilet became a viral Internet meme, particularly among Generation Alpha. Although many have criticized the web series, calling it \"brai"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q121368207"
+   }
+  },
+  {
+   "id": "wikipedia-en-72635494",
+   "source": "wikipedia",
+   "name": "Animal (2023 Indian film)",
+   "url": "https://en.wikipedia.org/wiki/Animal_(2023_Indian_film)",
+   "categories": [
+    "workplace"
+   ],
+   "tags": [
+    "working animal"
+   ],
+   "date_start": 2023,
+   "date_end": null,
+   "date_display": "2023",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-72635494.jpg",
+     "credit": "Wikimedia Commons: File:Animal_(2023_film)_poster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-72635494.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal is a 2023 Indian Hindi-language action drama film co-written, directed and edited by Sandeep Reddy Vanga and jointly produced by T-Series Films, Bhadrakali Pictures and Cine1 Studios. The film stars Ranbir Kapoor, Anil Kapoor, Bobby Deol, Rashmika Mandanna and Triptii Dimri. The film follows Ranvijay Singh and his troubled relationship with his industrialist father, Balbir Singh. After spending years abroad, Ranvijay learns about an unsuccessful assassination attempt on Balbir and returns home, embarking on a ruthless quest for vengeance."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q115947372"
+   }
+  },
+  {
+   "id": "wikipedia-en-70993728",
+   "source": "wikipedia",
+   "name": "The Changeling (TV series)",
+   "url": "https://en.wikipedia.org/wiki/The_Changeling_(TV_series)",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2023,
+   "date_end": null,
+   "date_display": "2023",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-70993728.jpg",
+     "credit": "Wikimedia Commons: File:The_Changeling_2023.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-70993728.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Changeling is an American horror fantasy television series created by Kelly Marcel and directed by Melina Matsoukas based on the novel of the same name by Victor LaValle for Apple TV+. It premiered on September 8, 2023, with the first three episodes."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q112740398"
+   }
+  },
+  {
+   "id": "wikipedia-en-74532871",
+   "source": "wikipedia",
+   "name": "The Amazing Digital Circus",
+   "url": "https://en.wikipedia.org/wiki/The_Amazing_Digital_Circus",
+   "categories": [
+    "dancing"
+   ],
+   "tags": [
+    "performing animals circus"
+   ],
+   "date_start": 2023,
+   "date_end": 2026,
+   "date_display": "2023–2026",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-74532871.png",
+     "credit": "Wikimedia Commons: File:Amazing_Digital_Circus_logo.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-74532871.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Amazing Digital Circus is an Australian independent adult animated web series created, written, and directed by Gooseworx and produced by Glitch Productions. The series follows a group of humans trapped inside a circus-themed virtual reality simulation, where they are overseen by an erratic artificial intelligence ringmaster while coping with personal traumas and psychological tendencies. Gooseworx pitched the series to Glitch, inspired by the primitive computer-generated imagery of the 1990s, as well as the short story \"I Have No Mouth, and I Must Scream\" by Harlan Ellison.\nThe Amazing Di"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q121665318"
+   }
+  },
+  {
+   "id": "wikipedia-en-77889917",
+   "source": "wikipedia",
+   "name": "Coraline's Curious Cat Trail",
+   "url": "https://en.wikipedia.org/wiki/Coraline%27s_Curious_Cat_Trail",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art"
+   ],
+   "date_start": 2024,
+   "date_end": null,
+   "date_display": "2024",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-77889917.png",
+     "credit": "Wikimedia Commons: File:Coraline's_Curious_Cat_Trail_logo.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-77889917.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Coraline's Curious Cat Trail was a temporary art installation in Portland, Oregon, United States. The series featured 31 fiberglass statues of cats decorated by various artists, inspired by the 2009 animated film Coraline, which were installed across the city during August 2 – October 13, 2024. Following public display, the sculptures were auctioned off, with proceeds benefiting Oregon Health & Science University's Doernbecher Children's Hospital. The project was a collaborative effort by the hospital, Laika (the Hillsboro-based production company behind Coraline), Downtown Portland Clean and "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q130390629"
+   }
+  },
+  {
+   "id": "wikipedia-en-65063196",
+   "source": "wikipedia",
+   "name": "Black Myth: Wukong",
+   "url": "https://en.wikipedia.org/wiki/Black_Myth:_Wukong",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 2024,
+   "date_end": 2025,
+   "date_display": "2024–2025",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-65063196.jpg",
+     "credit": "Wikimedia Commons: File:Black_Myth_Wukong_cover_art.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-65063196.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Black Myth: Wukong‍ is a 2024 action role-playing game developed and published by the Chinese studio Game Science. The player assumes the role of the Destined One, a staff-wielding monkey, who embarks on a journey to recover six relics corresponding to Sun Wukong's six senses. The game is inspired by the classical Chinese novel Journey to the West. It is the first installment in the Black Myth series."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q98582386"
+   }
+  },
+  {
+   "id": "wikipedia-en-77617738",
+   "source": "wikipedia",
+   "name": "Deadlock (video game)",
+   "url": "https://en.wikipedia.org/wiki/Deadlock_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2024,
+   "date_end": null,
+   "date_display": "2024",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-77617738.jpg",
+     "credit": "Wikimedia Commons: File:Deadlock_box_art_cover,_'Old_Gods,_New_Blood'_update.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-77617738.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Deadlock is an upcoming third-person shooter and multiplayer online battle arena (MOBA) game developed and published by Valve. It is set in an alternate urban fantasy New York City in the 20th century, featuring battles between two teams of six heroes trying to destroy each other's \"Patron\" gods as part of an occult ritual. Initially known as Neon Prime, Deadlock was leaked to the public in May 2024, and its Steam page was published in August. It has since remained in closed beta accessible through friend invite from playtesters."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q126042383"
+   }
+  },
+  {
+   "id": "wikipedia-en-73762796",
+   "source": "wikipedia",
+   "name": "The Monkey (film)",
+   "url": "https://en.wikipedia.org/wiki/The_Monkey_(film)",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2025,
+   "date_end": null,
+   "date_display": "2025",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-73762796.jpg",
+     "credit": "Wikimedia Commons: File:The_Monkey_film_poster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-73762796.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Monkey is a 2025 American supernatural comedy horror film written and directed by Osgood Perkins. Based on Stephen King's 1980 short story, the film stars Theo James in a dual role as twin brothers whose lives are turned upside down by a cursed toy monkey that causes random horrific deaths around them. Tatiana Maslany, Christian Convery, Colin O'Brien, Rohan Campbell, Sarah Levy, Adam Scott, and Elijah Wood also star.\nThe Monkey was theatrically released in the United States by Neon on February 21, 2025."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q124841936"
+   }
+  },
+  {
+   "id": "wikipedia-en-81594014",
+   "source": "wikipedia",
+   "name": "Nobody (2025 film)",
+   "url": "https://en.wikipedia.org/wiki/Nobody_(2025_film)",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "Sun Wukong"
+   ],
+   "date_start": 2025,
+   "date_end": null,
+   "date_display": "2025",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-81594014.png",
+     "credit": "Wikimedia Commons: File:Nobody_2025_film_poster.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-81594014.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Nobody (Chinese: 浪浪山小妖怪; pinyin: Làng làng shān xiǎo yāo guài; literally The Little Monster of Langlang Mountain) is a 2025 Chinese animated fantasy film written and directed by Yu Shui. It was animated by the Shanghai Animation Film Studio and is based on an episode of the anthology series Yao-Chinese Folktales. It is the highest-grossing 2D animated film made by a Chinese company."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q135479882"
+   }
+  },
+  {
+   "id": "wikipedia-en-63495968",
+   "source": "wikipedia",
+   "name": "Animal Farm (2025 film)",
+   "url": "https://en.wikipedia.org/wiki/Animal_Farm_(2025_film)",
+   "categories": [
+    "bathroom",
+    "workplace",
+    "animal_musicians"
+   ],
+   "tags": [
+    "toilet humour",
+    "animals at work satire",
+    "animal music"
+   ],
+   "date_start": 2025,
+   "date_end": 2026,
+   "date_display": "2025–2026",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-63495968.jpg",
+     "credit": "Wikimedia Commons: File:Animal_Farm_poster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-63495968.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Farm is a 2025 animated satirical dark comedy film directed by Andy Serkis and written by Nicholas Stoller, loosely based on the 1945 novella by George Orwell. The cast includes Seth Rogen, Gaten Matarazzo, Steve Buscemi, Glenn Close, Laverne Cox, Kieran Culkin, Woody Harrelson, Jim Parsons, Serkis, Kathleen Turner, and Iman Vellani. It is the third adaptation of the novella, following the 1954 animated film, and the 1999 live-action television film. This version introduces an alternative, coming-of-age plot with original, new characters such as a piglet called Lucky, who is the film's "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q111946852"
+   }
+  },
+  {
+   "id": "wikipedia-en-78151054",
+   "source": "wikipedia",
+   "name": "2025 in New Zealand",
+   "url": "https://en.wikipedia.org/wiki/2025_in_New_Zealand",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 2025,
+   "date_end": null,
+   "date_display": "2025",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-78151054.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The following lists events that happened during 2025 in New Zealand."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q126910404"
+   }
+  },
+  {
+   "id": "wikipedia-en-79244335",
+   "source": "wikipedia",
+   "name": "2025 United States federal mass layoffs",
+   "url": "https://en.wikipedia.org/wiki/2025_United_States_federal_mass_layoffs",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 2025,
+   "date_end": null,
+   "date_display": "2025",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-79244335.png",
+     "credit": "Wikimedia Commons: File:Federal_Civilian_Job_Cuts_By_President_May_2025.svg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-79244335.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "About 300,000 United States federal civil service layoffs have been announced by the second Trump administration, almost all of them attributed to the Department of Government Efficiency. On August 26, 2025, the Partnership for Public Service said just under 200,000 federal workers had already left their jobs. As of July 14, 2025, CNN has tracked at least 51,224 workers laid off or targeted for layoffs. As of May 12, 2025, The New York Times tracked more than 58,500 confirmed cuts, more than 76,000 employee buyouts, and more than 149,000 other planned reductions; cuts total 12% of the 2.4 mill"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q132673400"
+   }
+  },
+  {
+   "id": "wikipedia-en-69285947",
+   "source": "wikipedia",
+   "name": "Ashes of Creation",
+   "url": "https://en.wikipedia.org/wiki/Ashes_of_Creation",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 2025,
+   "date_end": null,
+   "date_display": "2025",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-69285947.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Ashes of Creation is a cancelled sandbox massively multiplayer online role-playing game (MMORPG) developed and published by Intrepid Studios. It was announced in 2016 and gained recognition through a Kickstarter campaign, meeting its goal of $750,000 in under 12 hours and eventually raising over $3 million. It features a dynamic system of world building, where players' actions directly contribute to the layout of the game world.\nAshes of Creation was released in early access on Steam on December 11, 2025."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q65053583"
+   }
+  },
+  {
+   "id": "wikipedia-en-79326580",
+   "source": "wikipedia",
+   "name": "NOAA in the second Trump administration",
+   "url": "https://en.wikipedia.org/wiki/NOAA_in_the_second_Trump_administration",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 2025,
+   "date_end": null,
+   "date_display": "2025",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-79326580.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Following the second inauguration of Donald Trump as President of the United States, and the creation of the Department of Government Efficiency (DOGE) on January 20, 2025, several major changes occurred at the National Oceanic and Atmospheric Administration (NOAA), including hundreds of employees being terminated, dozens of federal contracts and leases being terminated, and the enactment of executive orders which affected the operations of NOAA. The operations of the National Weather Service (NWS) were affected, with several offices stopping weather balloon launches, and NOAA databases and we"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q133120290"
+   }
+  },
+  {
+   "id": "wikipedia-en-80200894",
+   "source": "wikipedia",
+   "name": "Prema (album)",
+   "url": "https://en.wikipedia.org/wiki/Prema_(album)",
+   "categories": [
+    "crying"
+   ],
+   "tags": [
+    "Hachikō"
+   ],
+   "date_start": 2025,
+   "date_end": null,
+   "date_display": "2025",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-80200894.png",
+     "credit": "Wikimedia Commons: File:Fujii_Kaze_-_Prema.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-80200894.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Prema (Sanskrit for \"divine love\") is the third studio album by Japanese singer-songwriter Fujii Kaze and his first English-language album. It was released on September 5, 2025, by Republic Records, Universal Sigma, and Hehn Records, three years after its predecessor Love All Serve All (2022). The album was supported by three singles, \"Hachikō\", \"Love Like This\", and the title track. Commercially, Prema debuted atop the Oricon Albums Chart and Billboard Japan Hot Albums and was certified gold for shipments by the Recording Industry Association of Japan (RIAJ)."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q134891872"
+   }
+  },
+  {
+   "id": "wikipedia-en-73457282",
+   "source": "wikipedia",
+   "name": "The Cat in the Hat (2026 film)",
+   "url": "https://en.wikipedia.org/wiki/The_Cat_in_the_Hat_(2026_film)",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "cats in art",
+    "anthropomorphic cat"
+   ],
+   "date_start": 2026,
+   "date_end": null,
+   "date_display": "2026",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-73457282.png",
+     "credit": "Wikimedia Commons: File:The_Cat_in_the_Hat_(2026_film_poster).png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-73457282.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Cat in the Hat is a 2026 American animated fantasy comedy film loosely based on the 1957 children's book by Dr. Seuss. Written and directed by Alessandro Carloni and Erica Rivinoja, it is the second feature-length adaptation of the book following the 2003 live-action film. Bill Hader stars as the voice of the titular character, alongside Matt Berry, Quinta Brunson, Xochitl Gomez, Tiago Martinez, Giancarlo Esposito, America Ferrera, Paula Pell, Bowen Yang, and Tituss Burgess."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q122932991"
+   }
+  },
+  {
+   "id": "wikipedia-en-82996164",
+   "source": "wikipedia",
+   "name": "Kevin (TV series)",
+   "url": "https://en.wikipedia.org/wiki/Kevin_(TV_series)",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 2026,
+   "date_end": null,
+   "date_display": "2026",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-82996164.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Kevin is an American adult animated sitcom created by Joe Wengert and Aubrey Plaza for Amazon Prime Video. The show depicts Kevin, the titular anthropomorphic cat, adjusting to life on his own following the separation of his two owners in a fictional version of New York City. The series was released on April 20, 2026. On June 19, 2026, it was announced that the series was canceled after one season."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q138975593"
+   }
+  },
+  {
+   "id": "wikipedia-en-82184883",
+   "source": "wikipedia",
+   "name": "Opening Night (song)",
+   "url": "https://en.wikipedia.org/wiki/Opening_Night_(song)",
+   "categories": [
+    "monkey"
+   ],
+   "tags": [
+    "monkeys in art"
+   ],
+   "date_start": 2026,
+   "date_end": null,
+   "date_display": "2026",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-82184883.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Opening Night\" is a song by English indie rock band Arctic Monkeys. It was released on 22 January 2026, through Domino Recording Company, in collaboration with charity organisation War Child. The track was written by lead singer Alex Turner and produced by frequent collaborator James Ford as well as Loren Humphrey and Turner. The song was recorded in a week in November 2025 at Abbey Road and served as the lead single for War Child's 2026 charity album Help(2)."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q137858946"
+   }
+  },
+  {
+   "id": "wikipedia-en-84387916",
+   "source": "wikipedia",
+   "name": "2026 French civil unrest",
+   "url": "https://en.wikipedia.org/wiki/2026_French_civil_unrest",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 2026,
+   "date_end": null,
+   "date_display": "2026",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-84387916.jpg",
+     "credit": "Wikimedia Commons: File:Manifestation_du_17_octobre_2026_à_Paris_22.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-84387916.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Demonstrations and protests against poor economic and school conditions by workers and lycée (high school) students have taken place in France since September 2026. In early October, the protests developed into a nationwide mobilization involving students, teachers, parents, political organizations, the yellow vests and trade unions, with an estimated 575,000–1.57 million people participating nationwide.\nLabour movements emerged in mid-September in reaction to the cost-of-living and fuel crisis caused by the blockade of the Strait of Hormuz and Bab al-Mandab Strait, spearheaded by a newly revi"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q141615137"
+   }
+  },
+  {
+   "id": "wikipedia-en-72114272",
+   "source": "wikipedia",
+   "name": "2026 Spanish general election",
+   "url": "https://en.wikipedia.org/wiki/2026_Spanish_general_election",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "unemployment in art"
+   ],
+   "date_start": 2026,
+   "date_end": null,
+   "date_display": "2026",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-72114272.jpg",
+     "credit": "Wikimedia Commons: File:Alberto_Núñez_Feijóo_2025b_(cropped).jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-72114272.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "A general election will be held in Spain on 29 November 2026 to elect the members of the 16th Cortes Generales under the Spanish Constitution of 1978. All 350 seats in the Congress of Deputies will be up for election, as well as 209 of 267 seats in the Senate.\nFollowing the 2023 election, Pedro Sánchez was re-elected as prime minister of Spain and formed a third government—comprising the Spanish Socialist Workers' Party (PSOE) and Sumar—with the support of most of the parliamentary regionalist and peripheral nationalist parties, and Together for Catalonia (Junts), the latter in exchange for a "
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q120973028"
+   }
+  },
+  {
+   "id": "wikipedia-en-82172199",
+   "source": "wikipedia",
+   "name": "Possible Love",
+   "url": "https://en.wikipedia.org/wiki/Possible_Love",
+   "categories": [
+    "losing_the_job"
+   ],
+   "tags": [
+    "layoff"
+   ],
+   "date_start": 2026,
+   "date_end": null,
+   "date_display": "2026",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-82172199.png",
+     "credit": "Wikimedia Commons: File:Possible_Love_film_poster.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-82172199.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Possible Love (Korean: 가능한 사랑) is a 2026 drama film directed by Lee Chang-dong, from a screenplay he co-wrote with Oh Jung-mi. A co-production of South Korea and the United States, starring Jeon Do-yeon, Sul Kyung-gu, Zo In-sung, and Cho Yeo-jeong, it follows the story of two married couples — a laid-off worker and his spouse, and a documentary filmmaker and her spouse — crossing paths to film a documentary and facing their different lives and hidden desires.\nPossible Love premiered in the main competition of the 83rd Venice International Film Festival on September 6, 2026, where it won the Gr"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q137843740"
+   }
+  },
+  {
+   "id": "wikipedia-en-83868652",
+   "source": "wikipedia",
+   "name": "Animal (Katseye song)",
+   "url": "https://en.wikipedia.org/wiki/Animal_(Katseye_song)",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2026,
+   "date_end": null,
+   "date_display": "2026",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-83868652.png",
+     "credit": "Wikimedia Commons: File:Animal_by_Katseye.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-83868652.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "\"Animal\" is a song by girl group Katseye. It was released on July 24, 2026 by Hybe UMG and Geffen Records as the second single from their third EP Wild (2026). It was produced by Omer Fedi and Blake Slatkin, both of whom wrote the song with Ed Sheeran and Johnny McDaid. It reached number one in Australia and the top ten in Singapore, Flanders, New Zealand, the Philippines, and on the Billboard Global 200."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q140877450"
+   }
+  },
+  {
+   "id": "wikipedia-en-80182835",
+   "source": "wikipedia",
+   "name": "Mixtape (video game)",
+   "url": "https://en.wikipedia.org/wiki/Mixtape_(video_game)",
+   "categories": [
+    "cheaptune"
+   ],
+   "tags": [
+    "video game music"
+   ],
+   "date_start": 2026,
+   "date_end": null,
+   "date_display": "2026",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-80182835.jpg",
+     "credit": "Wikimedia Commons: File:Mixtape_video_game_poster.jpg"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-80182835.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Mixtape is an adventure game developed by Beethoven & Dinosaur and published by Annapurna Interactive for Nintendo Switch 2, PlayStation 5, Windows and Xbox Series X/S, released on 7 May 2026. It follows a group of teenage friends on their last day together before going their separate ways, set to a curated playlist of tracks chosen by the protagonist Stacey Rockford. Game director Johnny Galvatron drew narrative inspiration from the films of John Hughes, formulating the three main characters after the 1990s era of Hughes' films. Beethoven & Dinosaur acquired the license to several of Galvatro"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q126477358"
+   }
+  },
+  {
+   "id": "wikipedia-en-73582261",
+   "source": "wikipedia",
+   "name": "Animal Friends",
+   "url": "https://en.wikipedia.org/wiki/Animal_Friends",
+   "categories": [
+    "animal_musicians"
+   ],
+   "tags": [
+    "animal music"
+   ],
+   "date_start": 2027,
+   "date_end": null,
+   "date_display": "2027",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-73582261.png",
+     "credit": "Wikimedia Commons: File:Animal_Friends.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-73582261.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Animal Friends is an upcoming American live-action animated adventure comedy film directed by Peter Atencio. The film features the voices of Ryan Reynolds and Jason Momoa, with Aubrey Plaza and Daniel Levy in live-action roles.\nAnimal Friends is scheduled to be released in the United States by Warner Bros. Pictures on January 22, 2027."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q124946981"
+   }
+  },
+  {
+   "id": "wikipedia-en-44898654",
+   "source": "wikipedia",
+   "name": "Doraemon (character)",
+   "url": "https://en.wikipedia.org/wiki/Doraemon_(character)",
+   "categories": [
+    "cat"
+   ],
+   "tags": [
+    "anthropomorphic cat"
+   ],
+   "date_start": 2112,
+   "date_end": null,
+   "date_display": "2112",
+   "media": [
+    {
+     "type": "image",
+     "path": "media/wikipedia/img/wikipedia-en-44898654.png",
+     "credit": "Wikimedia Commons: File:Doraemon_character.png"
+    },
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-44898654.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "Doraemon (Japanese: ドラえもん) is the titular character of the manga and anime series Doraemon, created by Fujiko F. Fujio. Doraemon is a male robotic cat that travels back in time from the 22nd century to aid a preteen boy named Nobita Nobi in his daily life. \nDoraemon is considered to be one of the most popular manga and anime characters of all time. A birth certificate for the character gives him a birth date of 3 September 2112 and lists his city of residency as Kawasaki, Kanagawa, the city where the manga was created."
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1186309"
+   }
+  },
+  {
+   "id": "wikipedia-en-207630",
+   "source": "wikipedia",
+   "name": "Dominion War",
+   "url": "https://en.wikipedia.org/wiki/Dominion_War",
+   "categories": [
+    "unwanted_baby"
+   ],
+   "tags": [
+    "changeling"
+   ],
+   "date_start": 2373,
+   "date_end": 2375,
+   "date_display": "2373–2375",
+   "media": [
+    {
+     "type": "text",
+     "path": "media/wikipedia/text/wikipedia-en-207630.txt",
+     "credit": "Wikipedia (CC BY-SA)",
+     "content": "The Dominion War is an extended plot concept developed in several story arcs of Star Trek: Deep Space Nine, an American science-fiction television series produced by Paramount Pictures. In the fictional Star Trek universe, the Dominion War is a conflict between the forces of the Dominion, the Cardassian Union, and, eventually, the Breen Confederacy against the Alpha Quadrant alliance of the United Federation of Planets, the Klingon Empire and, later, the Romulan Star Empire. The war takes place in the final two seasons of the series, but was gradually built up to over the course of the five pr"
+    }
+   ],
+   "extra": {
+    "lang": "en",
+    "wikidata": "Q1187824"
+   }
+  }
+ ]
+};
